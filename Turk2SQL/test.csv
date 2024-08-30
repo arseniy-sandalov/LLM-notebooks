@@ -1,0 +1,2163 @@
+question,query
+Şehirler tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Telefonlardan modeli iPhone olan telefonların modellerini getir.,SELECT model WHERE model EQL iPhone
+Sanatçılar tablosundan ülkesi Fransa olan sanatçıların numaralarını getir.,SELECT numara WHERE ulke EQL Fransa
+Köprülerin adlarını getir.,SELECT ad
+Veritabanındaki hemşirelerden en büyük numarayı yazdır.,SELECT max(numara)
+Hastalardan sigortası MAPFRE olan hastaların telefonlarını getir.,SELECT telefon WHERE sigorta EQL MAPFRE
+Tipi B olan sürücülerin adlarını getir.,SELECT ad WHERE tip EQL B
+Müzelerden personel sayısı 12 olan müzelerin adlarını göster.,SELECT ad WHERE personel_sayisi EQL 12
+Türü Slow olan şarkıların ülkelerini getir.,SELECT ulke WHERE tur EQL Slow
+Telefonlar tablosunda numarası 1 olan telefonların modellerini getir.,SELECT model WHERE numara EQL 1
+Veritabanındaki sigortası MAPFRE olan hastaların numaralarını yazdır.,SELECT numara WHERE sigorta EQL MAPFRE
+Arabalardan ülkesi Almanya olan arabaların ülkelerini göster.,SELECT ulke WHERE ulke EQL Almanya
+Restoranlardan adı Burger King olan restoranların derecelerini göster.,SELECT derece WHERE ad EQL Burger King
+At sayısı 2 olan çiftliklerin inek sayılarını bul.,SELECT inek_sayisi WHERE at_sayisi EQL 2
+Boyu 1.80 olan insanların boylarını bul.,SELECT boy WHERE boy EQL 1.80
+Müzelerden adı Gallery of Earth olan müzelerin numaralarını göster.,SELECT numara WHERE ad EQL Gallery of Earth
+Randevulardan numarası 1 olan randevuların tarihlerini göster.,SELECT tarih WHERE numara EQL 1
+Filmlerden numarası 1 olan filmlerin yönetmenlerini getir.,SELECT yonetmen WHERE numara EQL 1
+Veritabanındaki projelerin sayısını yazdır.,SELECT count(numara)
+En büyük havalimanı toplam uçağını getir.,SELECT max(toplam_ucak)
+Uçaklardan hızı 905 olan uçakların numaralarını getir.,SELECT numara WHERE hiz EQL 905
+Kulüpler tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Çiftlikler tablosundaki en büyük keçi sayısını getir.,SELECT max(keci_sayisi)
+Veritabanındaki nüfusu 15000000 olan şehirlerin alanlarını yazdır.,SELECT alan WHERE nufus EQL 15000000
+Kitaplardan yazarı Dan Brown olan kitapların başlıklarını getir.,SELECT baslik WHERE yazar EQL Dan Brown
+Restoranlardan derecesi 2/5 olan restoranların derecelerini getir.,SELECT derece WHERE derece EQL 2/5
+Şarkılar tablosundan türü Slow olan şarkıların ülkelerini getir.,SELECT ulke WHERE tur EQL Slow
+Yayın tablosu içerisinde bulunan başlıkları ekrana getir.,SELECT baslik
+Yönetmeni Frank Darabont olan filmlerin numaralarını bul.,SELECT numara WHERE yonetmen EQL Frank Darabont
+Restoranlardan numarası 1 olan restoranların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Tüm yüzücülerin adlarını görüntüle.,SELECT ad
+Şarkılar tablosunda dili Turkce olan şarkıların numaralarını getir.,SELECT numara WHERE dil EQL Turkce
+Tüm personellerin sadece adlarını göster.,SELECT ad
+Veritabanındaki adı Gallery of Earth olan müzelerin personel sayılarını yazdır.,SELECT personel_sayisi WHERE ad EQL Gallery of Earth
+Yarışlardan en büyük numarayı getir.,SELECT max(numara)
+Veritabanındaki numarası 1 olan uçakların hızlarını yazdır.,SELECT hiz WHERE numara EQL 1
+Köprülerin uzunluklarını göster.,SELECT uzunluk
+Numarası 1 olan dergilerin numaralarını listele.,SELECT numara WHERE numara EQL 1
+Şarkı tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Tibi Fast Food olan tüm restoranların adlarını getir.,SELECT ad WHERE tip EQL Fast Food
+Tüm yayınların başlıklarını görüntüle.,SELECT baslik
+Trenlerden varışı 23:39 olan trenlerin numaralarını göster.,SELECT numara WHERE varis EQL 23:39
+Domuz sayısı 2 olan çiftliklerin inek sayılarını getir.,SELECT inek_sayisi WHERE domuz_sayisi EQL 2
+Kitaplardan kategorisi Roman olan kitapların numaralarını göster.,SELECT numara WHERE kategori EQL Roman
+Veritabanındaki numarası 1 olan hastaların sigortalarını yazdır.,SELECT sigorta WHERE numara EQL 1
+Tüm oyuncuların numaralarını listele.,SELECT numara
+Insanlar tablosundaki en büyük kiloyu göster.,SELECT max(kilo)
+Veritabanındaki kalkış tarihi 19/05/2022 13:00 olan uçuşların kalkış tarihlerini yazdır.,SELECT kalkis_tarihi WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Sanatçılardan numarası 1 olan sanatçıların adlarını göster.,SELECT ad WHERE numara EQL 1
+Sürücülerden tipi B olan sürücülerin tiplerini getir.,SELECT tip WHERE tip EQL B
+Adı Istanbul olan şehirlerin numaralarını listele.,SELECT numara WHERE ad EQL Istanbul
+Yazarı Dan Brown olan tüm kitapların kategorilerini getir.,SELECT kategori WHERE yazar EQL Dan Brown
+Veritabanındaki pozisyonu Clinical Nurse olan hemşirelerin numaralarını yazdır.,SELECT numara WHERE pozisyon EQL Clinical Nurse
+Yarışlardan yılı 2005 olan yarışların adlarını göster.,SELECT ad WHERE yil EQL 2005
+Soyadı Smith olan tüm öğrencilerin numaralarını getir.,SELECT numara WHERE soyad EQL Smith
+Randevulardan numarası 1 olan randevuların tarihlerini getir.,SELECT tarih WHERE numara EQL 1
+Personeller tablosundan numarası 1 olan personellerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Numarası 20202020 olan sürücülerin tiplerini getir.,SELECT tip WHERE kod EQL 20202020
+Personeller tablosundan numarası 1 olan personellerin telefonlarını getir.,SELECT telefon WHERE numara EQL 1
+Veritabanındaki uzunluğu 1510 olan köprülerin uzunluklarını yazdır.,SELECT uzunluk WHERE uzunluk EQL 1510
+Çıkış tarihi 1900 olan şarkıların sanatçılarını listele.,SELECT sanatci WHERE cikis_tarihi EQL 1900
+Adı Formula A olan tüm yarışların yıllarını getir.,SELECT yil WHERE ad EQL Formula A
+Çalışanlar içerisinde en yüksek maaş kaçtır?,SELECT max(maas)
+Numarası 1 olan uçuşların başlangıçlarını bul.,SELECT baslangic WHERE numara EQL 1
+Soyadı Smith olan tüm öğrencilerin şehirlerini getir.,SELECT sehir WHERE soyad EQL Smith
+Mağazalardan numarası 1 olan mağazaların açılış yıllarını göster.,SELECT acilis_yili WHERE numara EQL 1
+Yüzücüler tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Öğrenciler tablosunda adı David olan öğrencilerin şehirlerini getir.,SELECT sehir WHERE ad EQL David
+Kodu 204060 olan müşterilerin e-postalarını getir.,SELECT eposta WHERE kod EQL 204060
+Veritabanındaki açılış yılı 2010 olan müzelerin adlarını yazdır.,SELECT ad WHERE acilis_yili EQL 2010
+Yarışlardan yılı 2005 olan yarışların tarihlerini göster.,SELECT tarih WHERE yil EQL 2005
+Sanatçılar tablosunda ülkesi Fransa olan sanatçıların ülkelerini getir.,SELECT ulke WHERE ulke EQL Fransa
+Tarihi 01/04/2005 olan yarışların yıllarını bul.,SELECT yil WHERE tarih EQL 01/04/2005
+Hastalardan telefonu 1 352-295-8921 olan hastaların telefonlarını getir.,SELECT telefon WHERE telefon EQL 1 352-295-8921
+Adı Joseph olan personellerin adlarını bul.,SELECT ad WHERE ad EQL Joseph
+Yarışlar tablosundan numarası 1 olan yarışların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Veritabanındaki hastalardan en büyük numarayı yazdır.,SELECT max(numara)
+Bütün uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi
+Yılı 1926 olan arabaların numaralarını bul.,SELECT numara WHERE yil EQL 1926
+Sanatçılardan cinsiyeti Erkek olan sanatçıların cinsiyetlerini göster.,SELECT cinsiyet WHERE cinsiyet EQL Erkek
+Öğretmen tablosu içinde kaç tane öğretmen kaydı olduğunu ekrana getir.,SELECT count(numara)
+Açılış yılı 1957 olan tüm stadyumların şehirlerini getir.,SELECT sehir WHERE acilis_yili EQL 1957
+Kredisi 4 olan derslerin numaralarını getir.,SELECT numara WHERE kredi EQL 4
+Numarası 1 olan ürünlerin fiyatlarını bul.,SELECT fiyat WHERE numara EQL 1
+Uyruğu Amerika olan yüzücülerin adlarını listele.,SELECT ad WHERE uyruk EQL Amerika
+Kalkış tarihi 19/05/2022 13:00 olan uçuşların numaralarını listele.,SELECT numara WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Bütün mağazaların açılış yıllarını getir.,SELECT acilis_yili
+Numarası 1 olan tüm demiryollarının demiryollarını getir.,SELECT demiryolu WHERE numara EQL 1
+Cinsiyeti Erkek olan tüm sanatçıların adlarını getir.,SELECT ad WHERE cinsiyet EQL Erkek
+Projeler tablosunda başlangıç tarihi 05/06/2018 olan projelerin adlarını getir.,SELECT ad WHERE baslangic_tarihi EQL 05/06/2018
+Veritabanındaki tüm kulüplerin adlarını yazdır.,SELECT ad
+Öğrencilerin şehirlerini getir.,SELECT sehir
+Tüm hemşirelerin numaralarını görüntüle.,SELECT numara
+Stadyumlar tablosunda açılış yılı 1957 olan stadyumların şehirlerini getir.,SELECT sehir WHERE acilis_yili EQL 1957
+Yarışlar tablosunda adı Formula A olan yarışların turlarını getir.,SELECT tur WHERE ad EQL Formula A
+Adı IEEE Access olan tüm dergilerin adlarını getir.,SELECT ad WHERE ad EQL IEEE Access
+Müzeler tablosunda en büyük numara kaçtır?,SELECT max(numara)
+Uçak tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Sinemalar tablosunda en büyük numara kaçtır?,SELECT max(numara)
+Şehirlerden numarası 1 olan şehirlerin adlarını göster.,SELECT ad WHERE numara EQL 1
+Öğrencilerin cinsiyetlerini göster.,SELECT cinsiyet
+Numarası 1 olan yöneticilerin numaralarını bul.,SELECT numara WHERE numara EQL 1
+Uluslararası yolcusu 35858 olan havalimanlarının uluslararası yolcularını listele.,SELECT uluslararasi_yolcu WHERE uluslararasi_yolcu EQL 35858
+Şarkılar tablosundan dili Turkce olan şarkıların dillerini getir.,SELECT dil WHERE dil EQL Turkce
+Oyuncular tablosundan uyruğu Alman olan oyuncuların adlarını getir.,SELECT ad WHERE uyruk EQL Alman
+Şarkılar tablosunda türü Slow olan şarkıların ülkelerini getir.,SELECT ulke WHERE tur EQL Slow
+Tüm öğrencilerin adlarını listele.,SELECT ad
+Konumu Beykoz/Istanbul olan köprülerin adlarını listele.,SELECT ad WHERE konum EQL Beykoz/Istanbul
+Veritabanındaki adı Robert olan pilotların adlarını yazdır.,SELECT ad WHERE ad EQL Robert
+Demiryollarından konumu Omaha - Nebraska - ABD olan demiryollarının kurucularını getir.,SELECT kurucu WHERE konum EQL Omaha - Nebraska - ABD
+E-postası ****@gmail.com olan tüm müşterilerin numaralarını getir.,SELECT numara WHERE eposta EQL ****@gmail.com
+Tüm hastaların sadece sigortalarını göster.,SELECT sigorta
+Soyadı Smith olan öğrencilerin şehirlerini bul.,SELECT sehir WHERE soyad EQL Smith
+Tüm sürücülerin soyadlarını getir.,SELECT soyad
+Uyruğu Alman olan tüm oyuncuların uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Alman
+Çip modeli A15 olan telefonların modellerini bul.,SELECT model WHERE cip_modeli EQL A15
+Personel sayısı 12 olan müzelerin açılış yıllarını listele.,SELECT acilis_yili WHERE personel_sayisi EQL 12
+Toplam uçağı 660 olan havalimanlarının iç yolcularını bul.,SELECT ic_yolcu WHERE toplam_ucak EQL 660
+Toplam yolcusu 475 olan uçakların numaralarını getir.,SELECT numara WHERE toplam_yolcu EQL 475
+Veritabanındaki öğretmenlerden en büyük numarayı yazdır.,SELECT max(numara)
+Oyunlar tablosunda kategorisi Survival olan oyunların kategorilerini getir.,SELECT kategori WHERE kategori EQL Survival
+En büyük havalimanı numarasını getir.,SELECT max(numara)
+Numarası 1 olan stadyumların adlarını listele.,SELECT ad WHERE numara EQL 1
+Açılış yılı 1957 olan stadyumların numaralarını getir.,SELECT numara WHERE acilis_yili EQL 1957
+Kurucusu Union Pacific Corporation olan demiryollarının kurucularını listele.,SELECT kurucu WHERE kurucu EQL Union Pacific Corporation
+Bütün cihazların versiyonlarını getir.,SELECT versiyon
+Adı Matthew Carter olan oyuncuların adlarını listele.,SELECT ad WHERE ad EQL Matthew Carter
+Veritabanındaki hemşirelerin sayısını yazdır.,SELECT count(numara)
+Tüm yazarların numaralarını getir.,SELECT numara
+Mimarlar tablosunda cinsiyeti Male olan mimarların cinsiyetlerini getir.,SELECT cinsiyet WHERE cinsiyet EQL Male
+Uçuşlardan varışı Ankara olan uçuşların mesafelerini göster.,SELECT mesafe WHERE varis EQL Ankara
+Numarası 1 olan tüm uçuşların varış tarihlerini getir.,SELECT varis_tarihi WHERE numara EQL 1
+Tüm arabaların ülkelerini listele.,SELECT ulke
+Pilotlar tablosundan yaşı 34 olan pilotların adlarını getir.,SELECT ad WHERE yas EQL 34
+Telefonu 1 505-644-9320 olan personellerin numaralarını getir.,SELECT numara WHERE telefon EQL 1 505-644-9320
+Hastalardan telefonu 1 352-295-8921 olan hastaların numaralarını göster.,SELECT numara WHERE telefon EQL 1 352-295-8921
+Tüm sinemaların kapasitelerini getir.,SELECT kapasite
+Numarası 1 olan tüm çalışanların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Toplam hasta sayısını göster.,SELECT count(numara)
+Veritabanındaki tüm insanların boylarını yazdır.,SELECT boy
+Personellerden soyadı Taylor olan personellerin soyadlarını getir.,SELECT soyad WHERE soyad EQL Taylor
+Telefonu 1 505-644-9320 olan personellerin numaralarını listele.,SELECT numara WHERE telefon EQL 1 505-644-9320
+Öğretmenler tablosundaki en büyük yaşı göster.,SELECT max(yas)
+Şarkılar tablosunda çıkış tarihi 1900 olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE cikis_tarihi EQL 1900
+Boyu 1.80 olan insanların kilolarını getir.,SELECT kilo WHERE boy EQL 1.80
+Insanlardan boyu 1.80 olan insanların kilolarını getir.,SELECT kilo WHERE boy EQL 1.80
+Numarası 1 olan müzelerin personel sayılarını getir.,SELECT personel_sayisi WHERE numara EQL 1
+Stadyumlar tablosundaki en büyük kapasiteyi getir.,SELECT max(kapasite)
+Adı Gallery of Earth olan müzelerin numaralarını getir.,SELECT numara WHERE ad EQL Gallery of Earth
+Numarası 1 olan müşterilerin şehirlerini getir.,SELECT sehir WHERE numara EQL 1
+Oyuncular içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Veritabanındaki doğum tarihi 01/04/1990 olan insanların boylarını yazdır.,SELECT boy WHERE dogum_tarihi EQL 01/04/1990
+Varışı Ankara olan tüm uçuşların varış tarihlerini getir.,SELECT varis_tarihi WHERE varis EQL Ankara
+Adı Charles olan tüm hastaların numaralarını getir.,SELECT numara WHERE ad EQL Charles
+Dersler tablosunda kredisi 4 olan derslerin numaralarını getir.,SELECT numara WHERE kredi EQL 4
+Yılı 2021 olan yayınların yayıncılarını listele.,SELECT yayinci WHERE yil EQL 2021
+Veritabanındaki yayıncısı Elsevier olan yayınların başlıklarını yazdır.,SELECT baslik WHERE yayinci EQL Elsevier
+E-postası jtaylor@gmail.com olan personellerin soyadlarını getir.,SELECT soyad WHERE eposta EQL jtaylor@gmail.com
+Veritabanındaki keçi sayısı 2 olan çiftliklerin keçi sayılarını yazdır.,SELECT keci_sayisi WHERE keci_sayisi EQL 2
+Yarışlar tablosunda numarası 1 olan yarışların adlarını getir.,SELECT ad WHERE numara EQL 1
+Hemşireler tablosundan numarası 1 olan hemşirelerin kayıtlarını getir.,SELECT kayit WHERE numara EQL 1
+Projeler tablosundan başlangıç tarihi 05/06/2018 olan projelerin adlarını getir.,SELECT ad WHERE baslangic_tarihi EQL 05/06/2018
+Bütün kitapların kategorilerini getir.,SELECT kategori
+Toplam uçuş sayısını göster.,SELECT count(numara)
+Yayınlar tablosundan alıntısı 29 olan yayınların başlıklarını getir.,SELECT baslik WHERE alinti EQL 29
+Tüm mimarların numaralarını listele.,SELECT numara
+Uçuşlar tablosunda kalkış tarihi 19/05/2022 13:00 olan uçuşların mesafelerini getir.,SELECT mesafe WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Şehiri Istanbul olan müşterilerin e-postalarını listele.,SELECT eposta WHERE sehir EQL Istanbul
+Numarası 1 olan trenlerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Numarası 1 olan yayınların yayıncılarını listele.,SELECT yayinci WHERE numara EQL 1
+Çiftlikler tablosunda numarası 1 olan çiftliklerin boğa sayılarını getir.,SELECT boga_sayisi WHERE numara EQL 1
+Havalimanlarından numarası 1 olan havalimanlarının iç yolcularını getir.,SELECT ic_yolcu WHERE numara EQL 1
+Insanların adlarını getir.,SELECT ad
+Numarası 1 olan tüm insanların adlarını getir.,SELECT ad WHERE numara EQL 1
+Yüzücülerin uyruklarını göster.,SELECT uyruk
+Yayınlar tablosundan alıntısı 29 olan yayınların numaralarını getir.,SELECT numara WHERE alinti EQL 29
+Yaşı 30 olan yöneticilerin yaşlarını listele.,SELECT yas WHERE yas EQL 30
+Telefonlardan çip modeli A15 olan telefonların ülkelerini getir.,SELECT ulke WHERE cip_modeli EQL A15
+Numarası 1 olan tüm mağazaların açılış yıllarını getir.,SELECT acilis_yili WHERE numara EQL 1
+Tüm şarkıların türlerini listele.,SELECT tur
+Tarihi 13/01/2018 olan randevuların numaralarını getir.,SELECT numara WHERE tarih EQL 13/01/2018
+Numarası 1 olan kitapların yazarlarını getir.,SELECT yazar WHERE numara EQL 1
+Arabalar tablosundan modeli Mercedes olan arabaların modellerini getir.,SELECT model WHERE model EQL Mercedes
+Numarası 1 olan kulüplerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Mimarlardan uyruğu Ingiliz olan mimarların uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Ingiliz
+Veritabanındaki kategorisi Survival olan oyunların kategorilerini yazdır.,SELECT kategori WHERE kategori EQL Survival
+Şarkılardan adı Istanbul Sokaklari olan şarkıların dillerini getir.,SELECT dil WHERE ad EQL Istanbul Sokaklari
+Tüm müşterileri say.,SELECT count(numara)
+Bütün sürücülerin numaralarını getir.,SELECT numara
+Yarışlar tablosunda turu 4 olan yarışların adlarını getir.,SELECT ad WHERE tur EQL 4
+Şarkılardan ülkesi Türkiye olan şarkıların sanatçılarını getir.,SELECT sanatci WHERE ulke EQL Türkiye
+Cinsiyeti Erkek olan tüm öğrencilerin yaşlarını getir.,SELECT yas WHERE cinsiyet EQL Erkek
+Havalimanlarından en büyük toplam uçağı getir.,SELECT max(toplam_ucak)
+Projelerden numarası 1 olan projelerin numaralarını göster.,SELECT numara WHERE numara EQL 1
+Bütün filmlerin yönetmenlerini göster.,SELECT yonetmen
+En büyük kulüp numarasını listele.,SELECT max(numara)
+Modeli Mercedes olan arabaların beygir güçlerini getir.,SELECT beygir_gucu WHERE model EQL Mercedes
+Veritabanındaki konumu Kadikoy olan mağazaların konumlarını yazdır.,SELECT konum WHERE konum EQL Kadikoy
+Maaşı 80000 olan çalışanların cinsiyetlerini bul.,SELECT cinsiyet WHERE maas EQL 80000
+Bütün trenlerin varışlarını getir.,SELECT varis
+Tüm yarışların adlarını görüntüle.,SELECT ad
+Bütün öğrencilerin şehirlerini göster.,SELECT sehir
+Restoranlardan adı Burger King olan restoranların adlarını getir.,SELECT ad WHERE ad EQL Burger King
+Soyadı Taylor olan personellerin cinsiyetlerini listele.,SELECT cinsiyet WHERE soyad EQL Taylor
+Tüm kitapların numaralarını listele.,SELECT numara
+Numarası 1 olan tüm yayınların alıntılarını getir.,SELECT alinti WHERE numara EQL 1
+Veritabanındaki soyadı Smith olan öğrencilerin numaralarını yazdır.,SELECT numara WHERE soyad EQL Smith
+Numarası 1 olan randevuların numaralarını listele.,SELECT numara WHERE numara EQL 1
+Tüm şarkıların çıkış tarihlerini görüntüle.,SELECT cikis_tarihi
+Veritabanındaki havalimanlarından en büyük toplam uçağı yazdır.,SELECT max(toplam_ucak)
+Tüm uçakların açıklamalarını görüntüle.,SELECT aciklama
+Açılış yılı 1957 olan stadyumların şehirlerini bul.,SELECT sehir WHERE acilis_yili EQL 1957
+Varışı Ankara olan uçuşların varış tarihlerini listele.,SELECT varis_tarihi WHERE varis EQL Ankara
+Adı Burger King olan tüm restoranların numaralarını getir.,SELECT numara WHERE ad EQL Burger King
+Derslerden numarası 1 olan derslerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Mimarlardan adı John olan mimarların cinsiyetlerini göster.,SELECT cinsiyet WHERE ad EQL John
+Bütün yayınların alıntılarını getir.,SELECT alinti
+Tüm mağazaların sadece adlarını göster.,SELECT ad
+Yüzücü tablosu içerisinde bulunan uyrukları ekrana getir.,SELECT uyruk
+Ürünlerden kodu 5090 olan ürünlerin kodlarını getir.,SELECT kod WHERE kod EQL 5090
+Dili Turkce olan şarkıların numaralarını bul.,SELECT numara WHERE dil EQL Turkce
+Bütün mağazaların numaralarını getir.,SELECT numara
+Bütün yarışların tarihlerini göster.,SELECT tarih
+Numarası 1 olan restoranların tiplerini listele.,SELECT tip WHERE numara EQL 1
+Numarası 1 olan oyuncuların uyruklarını getir.,SELECT uyruk WHERE numara EQL 1
+Araba sayısını getir.,SELECT count(numara)
+Yayınlar tablosunda en büyük numara kaçtır?,SELECT max(numara)
+Konferanslardan adı AI Conference olan konferansların numaralarını göster.,SELECT numara WHERE ad EQL AI Conference
+Pilotlar tablosundan numarası 1 olan pilotların numaralarını getir.,SELECT numara WHERE numara EQL 1
+En büyük stadyum kapasitesini göster.,SELECT max(kapasite)
+Tüm projelerin sadece numaralarını göster.,SELECT numara
+Numarası 1 olan stokların miktarlarını bul.,SELECT miktar WHERE numara EQL 1
+Kulüplerin numaralarını getir.,SELECT numara
+Toplam oyuncu sayısı nedir?,SELECT count(numara)
+Başlangıcı Istanbul olan uçuşların başlangıçlarını getir.,SELECT baslangic WHERE baslangic EQL Istanbul
+Tüm telefonların ülkelerini listele.,SELECT ulke
+Toplam pilot sayısını göster.,SELECT count(numara)
+Veritabanındaki numarası 1 olan köprülerin uzunluklarını yazdır.,SELECT uzunluk WHERE numara EQL 1
+Öğrencilerden şehiri New York olan öğrencilerin şehirlerini getir.,SELECT sehir WHERE sehir EQL New York
+Tüm havalimanlarının uluslararası yolcularını görüntüle.,SELECT uluslararasi_yolcu
+Öğretmen tablosu içerisinde bulunan adları ekrana getir.,SELECT ad
+Bütün sürücülerin soyadlarını göster.,SELECT soyad
+Sigortası MAPFRE olan tüm hastaların adlarını getir.,SELECT ad WHERE sigorta EQL MAPFRE
+Çiftliklerden numarası 1 olan çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE numara EQL 1
+Mağazalar tablosundan açılış yılı 2020 olan mağazaların açılış yıllarını getir.,SELECT acilis_yili WHERE acilis_yili EQL 2020
+Yayınlardan en büyük alıntıyı getir.,SELECT max(alinti)
+Iç yolcusu 63648 olan havalimanlarının adlarını bul.,SELECT ad WHERE ic_yolcu EQL 63648
+Numarası 1 olan tüm hemşirelerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Veritabanındaki adı Joseph olan personellerin cinsiyetlerini yazdır.,SELECT cinsiyet WHERE ad EQL Joseph
+Bütün öğrencilerin cinsiyetlerini göster.,SELECT cinsiyet
+Veritabanındaki tüm havalimanlarının toplam uçaklarını yazdır.,SELECT toplam_ucak
+Tüm filmlerin sadece yönetmenlerini göster.,SELECT yonetmen
+Mağazalar tablosundan konumu Kadikoy olan mağazaların numaralarını getir.,SELECT numara WHERE konum EQL Kadikoy
+Köprülerin konumlarını göster.,SELECT konum
+Telefonu 1 352-295-8921 olan hastaların telefonlarını getir.,SELECT telefon WHERE telefon EQL 1 352-295-8921
+Tüm öğrencilerin adlarını getir.,SELECT ad
+Tüm öğrencilerin sadece şehirlerini göster.,SELECT sehir
+Adı William olan çalışanların soyadlarını getir.,SELECT soyad WHERE ad EQL William
+Çıkış tarihi 1900 olan şarkıların ülkelerini listele.,SELECT ulke WHERE cikis_tarihi EQL 1900
+Veritabanındaki numarası 1 olan sürücülerin numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Adı Matthew Carter olan oyuncuların adlarını bul.,SELECT ad WHERE ad EQL Matthew Carter
+Veritabanındaki çip modeli A15 olan telefonların ülkelerini yazdır.,SELECT ulke WHERE cip_modeli EQL A15
+Veritabanındaki tüm hastaların telefonlarını yazdır.,SELECT telefon
+Soyadı Taylor olan personellerin telefonlarını getir.,SELECT telefon WHERE soyad EQL Taylor
+Personeller tablosundan numarası 1 olan personellerin soyadlarını getir.,SELECT soyad WHERE numara EQL 1
+Öğrenciler tablosunda numarası 1 olan öğrencilerin yaşlarını getir.,SELECT yas WHERE numara EQL 1
+Bütün projelerin başlangıç tarihlerini göster.,SELECT baslangic_tarihi
+Uçuşlar tablosundan kalkış tarihi 19/05/2022 13:00 olan uçuşların varışlarını getir.,SELECT varis WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Keçi sayısı 2 olan çiftliklerin boğa sayılarını listele.,SELECT boga_sayisi WHERE keci_sayisi EQL 2
+Mimarlar tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Köprülerden adı Fatih Sultan Mehmet Koprusu olan köprülerin adlarını getir.,SELECT ad WHERE ad EQL Fatih Sultan Mehmet Koprusu
+Veritabanındaki adı Istanbul Sokaklari olan şarkıların sanatçılarını yazdır.,SELECT sanatci WHERE ad EQL Istanbul Sokaklari
+Tüm sanatçıların cinsiyetlerini görüntüle.,SELECT cinsiyet
+Adı Istanbul olan şehirlerin nüfuslarını getir.,SELECT nufus WHERE ad EQL Istanbul
+Numarası 1 olan sürücülerin uyruklarını bul.,SELECT uyruk WHERE numara EQL 1
+Adı Gallery of Earth olan müzelerin açılış yıllarını getir.,SELECT acilis_yili WHERE ad EQL Gallery of Earth
+Fiyatı 120 olan ürünlerin kodlarını listele.,SELECT kod WHERE fiyat EQL 120
+Bütün filmlerin yönetmenlerini getir.,SELECT yonetmen
+Yayınlardan yayıncısı Elsevier olan yayınların başlıklarını getir.,SELECT baslik WHERE yayinci EQL Elsevier
+Ürünlerden fiyatı 120 olan ürünlerin numaralarını getir.,SELECT numara WHERE fiyat EQL 120
+Modeli iPhone olan telefonların numaralarını bul.,SELECT numara WHERE model EQL iPhone
+Bütün telefonların çip modellerini getir.,SELECT cip_modeli
+Şehiri Barcelona olan stadyumların adlarını listele.,SELECT ad WHERE sehir EQL Barcelona
+Tüm müşterilerin numaralarını getir.,SELECT numara
+Bütün insanların boylarını getir.,SELECT boy
+Yazarı Dan Brown olan kitapların kategorilerini bul.,SELECT kategori WHERE yazar EQL Dan Brown
+Hemşirelerden numarası 1 olan hemşirelerin adlarını göster.,SELECT ad WHERE numara EQL 1
+Sanatçı sayısını getir.,SELECT count(numara)
+Sürücüler tablosunda uyruğu Ingiliz olan sürücülerin uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Ingiliz
+Öğretmenler tablosunda yaşı 36 olan öğretmenlerin numaralarını getir.,SELECT numara WHERE yas EQL 36
+Arabalar tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Numarası 1 olan yarışların tarihlerini listele.,SELECT tarih WHERE numara EQL 1
+Toplam insan sayısı nedir?,SELECT count(numara)
+Veritabanındaki beygir gücü 163 olan arabaların yıllarını yazdır.,SELECT yil WHERE beygir_gucu EQL 163
+Veritabanındaki doğum tarihi 01/04/1990 olan insanların kilolarını yazdır.,SELECT kilo WHERE dogum_tarihi EQL 01/04/1990
+Numarası 1 olan restoranların adlarını listele.,SELECT ad WHERE numara EQL 1
+Cihazlardan numarası 1 olan cihazların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Müşterilerden kodu 204060 olan müşterilerin numaralarını göster.,SELECT numara WHERE kod EQL 204060
+Ülkesi America olan yöneticilerin düzeylerini bul.,SELECT duzey WHERE ulke EQL America
+Çalışanlar tablosundan cinsiyeti Erkek olan çalışanların adlarını getir.,SELECT ad WHERE cinsiyet EQL Erkek
+Bütün çiftliklerin at sayılarını getir.,SELECT at_sayisi
+Yöneticilerden düzeyi 5 olan yöneticilerin numaralarını getir.,SELECT numara WHERE duzey EQL 5
+Numarası 1 olan müşterilerin numaralarını listele.,SELECT numara WHERE numara EQL 1
+Personellerden e-postası jtaylor@gmail.com olan personellerin adlarını getir.,SELECT ad WHERE eposta EQL jtaylor@gmail.com
+Veritabanındaki adı John olan mimarların cinsiyetlerini yazdır.,SELECT cinsiyet WHERE ad EQL John
+Havalimanları tablosunda toplam uçağı 660 olan havalimanlarının toplam uçaklarını getir.,SELECT toplam_ucak WHERE toplam_ucak EQL 660
+Uçuşlar tablosundan kalkış tarihi 19/05/2022 13:00 olan uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Numarası 1 olan çalışanların soyadlarını getir.,SELECT soyad WHERE numara EQL 1
+Veritabanındaki demiryollarından en büyük numarayı yazdır.,SELECT max(numara)
+Öğretmenler tablosundan yaşı 36 olan öğretmenlerin adlarını getir.,SELECT ad WHERE yas EQL 36
+Alıntısı 29 olan yayınların alıntılarını listele.,SELECT alinti WHERE alinti EQL 29
+Stadyumlar tablosundan açılış yılı 1957 olan stadyumların şehirlerini getir.,SELECT sehir WHERE acilis_yili EQL 1957
+Mağaza tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Numarası 1 olan kulüplerin adlarını bul.,SELECT ad WHERE numara EQL 1
+Kalkış tarihi 19/05/2022 13:00 olan uçuşların başlangıçlarını listele.,SELECT baslangic WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Uçaklar tablosunda hızı 905 olan uçakların numaralarını getir.,SELECT numara WHERE hiz EQL 905
+En büyük uçak hızını göster.,SELECT max(hiz)
+Ülkesi Türkiye olan şarkıların ülkelerini getir.,SELECT ulke WHERE ulke EQL Türkiye
+Adı Minecraft olan oyunların adlarını listele.,SELECT ad WHERE ad EQL Minecraft
+Kilosu 82 olan insanların kilolarını getir.,SELECT kilo WHERE kilo EQL 82
+Çip modeli A15 olan telefonların ekran modlarını listele.,SELECT ekran_modu WHERE cip_modeli EQL A15
+Tüm mimarların cinsiyetlerini listele.,SELECT cinsiyet
+Kalkış tarihi 19/05/2022 13:00 olan uçuşların varış tarihlerini getir.,SELECT varis_tarihi WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Kaç yarış var?,SELECT count(numara)
+Mağaza tablosu içerisinde bulunan adları ekrana getir.,SELECT ad
+Numarası 1 olan hemşirelerin adlarını bul.,SELECT ad WHERE numara EQL 1
+Arabalar tablosundaki en büyük beygir gücünü listele.,SELECT max(beygir_gucu)
+Numarası 1 olan tüm derslerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Başlığı Da Vinci Sifresi olan kitapların kategorilerini getir.,SELECT kategori WHERE baslik EQL Da Vinci Sifresi
+Kilosu 82 olan insanların numaralarını listele.,SELECT numara WHERE kilo EQL 82
+Yüzücülerin uyruklarını getir.,SELECT uyruk
+Adı Charles olan hastaların sigortalarını listele.,SELECT sigorta WHERE ad EQL Charles
+Veritabanındaki randevuların sayısını yazdır.,SELECT count(numara)
+Öğrenciler tablosundan yaşı 16 olan öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet WHERE yas EQL 16
+Numarası 1 olan pilotların adlarını listele.,SELECT ad WHERE numara EQL 1
+Veritabanındaki numarası 1 olan yöneticilerin ülkelerini yazdır.,SELECT ulke WHERE numara EQL 1
+Başlığı Artificial Intelligence olan yayınların numaralarını getir.,SELECT numara WHERE baslik EQL Artificial Intelligence
+Tüm telefonların ekran modlarını görüntüle.,SELECT ekran_modu
+Yazar tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Çalışanlar tablosunda numarası 1 olan çalışanların maaşlarını getir.,SELECT maas WHERE numara EQL 1
+Kaç stok var?,SELECT count(numara)
+Tüm pilotların sadece numaralarını göster.,SELECT numara
+Veritabanındaki adı William olan çalışanların soyadlarını yazdır.,SELECT soyad WHERE ad EQL William
+Uçuşlardan numarası 1 olan uçuşların mesafelerini getir.,SELECT mesafe WHERE numara EQL 1
+Tüm şarkıların türlerini getir.,SELECT tur
+Mağazalardan konumu Kadikoy olan mağazaların konumlarını göster.,SELECT konum WHERE konum EQL Kadikoy
+Tüm trenlerin adlarını getir.,SELECT ad
+Cihazı Apple olan cihazların işletim sistemlerini bul.,SELECT isletim_sistemi WHERE cihaz EQL Apple
+Bütün çalışanların adlarını göster.,SELECT ad
+Yaşı 34 olan pilotların cinsiyetlerini listele.,SELECT cinsiyet WHERE yas EQL 34
+Kurucusu Union Pacific Corporation olan demiryollarının demiryollarını getir.,SELECT demiryolu WHERE kurucu EQL Union Pacific Corporation
+Başlangıcı Istanbul olan uçuşların numaralarını getir.,SELECT numara WHERE baslangic EQL Istanbul
+Veritabanındaki versiyonu 15 olan cihazların cihazlarını yazdır.,SELECT cihaz WHERE versiyon EQL 15
+Tüm köprülerin sadece uzunluklarını göster.,SELECT uzunluk
+Cinsiyeti Erkek olan tüm öğrencilerin numaralarını getir.,SELECT numara WHERE cinsiyet EQL Erkek
+Departmanlar tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Tüm köprülerin konumlarını listele.,SELECT konum
+Numarası 1 olan kitapların başlıklarını bul.,SELECT baslik WHERE numara EQL 1
+Numarası 1 olan yazarların numaralarını bul.,SELECT numara WHERE numara EQL 1
+Tüm personellerin sadece telefonlarını göster.,SELECT telefon
+Veritabanındaki adı Istanbul Sabiha Gokcen Havalimani olan havalimanlarının iç yolcularını yazdır.,SELECT ic_yolcu WHERE ad EQL Istanbul Sabiha Gokcen Havalimani
+Inek sayısı 10 olan çiftliklerin boğa sayılarını bul.,SELECT boga_sayisi WHERE inek_sayisi EQL 10
+Veritabanındaki domuz sayısı 2 olan çiftliklerin boğa sayılarını yazdır.,SELECT boga_sayisi WHERE domuz_sayisi EQL 2
+Tüm yayınların sadece alıntılarını göster.,SELECT alinti
+Veritabanındaki numarası 1 olan cihazların numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Kitaplardan numarası 1 olan kitapların başlıklarını göster.,SELECT baslik WHERE numara EQL 1
+Pilotlar tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Konumu Kadikoy olan tüm mağazaların açılış yıllarını getir.,SELECT acilis_yili WHERE konum EQL Kadikoy
+Konumu Kadikoy olan mağazaların açılış yıllarını bul.,SELECT acilis_yili WHERE konum EQL Kadikoy
+Çiftlikler tablosundaki en büyük inek sayısını getir.,SELECT max(inek_sayisi)
+Numarası TK1919 olan uçuşların varış tarihlerini bul.,SELECT varis_tarihi WHERE kod EQL TK1919
+Uçuşlar tablosunda varışı Ankara olan uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE varis EQL Ankara
+Veritabanındaki adı Istanbul Sabiha Gokcen Havalimani olan havalimanlarının numaralarını yazdır.,SELECT numara WHERE ad EQL Istanbul Sabiha Gokcen Havalimani
+Öğrenciler tablosundan numarası 1 olan öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet WHERE numara EQL 1
+Uçaklar tablosunda açıklaması Airbus A340-600 olan uçakların toplam yolcularını getir.,SELECT toplam_yolcu WHERE aciklama EQL Airbus A340-600
+Cinsiyeti Male olan mimarların adlarını getir.,SELECT ad WHERE cinsiyet EQL Male
+Stadyumlar tablosunda şehiri Barcelona olan stadyumların numaralarını getir.,SELECT numara WHERE sehir EQL Barcelona
+Öğretmenler tablosunda adı Richard olan öğretmenlerin numaralarını getir.,SELECT numara WHERE ad EQL Richard
+Adı A Giyim olan mağazaların numaralarını bul.,SELECT numara WHERE ad EQL A Giyim
+Cinsiyeti Erkek olan tüm öğrencilerin soyadlarını getir.,SELECT soyad WHERE cinsiyet EQL Erkek
+Mimar tablosu içerisinde bulunan uyrukları ekrana getir.,SELECT uyruk
+Trenlerden varışı 23:39 olan trenlerin numaralarını getir.,SELECT numara WHERE varis EQL 23:39
+Insanlardan numarası 1 olan insanların adlarını göster.,SELECT ad WHERE numara EQL 1
+Telefonlar tablosunda çip modeli A15 olan telefonların çip modellerini getir.,SELECT cip_modeli WHERE cip_modeli EQL A15
+Çalışanlar tablosundan numarası 1 olan çalışanların soyadlarını getir.,SELECT soyad WHERE numara EQL 1
+Tüm sürücülerin soyadlarını görüntüle.,SELECT soyad
+Domuz sayısı 2 olan çiftliklerin koyun sayılarını listele.,SELECT koyun_sayisi WHERE domuz_sayisi EQL 2
+Telefonlar tablosundan modeli iPhone olan telefonların ekran modlarını getir.,SELECT ekran_modu WHERE model EQL iPhone
+Sürücüler tablosunda tibi B olan sürücülerin numaralarını getir.,SELECT numara WHERE tip EQL B
+Personeller tablosundan soyadı Taylor olan personellerin telefonlarını getir.,SELECT telefon WHERE soyad EQL Taylor
+Yılı 1926 olan arabaların ülkelerini getir.,SELECT ulke WHERE yil EQL 1926
+Konumu Beykoz/Istanbul olan tüm köprülerin adlarını getir.,SELECT ad WHERE konum EQL Beykoz/Istanbul
+Şehiri Barcelona olan stadyumların numaralarını getir.,SELECT numara WHERE sehir EQL Barcelona
+Bütün müşterilerin şehirlerini getir.,SELECT sehir
+Toplam dergi sayısı nedir?,SELECT count(numara)
+Müşteriler tablosunda e-postası ****@gmail.com olan müşterilerin kodlarını getir.,SELECT kod WHERE eposta EQL ****@gmail.com
+Dersler tablosunda numarası 1 olan derslerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Projeler tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Veritabanındaki modeli iPhone olan telefonların numaralarını yazdır.,SELECT numara WHERE model EQL iPhone
+Öğrenciler tablosunda adı David olan öğrencilerin adlarını getir.,SELECT ad WHERE ad EQL David
+Veritabanındaki adı Camp Nou olan stadyumların adlarını yazdır.,SELECT ad WHERE ad EQL Camp Nou
+Çiftlikler tablosundan boğa sayısı 5 olan çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE boga_sayisi EQL 5
+Adı Matthew Carter olan tüm oyuncuların numaralarını getir.,SELECT numara WHERE ad EQL Matthew Carter
+Yılı 2005 olan yarışların numaralarını getir.,SELECT numara WHERE yil EQL 2005
+Sürücüler tablosundan uyruğu Ingiliz olan sürücülerin uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Ingiliz
+Bütün hemşirelerin numaralarını göster.,SELECT numara
+Çiftlikler içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Dergilerin adlarını göster.,SELECT ad
+Yaşı 16 olan öğrencilerin adlarını getir.,SELECT ad WHERE yas EQL 16
+Veritabanındaki turu 4 olan yarışların numaralarını yazdır.,SELECT numara WHERE tur EQL 4
+Numarası 1 olan sanatçıların adlarını getir.,SELECT ad WHERE numara EQL 1
+Veritabanındaki açılış yılı 2020 olan mağazaların adlarını yazdır.,SELECT ad WHERE acilis_yili EQL 2020
+Uyruğu Alman olan oyuncuların uyruklarını bul.,SELECT uyruk WHERE uyruk EQL Alman
+Uçuşların varışlarını göster.,SELECT varis
+Turu 4 olan tüm yarışların adlarını getir.,SELECT ad WHERE tur EQL 4
+Stadyumlardan açılış yılı 1957 olan stadyumların kapasitelerini getir.,SELECT kapasite WHERE acilis_yili EQL 1957
+Veritabanındaki alanı 5343 olan şehirlerin nüfuslarını yazdır.,SELECT nufus WHERE alan EQL 5343
+Stoklar tablosunda en büyük numara kaçtır?,SELECT max(numara)
+Havalimanlarının adlarını göster.,SELECT ad
+Yaşı 34 olan pilotların adlarını bul.,SELECT ad WHERE yas EQL 34
+En büyük kitap numarasını listele.,SELECT max(numara)
+Veritabanındaki numarası 1 olan telefonların ülkelerini yazdır.,SELECT ulke WHERE numara EQL 1
+Filmlerin başlıklarını göster.,SELECT baslik
+Sinema tablosu içerisinde bulunan kapasiteleri ekrana getir.,SELECT kapasite
+Türü Slow olan şarkıların adlarını getir.,SELECT ad WHERE tur EQL Slow
+Tarihi 01/04/2005 olan tüm yarışların yıllarını getir.,SELECT yil WHERE tarih EQL 01/04/2005
+Tüm köprüleri say.,SELECT count(numara)
+Modeli Mercedes olan tüm arabaların beygir güçlerini getir.,SELECT beygir_gucu WHERE model EQL Mercedes
+Arabalar tablosundaki en büyük beygir gücünü göster.,SELECT max(beygir_gucu)
+En büyük stok numarasını göster.,SELECT max(numara)
+Yöneticilerden düzeyi 5 olan yöneticilerin yaşlarını getir.,SELECT yas WHERE duzey EQL 5
+Tarihi 13/01/2018 olan randevuların tarihlerini listele.,SELECT tarih WHERE tarih EQL 13/01/2018
+Numarası 1 olan tüm müzelerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Yöneticiler tablosunda düzeyi 5 olan yöneticilerin numaralarını getir.,SELECT numara WHERE duzey EQL 5
+Yöneticilerden numarası 1 olan yöneticilerin düzeylerini göster.,SELECT duzey WHERE numara EQL 1
+Toplam müze sayısını bastır.,SELECT count(numara)
+Stadyumlar tablosunda açılış yılı 1957 olan stadyumların kapasitelerini getir.,SELECT kapasite WHERE acilis_yili EQL 1957
+Bütün yöneticilerin numaralarını getir.,SELECT numara
+Şehiri New York olan tüm öğrencilerin adlarını getir.,SELECT ad WHERE sehir EQL New York
+Ülkesi Almanya olan tüm arabaların beygir güçlerini getir.,SELECT beygir_gucu WHERE ulke EQL Almanya
+Numarası 1 olan hemşirelerin numaralarını listele.,SELECT numara WHERE numara EQL 1
+Adı Cinemaximum olan sinemaların numaralarını listele.,SELECT numara WHERE ad EQL Cinemaximum
+En büyük film numarasını getir.,SELECT max(numara)
+Numarası 1 olan tüm müşterilerin kodlarını getir.,SELECT kod WHERE numara EQL 1
+Müşteriler tablosundan telefonu 2122121212 olan müşterilerin şehirlerini getir.,SELECT sehir WHERE telefon EQL 2122121212
+Keçi sayısı 2 olan çiftliklerin numaralarını listele.,SELECT numara WHERE keci_sayisi EQL 2
+Sürücüler tablosunda numarası 20202020 olan sürücülerin numaralarını getir.,SELECT numara WHERE kod EQL 20202020
+Kurucusu Union Pacific Corporation olan tüm demiryollarının konumlarını getir.,SELECT konum WHERE kurucu EQL Union Pacific Corporation
+Adı Istanbul Sabiha Gokcen Havalimani olan tüm havalimanlarının iç yolcularını getir.,SELECT ic_yolcu WHERE ad EQL Istanbul Sabiha Gokcen Havalimani
+Arabalardan yılı 1926 olan arabaların modellerini göster.,SELECT model WHERE yil EQL 1926
+Toplam kulüp sayısını göster.,SELECT count(numara)
+Mağazalar tablosunda konumu Kadikoy olan mağazaların açılış yıllarını getir.,SELECT acilis_yili WHERE konum EQL Kadikoy
+Uluslararası yolcusu 35858 olan tüm havalimanlarının numaralarını getir.,SELECT numara WHERE uluslararasi_yolcu EQL 35858
+Cinsiyeti Erkek olan öğrencilerin şehirlerini listele.,SELECT sehir WHERE cinsiyet EQL Erkek
+Öğrencilerden yaşı 16 olan öğrencilerin numaralarını getir.,SELECT numara WHERE yas EQL 16
+Öğrenciler içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Kalkışı Chennai olan trenlerin kalkışlarını listele.,SELECT kalkis WHERE kalkis EQL Chennai
+Havalimanları tablosundan adı Istanbul Sabiha Gokcen Havalimani olan havalimanlarının toplam uçaklarını getir.,SELECT toplam_ucak WHERE ad EQL Istanbul Sabiha Gokcen Havalimani
+Tüm dergileri say.,SELECT count(numara)
+Tüm projelerin numaralarını listele.,SELECT numara
+Personeller tablosundan soyadı Taylor olan personellerin soyadlarını getir.,SELECT soyad WHERE soyad EQL Taylor
+Toplam dergi sayısını bastır.,SELECT count(numara)
+Çip modeli A15 olan telefonların ülkelerini listele.,SELECT ulke WHERE cip_modeli EQL A15
+Çiftliklerden boğa sayısı 5 olan çiftliklerin keçi sayılarını getir.,SELECT keci_sayisi WHERE boga_sayisi EQL 5
+Veritabanındaki kapasitesi 99354 olan stadyumların şehirlerini yazdır.,SELECT sehir WHERE kapasite EQL 99354
+Çiftliklerden inek sayısı 10 olan çiftliklerin keçi sayılarını getir.,SELECT keci_sayisi WHERE inek_sayisi EQL 10
+Kitaplardan kategorisi Roman olan kitapların kategorilerini getir.,SELECT kategori WHERE kategori EQL Roman
+Köprüler tablosunda konumu Beykoz/Istanbul olan köprülerin uzunluklarını getir.,SELECT uzunluk WHERE konum EQL Beykoz/Istanbul
+Cinsiyeti Male olan pilotların cinsiyetlerini getir.,SELECT cinsiyet WHERE cinsiyet EQL Male
+Uçuşlar tablosundan başlangıcı Istanbul olan uçuşların numaralarını getir.,SELECT numara WHERE baslangic EQL Istanbul
+Yüzücüler tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Çiftliklerden koyun sayısı 5 olan çiftliklerin numaralarını getir.,SELECT numara WHERE koyun_sayisi EQL 5
+Uçuşlardan mesafesi 350 olan uçuşların varış tarihlerini göster.,SELECT varis_tarihi WHERE mesafe EQL 350
+Veritabanındaki numarası 1 olan öğretmenlerin şehirlerini yazdır.,SELECT sehir WHERE numara EQL 1
+Çiftliklerden keçi sayısı 2 olan çiftliklerin keçi sayılarını getir.,SELECT keci_sayisi WHERE keci_sayisi EQL 2
+Şehiri New York olan öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet WHERE sehir EQL New York
+En büyük yönetici yaşını listele.,SELECT max(yas)
+Bütün demiryollarının demiryolularını göster.,SELECT demiryolu
+Restoranların numaralarını göster.,SELECT numara
+Veritabanındaki tüm öğretmenlerin adlarını yazdır.,SELECT ad
+Uçaklar tablosundan hızı 905 olan uçakların toplam yolcularını getir.,SELECT toplam_yolcu WHERE hiz EQL 905
+Adı Satranc olan kulüplerin adlarını bul.,SELECT ad WHERE ad EQL Satranc
+Departmanlar tablosundan adı Pazarlama olan departmanların numaralarını getir.,SELECT numara WHERE ad EQL Pazarlama
+En büyük oyun numarasını getir.,SELECT max(numara)
+Kredisi 4 olan tüm derslerin numaralarını getir.,SELECT numara WHERE kredi EQL 4
+Sürücülerden adı Thomas olan sürücülerin numaralarını getir.,SELECT numara WHERE ad EQL Thomas
+Uçuşlardan mesafesi 350 olan uçuşların mesafelerini getir.,SELECT mesafe WHERE mesafe EQL 350
+Kayıdı 01/05/2015 olan hemşirelerin kayıtlarını listele.,SELECT kayit WHERE kayit EQL 01/05/2015
+Beygir gücü 163 olan arabaların numaralarını listele.,SELECT numara WHERE beygir_gucu EQL 163
+Müzeler tablosunda personel sayısı 12 olan müzelerin personel sayılarını getir.,SELECT personel_sayisi WHERE personel_sayisi EQL 12
+Çalışanlar tablosunda soyadı Garcia olan çalışanların maaşlarını getir.,SELECT maas WHERE soyad EQL Garcia
+Sinema sayısını getir.,SELECT count(numara)
+Uçuş tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Cihazlar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Tüm müşterilerin kodlarını görüntüle.,SELECT kod
+Veritabanındaki adı Robert olan pilotların numaralarını yazdır.,SELECT numara WHERE ad EQL Robert
+Adı John olan mimarların uyruklarını listele.,SELECT uyruk WHERE ad EQL John
+Sürücüler tablosunda numarası 1 olan sürücülerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Şarkılar tablosunda ülkesi Türkiye olan şarkıların numaralarını getir.,SELECT numara WHERE ulke EQL Türkiye
+Konferansların adlarını göster.,SELECT ad
+Bütün departmanların adlarını göster.,SELECT ad
+Personeller tablosundan telefonu 1 505-644-9320 olan personellerin soyadlarını getir.,SELECT soyad WHERE telefon EQL 1 505-644-9320
+Uçuşlardan mesafesi 350 olan uçuşların başlangıçlarını getir.,SELECT baslangic WHERE mesafe EQL 350
+Çıkış tarihi 1900 olan şarkıların türlerini listele.,SELECT tur WHERE cikis_tarihi EQL 1900
+Şarkılardan çıkış tarihi 1900 olan şarkıların türlerini göster.,SELECT tur WHERE cikis_tarihi EQL 1900
+Personellerden adı Joseph olan personellerin soyadlarını göster.,SELECT soyad WHERE ad EQL Joseph
+Çalışanlar tablosunda maaşı 80000 olan çalışanların soyadlarını getir.,SELECT soyad WHERE maas EQL 80000
+Yarışlar tablosundan numarası 1 olan yarışların tarihlerini getir.,SELECT tarih WHERE numara EQL 1
+Ürünler tablosundan kodu 5090 olan ürünlerin kodlarını getir.,SELECT kod WHERE kod EQL 5090
+Uçuşlardan numarası TK1919 olan uçuşların başlangıçlarını göster.,SELECT baslangic WHERE kod EQL TK1919
+Şarkı tablosu içerisinde bulunan dilleri ekrana getir.,SELECT dil
+Mimarlar tablosundan cinsiyeti Male olan mimarların numaralarını getir.,SELECT numara WHERE cinsiyet EQL Male
+Hemşirelerden pozisyonu Clinical Nurse olan hemşirelerin pozisyonlarını getir.,SELECT pozisyon WHERE pozisyon EQL Clinical Nurse
+En büyük stok miktarını göster.,SELECT max(miktar)
+En büyük demiryolu numarasını getir.,SELECT max(numara)
+Yayıncısı Elsevier olan yayınların başlıklarını bul.,SELECT baslik WHERE yayinci EQL Elsevier
+Şarkılar tablosundan ülkesi Türkiye olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE ulke EQL Türkiye
+Trenlerden numarası 1 olan trenlerin varışlarını getir.,SELECT varis WHERE numara EQL 1
+Veritabanındaki tüm şarkıların numaralarını yazdır.,SELECT numara
+Mesafesi 350 olan uçuşların varışlarını bul.,SELECT varis WHERE mesafe EQL 350
+Çiftliklerden at sayısı 2 olan çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE at_sayisi EQL 2
+Sürücülerin adlarını göster.,SELECT ad
+En büyük çiftlik domuz sayısını getir.,SELECT max(domuz_sayisi)
+Çalışanlar tablosunda cinsiyeti Erkek olan çalışanların adlarını getir.,SELECT ad WHERE cinsiyet EQL Erkek
+Toplam ders sayısını getir.,SELECT count(numara)
+Kodu 204060 olan müşterilerin telefonlarını listele.,SELECT telefon WHERE kod EQL 204060
+Bütün randevuların tarihlerini getir.,SELECT tarih
+Şehirlerden alanı 5343 olan şehirlerin nüfuslarını göster.,SELECT nufus WHERE alan EQL 5343
+Arabalar tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Şarkıların türlerini göster.,SELECT tur
+Veritabanındaki nüfusu 15000000 olan şehirlerin nüfuslarını yazdır.,SELECT nufus WHERE nufus EQL 15000000
+Hastalardan adı Charles olan hastaların sigortalarını göster.,SELECT sigorta WHERE ad EQL Charles
+Adı Anthony olan yöneticilerin adlarını getir.,SELECT ad WHERE ad EQL Anthony
+En büyük şehir nüfusunu getir.,SELECT max(nufus)
+Arabalardan ülkesi Almanya olan arabaların ülkelerini getir.,SELECT ulke WHERE ulke EQL Almanya
+Restoranların derecelerini getir.,SELECT derece
+Numarası 1 olan uçakların hızlarını bul.,SELECT hiz WHERE numara EQL 1
+Bütün projelerin numaralarını getir.,SELECT numara
+Tüm hastaların adlarını görüntüle.,SELECT ad
+Sanatçılar tablosundan cinsiyeti Erkek olan sanatçıların numaralarını getir.,SELECT numara WHERE cinsiyet EQL Erkek
+Cinsiyeti Male olan pilotların numaralarını getir.,SELECT numara WHERE cinsiyet EQL Male
+Tüm oyuncuların numaralarını getir.,SELECT numara
+Tüm öğrencilerin yaşlarını görüntüle.,SELECT yas
+Köprü tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Çiftlikler tablosunda domuz sayısı 2 olan çiftliklerin keçi sayılarını getir.,SELECT keci_sayisi WHERE domuz_sayisi EQL 2
+Bütün personellerin adlarını göster.,SELECT ad
+Numarası 1 olan sanatçıların adlarını listele.,SELECT ad WHERE numara EQL 1
+Çalışanların adlarını getir.,SELECT ad
+Tüm çalışanların numaralarını görüntüle.,SELECT numara
+Insanlar tablosunda kilosu 82 olan insanların adlarını getir.,SELECT ad WHERE kilo EQL 82
+Adı Minecraft olan oyunların numaralarını getir.,SELECT numara WHERE ad EQL Minecraft
+Veritabanındaki tüm projelerin adlarını yazdır.,SELECT ad
+Açılış yılı 1957 olan stadyumların açılış yıllarını getir.,SELECT acilis_yili WHERE acilis_yili EQL 1957
+Müzeler tablosunda numarası 1 olan müzelerin personel sayılarını getir.,SELECT personel_sayisi WHERE numara EQL 1
+Adı Matthew Carter olan tüm oyuncuların uyruklarını getir.,SELECT uyruk WHERE ad EQL Matthew Carter
+Tüm hastaların sadece telefonlarını göster.,SELECT telefon
+Çiftlikler tablosundaki en büyük boğa sayısını getir.,SELECT max(boga_sayisi)
+Soyadı Taylor olan tüm personellerin e-postalarını getir.,SELECT eposta WHERE soyad EQL Taylor
+En büyük cihaz numarasını göster.,SELECT max(numara)
+Numarası 1 olan cihazların cihazlarını getir.,SELECT cihaz WHERE numara EQL 1
+Veritabanındaki toplam uçağı 660 olan havalimanlarının uluslararası yolcularını yazdır.,SELECT uluslararasi_yolcu WHERE toplam_ucak EQL 660
+En büyük insan numarasını göster.,SELECT max(numara)
+Köprülerden en büyük numarayı getir.,SELECT max(numara)
+Uçuşlar tablosundan numarası 1 olan uçuşların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Yayınlardan yayıncısı Elsevier olan yayınların yıllarını göster.,SELECT yil WHERE yayinci EQL Elsevier
+Yaşı 16 olan öğrencilerin numaralarını listele.,SELECT numara WHERE yas EQL 16
+En büyük ders numarasını listele.,SELECT max(numara)
+Veritabanındaki doğum tarihi 01/04/1990 olan insanların doğum tarihlerini yazdır.,SELECT dogum_tarihi WHERE dogum_tarihi EQL 01/04/1990
+Bütün personellerin cinsiyetlerini göster.,SELECT cinsiyet
+Şarkılar tablosunda ülkesi Türkiye olan şarkıların türlerini getir.,SELECT tur WHERE ulke EQL Türkiye
+Şarkılar tablosundan sanatçısı Muzeyyen Senar olan şarkıların ülkelerini getir.,SELECT ulke WHERE sanatci EQL Muzeyyen Senar
+Telefonlardan ülkesi Amerika olan telefonların çip modellerini göster.,SELECT cip_modeli WHERE ulke EQL Amerika
+Numarası 1 olan öğrencilerin şehirlerini getir.,SELECT sehir WHERE numara EQL 1
+Uçaklar içerisinde en yüksek hız kaçtır?,SELECT max(hiz)
+Kitaplar tablosunda yazarı Dan Brown olan kitapların yazarlarını getir.,SELECT yazar WHERE yazar EQL Dan Brown
+Projelerin başlangıç tarihlerini getir.,SELECT baslangic_tarihi
+Yayınlar tablosunda numarası 1 olan yayınların yıllarını getir.,SELECT yil WHERE numara EQL 1
+Numarası 1 olan insanların numaralarını bul.,SELECT numara WHERE numara EQL 1
+Bütün müşterilerin telefonlarını getir.,SELECT telefon
+Trenler tablosundan varışı 23:39 olan trenlerin adlarını getir.,SELECT ad WHERE varis EQL 23:39
+Stoklar tablosundan miktarı 100 olan stokların miktarlarını getir.,SELECT miktar WHERE miktar EQL 100
+Personeller tablosunda soyadı Taylor olan personellerin soyadlarını getir.,SELECT soyad WHERE soyad EQL Taylor
+Hızı 905 olan tüm uçakların numaralarını getir.,SELECT numara WHERE hiz EQL 905
+En büyük mimar numarasını getir.,SELECT max(numara)
+Derslerden numarası 1 olan derslerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Şehiri Barcelona olan stadyumların kapasitelerini bul.,SELECT kapasite WHERE sehir EQL Barcelona
+Konferanslar tablosundan adı AI Conference olan konferansların adlarını getir.,SELECT ad WHERE ad EQL AI Conference
+Sanatçısı Muzeyyen Senar olan şarkıların numaralarını listele.,SELECT numara WHERE sanatci EQL Muzeyyen Senar
+Veritabanındaki tüm yayınların yayıncılarını yazdır.,SELECT yayinci
+Açılış yılı 1957 olan stadyumların şehirlerini getir.,SELECT sehir WHERE acilis_yili EQL 1957
+Uçuşlardan varışı Ankara olan uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE varis EQL Ankara
+Insanlardan numarası 1 olan insanların doğum tarihlerini göster.,SELECT dogum_tarihi WHERE numara EQL 1
+Bütün telefonların numaralarını getir.,SELECT numara
+Pozisyonu Clinical Nurse olan hemşirelerin numaralarını bul.,SELECT numara WHERE pozisyon EQL Clinical Nurse
+Toplam uçağı 660 olan havalimanlarının uluslararası yolcularını bul.,SELECT uluslararasi_yolcu WHERE toplam_ucak EQL 660
+Kodu 5090 olan ürünlerin numaralarını listele.,SELECT numara WHERE kod EQL 5090
+Cihazlar tablosundan cihazı Apple olan cihazların cihazlarını getir.,SELECT cihaz WHERE cihaz EQL Apple
+Yaşı 36 olan öğretmenlerin numaralarını bul.,SELECT numara WHERE yas EQL 36
+Öğrencilerden adı David olan öğrencilerin şehirlerini göster.,SELECT sehir WHERE ad EQL David
+Telefonu 2122121212 olan tüm müşterilerin e-postalarını getir.,SELECT eposta WHERE telefon EQL 2122121212
+Adı John olan tüm mimarların uyruklarını getir.,SELECT uyruk WHERE ad EQL John
+Telefonlar tablosunda ülkesi Amerika olan telefonların çip modellerini getir.,SELECT cip_modeli WHERE ulke EQL Amerika
+Şehirler tablosundan adı Istanbul olan şehirlerin numaralarını getir.,SELECT numara WHERE ad EQL Istanbul
+Departmanların numaralarını göster.,SELECT numara
+Sürücüler tablosunda numarası 1 olan sürücülerin tiplerini getir.,SELECT tip WHERE numara EQL 1
+Uluslararası yolcusu 35858 olan havalimanlarının iç yolcularını listele.,SELECT ic_yolcu WHERE uluslararasi_yolcu EQL 35858
+Adı A Giyim olan mağazaların adlarını getir.,SELECT ad WHERE ad EQL A Giyim
+Numarası 1 olan uçakların toplam yolcularını bul.,SELECT toplam_yolcu WHERE numara EQL 1
+Müşteriler tablosundan kodu 204060 olan müşterilerin telefonlarını getir.,SELECT telefon WHERE kod EQL 204060
+Yüzücülerden uyruğu Amerika olan yüzücülerin adlarını göster.,SELECT ad WHERE uyruk EQL Amerika
+Oyuncular tablosundan numarası 1 olan oyuncuların adlarını getir.,SELECT ad WHERE numara EQL 1
+Veritabanındaki kilosu 82 olan insanların doğum tarihlerini yazdır.,SELECT dogum_tarihi WHERE kilo EQL 82
+Filmlerden başlığı Esaretin Bedeli olan filmlerin yönetmenlerini getir.,SELECT yonetmen WHERE baslik EQL Esaretin Bedeli
+Yılı 2021 olan yayınların alıntılarını getir.,SELECT alinti WHERE yil EQL 2021
+Adı Minecraft olan oyunların adlarını getir.,SELECT ad WHERE ad EQL Minecraft
+Veritabanındaki başlığı Artificial Intelligence olan yayınların numaralarını yazdır.,SELECT numara WHERE baslik EQL Artificial Intelligence
+Veritabanındaki ülkesi Amerika olan telefonların numaralarını yazdır.,SELECT numara WHERE ulke EQL Amerika
+Mağazalardan adı A Giyim olan mağazaların konumlarını getir.,SELECT konum WHERE ad EQL A Giyim
+Numarası 1 olan kulüplerin adlarını listele.,SELECT ad WHERE numara EQL 1
+Veritabanındaki açılış yılı 2020 olan mağazaların numaralarını yazdır.,SELECT numara WHERE acilis_yili EQL 2020
+Müzeler tablosundan personel sayısı 12 olan müzelerin açılış yıllarını getir.,SELECT acilis_yili WHERE personel_sayisi EQL 12
+Adı Richard olan öğretmenlerin yaşlarını listele.,SELECT yas WHERE ad EQL Richard
+Tüm demiryollarının numaralarını görüntüle.,SELECT numara
+Tüm uçakların numaralarını listele.,SELECT numara
+Insanlar tablosundan kilosu 82 olan insanların numaralarını getir.,SELECT numara WHERE kilo EQL 82
+Adı David olan öğrencilerin soyadlarını listele.,SELECT soyad WHERE ad EQL David
+Yaşı 30 olan yöneticilerin adlarını bul.,SELECT ad WHERE yas EQL 30
+Yöneticilerden yaşı 30 olan yöneticilerin adlarını getir.,SELECT ad WHERE yas EQL 30
+Adı Cinemaximum olan sinemaların yerlerini listele.,SELECT yer WHERE ad EQL Cinemaximum
+Çiftliklerden boğa sayısı 5 olan çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE boga_sayisi EQL 5
+Mağazalar tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Veritabanındaki tüm öğretmenlerin yaşlarını yazdır.,SELECT yas
+Veritabanındaki koyun sayısı 5 olan çiftliklerin domuz sayılarını yazdır.,SELECT domuz_sayisi WHERE koyun_sayisi EQL 5
+Cinsiyeti Erkek olan tüm çalışanların adlarını getir.,SELECT ad WHERE cinsiyet EQL Erkek
+Toplam öğretmen sayısını getir.,SELECT count(numara)
+Ülkesi Fransa olan sanatçıların cinsiyetlerini listele.,SELECT cinsiyet WHERE ulke EQL Fransa
+Numarası 1 olan tüm kitapların kategorilerini getir.,SELECT kategori WHERE numara EQL 1
+Çiftlikler tablosunda keçi sayısı 2 olan çiftliklerin inek sayılarını getir.,SELECT inek_sayisi WHERE keci_sayisi EQL 2
+Mimarlar tablosunda uyruğu Ingiliz olan mimarların cinsiyetlerini getir.,SELECT cinsiyet WHERE uyruk EQL Ingiliz
+Yöneticilerden düzeyi 5 olan yöneticilerin ülkelerini getir.,SELECT ulke WHERE duzey EQL 5
+Randevulardan numarası 1 olan randevuların numaralarını göster.,SELECT numara WHERE numara EQL 1
+Köprülerin numaralarını göster.,SELECT numara
+Adı Formula A olan yarışların numaralarını listele.,SELECT numara WHERE ad EQL Formula A
+Telefonlardan çip modeli A15 olan telefonların ülkelerini göster.,SELECT ulke WHERE cip_modeli EQL A15
+Domuz sayısı 2 olan çiftliklerin boğa sayılarını getir.,SELECT boga_sayisi WHERE domuz_sayisi EQL 2
+Tüm pilotların adlarını listele.,SELECT ad
+Şehir tablosu içerisinde bulunan alanları ekrana getir.,SELECT alan
+Veritabanındaki adı Michael Phelps olan yüzücülerin uyruklarını yazdır.,SELECT uyruk WHERE ad EQL Michael Phelps
+Bütün cihazların numaralarını getir.,SELECT numara
+Turu 4 olan yarışların adlarını bul.,SELECT ad WHERE tur EQL 4
+Işletim sistemi IOS olan cihazların işletim sistemlerini getir.,SELECT isletim_sistemi WHERE isletim_sistemi EQL IOS
+Çalışanlardan numarası 1 olan çalışanların soyadlarını göster.,SELECT soyad WHERE numara EQL 1
+Tüm öğrencilerin şehirlerini görüntüle.,SELECT sehir
+Numarası 1 olan tüm personellerin soyadlarını getir.,SELECT soyad WHERE numara EQL 1
+Bütün sanatçıların ülkelerini göster.,SELECT ulke
+Adı Charles olan hastaların numaralarını bul.,SELECT numara WHERE ad EQL Charles
+Numarası 1 olan sinemaların adlarını getir.,SELECT ad WHERE numara EQL 1
+Şarkılar tablosunda dili Turkce olan şarkıların adlarını getir.,SELECT ad WHERE dil EQL Turkce
+Veritabanındaki adı Pazarlama olan departmanların adlarını yazdır.,SELECT ad WHERE ad EQL Pazarlama
+Uzunluğu 1510 olan köprülerin numaralarını listele.,SELECT numara WHERE uzunluk EQL 1510
+Bütün insanların boylarını göster.,SELECT boy
+Adı Istanbul Sokaklari olan şarkıların ülkelerini bul.,SELECT ulke WHERE ad EQL Istanbul Sokaklari
+Kitaplar tablosundan başlığı Da Vinci Sifresi olan kitapların numaralarını getir.,SELECT numara WHERE baslik EQL Da Vinci Sifresi
+En büyük araba numarasını listele.,SELECT max(numara)
+Ülkesi Türkiye olan şarkıların çıkış tarihlerini listele.,SELECT cikis_tarihi WHERE ulke EQL Türkiye
+Cihazlar tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Başlığı Esaretin Bedeli olan filmlerin yönetmenlerini bul.,SELECT yonetmen WHERE baslik EQL Esaretin Bedeli
+Müşteriler tablosunda en büyük numara kaçtır?,SELECT max(numara)
+Müşterilerden e-postası ****@gmail.com olan müşterilerin numaralarını göster.,SELECT numara WHERE eposta EQL ****@gmail.com
+Başlığı Da Vinci Sifresi olan kitapların kategorilerini bul.,SELECT kategori WHERE baslik EQL Da Vinci Sifresi
+Uçaklardan açıklaması Airbus A340-600 olan uçakların numaralarını göster.,SELECT numara WHERE aciklama EQL Airbus A340-600
+Varışı 23:39 olan trenlerin adlarını bul.,SELECT ad WHERE varis EQL 23:39
+Şarkılardan sanatçısı Muzeyyen Senar olan şarkıların türlerini göster.,SELECT tur WHERE sanatci EQL Muzeyyen Senar
+Arabalardan modeli Mercedes olan arabaların yıllarını getir.,SELECT yil WHERE model EQL Mercedes
+Maaşı 80000 olan çalışanların adlarını getir.,SELECT ad WHERE maas EQL 80000
+Toplam restoran sayısı nedir?,SELECT count(numara)
+Toplam şehir sayısı nedir?,SELECT count(numara)
+Numarası 1 olan havalimanlarının adlarını bul.,SELECT ad WHERE numara EQL 1
+Hastalar tablosunda telefonu 1 352-295-8921 olan hastaların adlarını getir.,SELECT ad WHERE telefon EQL 1 352-295-8921
+Şehiri Londra olan öğretmenlerin şehirlerini listele.,SELECT sehir WHERE sehir EQL Londra
+Bütün şehirlerin numaralarını göster.,SELECT numara
+Numarası 1 olan sanatçıların ülkelerini listele.,SELECT ulke WHERE numara EQL 1
+Şarkılardan türü Slow olan şarkıların adlarını getir.,SELECT ad WHERE tur EQL Slow
+Bütün şehirlerin alanlarını göster.,SELECT alan
+Demiryolları tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Bütün telefonların ülkelerini göster.,SELECT ulke
+Çalışanlardan adı William olan çalışanların adlarını göster.,SELECT ad WHERE ad EQL William
+Ekran modu Big olan telefonların numaralarını listele.,SELECT numara WHERE ekran_modu EQL Big
+Stoklar tablosunda numarası 1 olan stokların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Müşteriler tablosunda kodu 204060 olan müşterilerin telefonlarını getir.,SELECT telefon WHERE kod EQL 204060
+Adı Joseph olan personellerin telefonlarını listele.,SELECT telefon WHERE ad EQL Joseph
+Uçuşlar tablosunda varışı Ankara olan uçuşların varışlarını getir.,SELECT varis WHERE varis EQL Ankara
+Demiryolu Union Pacific Railroad olan tüm demiryollarının kurucularını getir.,SELECT kurucu WHERE demiryolu EQL Union Pacific Railroad
+Cinsiyeti Male olan personellerin e-postalarını listele.,SELECT eposta WHERE cinsiyet EQL Male
+Kitaplar tablosundan yazarı Dan Brown olan kitapların yazarlarını getir.,SELECT yazar WHERE yazar EQL Dan Brown
+Personellerden cinsiyeti Male olan personellerin soyadlarını getir.,SELECT soyad WHERE cinsiyet EQL Male
+Bütün personellerin adlarını getir.,SELECT ad
+Veritabanındaki kapasitesi 140 olan sinemaların numaralarını yazdır.,SELECT numara WHERE kapasite EQL 140
+Adı Istanbul Sokaklari olan şarkıların türlerini getir.,SELECT tur WHERE ad EQL Istanbul Sokaklari
+En büyük yönetici numarasını göster.,SELECT max(numara)
+Veritabanındaki restoranlardan en büyük numarayı yazdır.,SELECT max(numara)
+Oyuncular tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Veritabanındaki yılı 2005 olan yarışların turlarını yazdır.,SELECT tur WHERE yil EQL 2005
+Numarası 1 olan tüm öğretmenlerin yaşlarını getir.,SELECT yas WHERE numara EQL 1
+Açılış yılı 2010 olan tüm müzelerin personel sayılarını getir.,SELECT personel_sayisi WHERE acilis_yili EQL 2010
+Şarkılardan ülkesi Türkiye olan şarkıların sanatçılarını göster.,SELECT sanatci WHERE ulke EQL Türkiye
+Ülkesi Almanya olan arabaların numaralarını bul.,SELECT numara WHERE ulke EQL Almanya
+Uçuşlar tablosundan mesafesi 350 olan uçuşların başlangıçlarını getir.,SELECT baslangic WHERE mesafe EQL 350
+Şehirler tablosundan numarası 1 olan şehirlerin alanlarını getir.,SELECT alan WHERE numara EQL 1
+Uçuşların numaralarını göster.,SELECT numara
+Tüm mimarların cinsiyetlerini getir.,SELECT cinsiyet
+Pilotların yaşlarını getir.,SELECT yas
+Randevular tablosunda numarası 1 olan randevuların tarihlerini getir.,SELECT tarih WHERE numara EQL 1
+Yüzücülerden adı Michael Phelps olan yüzücülerin numaralarını göster.,SELECT numara WHERE ad EQL Michael Phelps
+Kayıdı 01/05/2015 olan hemşirelerin adlarını getir.,SELECT ad WHERE kayit EQL 01/05/2015
+Cinsiyeti Male olan pilotların adlarını bul.,SELECT ad WHERE cinsiyet EQL Male
+Dergilerden numarası 1 olan dergilerin adlarını göster.,SELECT ad WHERE numara EQL 1
+Başlangıç tarihi 05/06/2018 olan tüm projelerin başlangıç tarihlerini getir.,SELECT baslangic_tarihi WHERE baslangic_tarihi EQL 05/06/2018
+Adı Fatih Sultan Mehmet Koprusu olan köprülerin konumlarını listele.,SELECT konum WHERE ad EQL Fatih Sultan Mehmet Koprusu
+Yöneticilerden düzeyi 5 olan yöneticilerin adlarını getir.,SELECT ad WHERE duzey EQL 5
+Personellerden numarası 1 olan personellerin cinsiyetlerini getir.,SELECT cinsiyet WHERE numara EQL 1
+Departmanlar tablosunda en büyük numara kaçtır?,SELECT max(numara)
+Filmlerden başlığı Esaretin Bedeli olan filmlerin numaralarını göster.,SELECT numara WHERE baslik EQL Esaretin Bedeli
+Yayınlar tablosunda en büyük alıntı kaçtır?,SELECT max(alinti)
+Çiftlikler tablosundaki en büyük domuz sayısını listele.,SELECT max(domuz_sayisi)
+Veritabanındaki keçi sayısı 2 olan çiftliklerin koyun sayılarını yazdır.,SELECT koyun_sayisi WHERE keci_sayisi EQL 2
+Yayınlardan numarası 1 olan yayınların numaralarını getir.,SELECT numara WHERE numara EQL 1
+En büyük tren numarasını getir.,SELECT max(numara)
+Sürücülerden adı Thomas olan sürücülerin tiplerini göster.,SELECT tip WHERE ad EQL Thomas
+Veritabanındaki modeli Mercedes olan arabaların ülkelerini yazdır.,SELECT ulke WHERE model EQL Mercedes
+Numarası 1 olan tüm uçakların hızlarını getir.,SELECT hiz WHERE numara EQL 1
+Tüm stadyumların numaralarını getir.,SELECT numara
+Filmler tablosunda başlığı Esaretin Bedeli olan filmlerin numaralarını getir.,SELECT numara WHERE baslik EQL Esaretin Bedeli
+Tarihi 01/04/2005 olan tüm yarışların turlarını getir.,SELECT tur WHERE tarih EQL 01/04/2005
+Cihazlar tablosundan cihazı Apple olan cihazların işletim sistemlerini getir.,SELECT isletim_sistemi WHERE cihaz EQL Apple
+Demiryolları tablosu içerisinde bulunan demiryollarını ekrana getir.,SELECT demiryolu
+Şehiri Istanbul olan müşterilerin şehirlerini getir.,SELECT sehir WHERE sehir EQL Istanbul
+Adı Cinemaximum olan sinemaların yerlerini bul.,SELECT yer WHERE ad EQL Cinemaximum
+Yaşı 36 olan öğretmenlerin adlarını bul.,SELECT ad WHERE yas EQL 36
+Mimarlar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Veritabanındaki türü Slow olan şarkıların türlerini yazdır.,SELECT tur WHERE tur EQL Slow
+Demiryolları içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Yayınlar tablosunda başlığı Artificial Intelligence olan yayınların yayıncılarını getir.,SELECT yayinci WHERE baslik EQL Artificial Intelligence
+Veritabanındaki numarası 1 olan şehirlerin numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Müşterilerin kodlarını göster.,SELECT kod
+Hastalardan adı Charles olan hastaların numaralarını getir.,SELECT numara WHERE ad EQL Charles
+Şehiri Istanbul olan tüm müşterilerin şehirlerini getir.,SELECT sehir WHERE sehir EQL Istanbul
+Veritabanındaki numarası TK1919 olan uçuşların kalkış tarihlerini yazdır.,SELECT kalkis_tarihi WHERE kod EQL TK1919
+Projelerden adı Project Z olan projelerin numaralarını getir.,SELECT numara WHERE ad EQL Project Z
+Stadyumların kapasitelerini göster.,SELECT kapasite
+Demiryollarının numaralarını getir.,SELECT numara
+Sigortası MAPFRE olan tüm hastaların telefonlarını getir.,SELECT telefon WHERE sigorta EQL MAPFRE
+Yılı 1926 olan arabaların beygir güçlerini getir.,SELECT beygir_gucu WHERE yil EQL 1926
+Tüm havalimanlarının iç yolcularını görüntüle.,SELECT ic_yolcu
+Tüm şarkıların numaralarını getir.,SELECT numara
+Mimarlar tablosunda uyruğu Ingiliz olan mimarların uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Ingiliz
+Tüm trenlerin sadece kalkışlarını göster.,SELECT kalkis
+Toplam stok sayısını göster.,SELECT count(numara)
+Cinsiyeti Male olan personellerin cinsiyetlerini getir.,SELECT cinsiyet WHERE cinsiyet EQL Male
+Başlığı Artificial Intelligence olan yayınların yıllarını listele.,SELECT yil WHERE baslik EQL Artificial Intelligence
+Pilotlar tablosundan yaşı 34 olan pilotların numaralarını getir.,SELECT numara WHERE yas EQL 34
+Tüm yarışların turlarını listele.,SELECT tur
+Demiryollarından numarası 1 olan demiryollarının demiryollarını göster.,SELECT demiryolu WHERE numara EQL 1
+Adı Richard olan öğretmenlerin numaralarını getir.,SELECT numara WHERE ad EQL Richard
+Öğretmenlerden yaşı 36 olan öğretmenlerin numaralarını göster.,SELECT numara WHERE yas EQL 36
+Bütün pilotların numaralarını getir.,SELECT numara
+Bütün insanların kilolarını göster.,SELECT kilo
+Uçuşlar tablosundan kalkış tarihi 19/05/2022 13:00 olan uçuşların numaralarını getir.,SELECT numara WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Kitaplardan yazarı Dan Brown olan kitapların kategorilerini göster.,SELECT kategori WHERE yazar EQL Dan Brown
+Telefonlardan en büyük numarayı getir.,SELECT max(numara)
+Yaşı 34 olan pilotların adlarını listele.,SELECT ad WHERE yas EQL 34
+Veritabanındaki adı Camp Nou olan stadyumların numaralarını yazdır.,SELECT numara WHERE ad EQL Camp Nou
+Mimarlar tablosunda adı John olan mimarların numaralarını getir.,SELECT numara WHERE ad EQL John
+Kodu 5090 olan ürünlerin fiyatlarını getir.,SELECT fiyat WHERE kod EQL 5090
+Numarası 1 olan çalışanların numaralarını listele.,SELECT numara WHERE numara EQL 1
+Sürücülerden numarası 20202020 olan sürücülerin soyadlarını göster.,SELECT soyad WHERE kod EQL 20202020
+Tüm restoranların sadece derecelerini göster.,SELECT derece
+Açılış yılı 2010 olan tüm müzelerin adlarını getir.,SELECT ad WHERE acilis_yili EQL 2010
+Kitaplar tablosunda başlığı Da Vinci Sifresi olan kitapların başlıklarını getir.,SELECT baslik WHERE baslik EQL Da Vinci Sifresi
+Adı Formula A olan yarışların turlarını getir.,SELECT tur WHERE ad EQL Formula A
+Mimarlar tablosunda adı John olan mimarların uyruklarını getir.,SELECT uyruk WHERE ad EQL John
+Bütün mimarların cinsiyetlerini göster.,SELECT cinsiyet
+Öğretmenlerden yaşı 36 olan öğretmenlerin yaşlarını göster.,SELECT yas WHERE yas EQL 36
+Çiftliklerden boğa sayısı 5 olan çiftliklerin boğa sayılarını getir.,SELECT boga_sayisi WHERE boga_sayisi EQL 5
+Kulüplerin numaralarını göster.,SELECT numara
+Hızı 905 olan tüm uçakların toplam yolcularını getir.,SELECT toplam_yolcu WHERE hiz EQL 905
+Numarası 1 olan uçuşların kalkış tarihlerini bul.,SELECT kalkis_tarihi WHERE numara EQL 1
+Dili Turkce olan tüm şarkıların dillerini getir.,SELECT dil WHERE dil EQL Turkce
+Adı A Giyim olan mağazaların açılış yıllarını bul.,SELECT acilis_yili WHERE ad EQL A Giyim
+Cinsiyeti Male olan personellerin numaralarını getir.,SELECT numara WHERE cinsiyet EQL Male
+Numarası TK1919 olan uçuşların varışlarını listele.,SELECT varis WHERE kod EQL TK1919
+Numarası 1 olan sinemaların yerlerini getir.,SELECT yer WHERE numara EQL 1
+Veritabanındaki adı David olan öğrencilerin adlarını yazdır.,SELECT ad WHERE ad EQL David
+Telefonlar tablosunda ekran modu Big olan telefonların ekran modlarını getir.,SELECT ekran_modu WHERE ekran_modu EQL Big
+Adı Thomas olan sürücülerin numaralarını bul.,SELECT numara WHERE ad EQL Thomas
+Restoranlar tablosunda derecesi 2/5 olan restoranların derecelerini getir.,SELECT derece WHERE derece EQL 2/5
+Müşterilerden e-postası ****@gmail.com olan müşterilerin numaralarını getir.,SELECT numara WHERE eposta EQL ****@gmail.com
+Toplam stadyum sayısını getir.,SELECT count(numara)
+Şehiri Barcelona olan stadyumların açılış yıllarını listele.,SELECT acilis_yili WHERE sehir EQL Barcelona
+Soyadı Garcia olan çalışanların soyadlarını getir.,SELECT soyad WHERE soyad EQL Garcia
+Veritabanındaki yazarı Dan Brown olan kitapların başlıklarını yazdır.,SELECT baslik WHERE yazar EQL Dan Brown
+Arabalardan yılı 1926 olan arabaların ülkelerini getir.,SELECT ulke WHERE yil EQL 1926
+Veritabanındaki adı Istanbul Sokaklari olan şarkıların ülkelerini yazdır.,SELECT ulke WHERE ad EQL Istanbul Sokaklari
+Numarası 1 olan kitapların yazarlarını bul.,SELECT yazar WHERE numara EQL 1
+Mağaza sayısını getir.,SELECT count(numara)
+Şarkılar tablosundan numarası 1 olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE numara EQL 1
+Soyadı Taylor olan personellerin adlarını getir.,SELECT ad WHERE soyad EQL Taylor
+Veritabanındaki tüm oyunların kategorilerini yazdır.,SELECT kategori
+Bütün cihazların işletim sistemlerini göster.,SELECT isletim_sistemi
+Toplamda kaç cihaz olduğunu göster.,SELECT count(numara)
+Insanlar tablosunda numarası 1 olan insanların kilolarını getir.,SELECT kilo WHERE numara EQL 1
+Personeller tablosundan e-postası jtaylor@gmail.com olan personellerin numaralarını getir.,SELECT numara WHERE eposta EQL jtaylor@gmail.com
+Soyadı Taylor olan tüm personellerin numaralarını getir.,SELECT numara WHERE soyad EQL Taylor
+Yarışlar tablosunda numarası 1 olan yarışların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Çalışanlardan soyadı Garcia olan çalışanların numaralarını göster.,SELECT numara WHERE soyad EQL Garcia
+Restoranların tiplerini göster.,SELECT tip
+Adı AI Conference olan konferansların numaralarını listele.,SELECT numara WHERE ad EQL AI Conference
+Veritabanındaki sinemaların sayısını yazdır.,SELECT count(numara)
+Numarası 1 olan konferansların adlarını bul.,SELECT ad WHERE numara EQL 1
+Çiftliklerden en büyük domuz sayısını getir.,SELECT max(domuz_sayisi)
+Hemşirelerin numaralarını getir.,SELECT numara
+Departmanlardan numarası 1 olan departmanların numaralarını göster.,SELECT numara WHERE numara EQL 1
+Arabalar tablosundan yılı 1926 olan arabaların beygir güçlerini getir.,SELECT beygir_gucu WHERE yil EQL 1926
+Çalışanlardan adı William olan çalışanların maaşlarını göster.,SELECT maas WHERE ad EQL William
+Tüm yarışları say.,SELECT count(numara)
+Hızı 905 olan uçakların açıklamalarını getir.,SELECT aciklama WHERE hiz EQL 905
+Numarası 1 olan tüm şehirlerin nüfuslarını getir.,SELECT nufus WHERE numara EQL 1
+Telefonlardan ekran modu Big olan telefonların ekran modlarını getir.,SELECT ekran_modu WHERE ekran_modu EQL Big
+Yayınlardan yılı 2021 olan yayınların başlıklarını göster.,SELECT baslik WHERE yil EQL 2021
+Çiftliklerden en büyük at sayısını getir.,SELECT max(at_sayisi)
+Adı Robert olan pilotların adlarını getir.,SELECT ad WHERE ad EQL Robert
+Araba tablosu içerisinde bulunan ülkeleri ekrana getir.,SELECT ulke
+Bütün yarışların adlarını getir.,SELECT ad
+Derecesi 2/5 olan restoranların derecelerini bul.,SELECT derece WHERE derece EQL 2/5
+Tüm sinemaların numaralarını görüntüle.,SELECT numara
+Müşteriler tablosundan telefonu 2122121212 olan müşterilerin telefonlarını getir.,SELECT telefon WHERE telefon EQL 2122121212
+Telefonlardan modeli iPhone olan telefonların numaralarını göster.,SELECT numara WHERE model EQL iPhone
+Araba tablosu içerisinde bulunan modelleri ekrana getir.,SELECT model
+Yeri Izmir olan sinemaların yerlerini bul.,SELECT yer WHERE yer EQL Izmir
+Şehirlerden nüfusu 15000000 olan şehirlerin nüfuslarını getir.,SELECT nufus WHERE nufus EQL 15000000
+Tüm mağazaların numaralarını getir.,SELECT numara
+Adı Camp Nou olan stadyumların numaralarını bul.,SELECT numara WHERE ad EQL Camp Nou
+Numarası 1 olan şehirlerin nüfuslarını getir.,SELECT nufus WHERE numara EQL 1
+Şarkılar tablosunda adı Istanbul Sokaklari olan şarkıların numaralarını getir.,SELECT numara WHERE ad EQL Istanbul Sokaklari
+Yöneticiler tablosundan ülkesi America olan yöneticilerin ülkelerini getir.,SELECT ulke WHERE ulke EQL America
+Arabalar tablosunda ülkesi Almanya olan arabaların modellerini getir.,SELECT model WHERE ulke EQL Almanya
+Uçuşlardan numarası 1 olan uçuşların varış tarihlerini getir.,SELECT varis_tarihi WHERE numara EQL 1
+Uçaklar tablosunda numarası 1 olan uçakların açıklamalarını getir.,SELECT aciklama WHERE numara EQL 1
+Numarası 1 olan trenlerin adlarını bul.,SELECT ad WHERE numara EQL 1
+Konferanslardan en büyük numarayı getir.,SELECT max(numara)
+Cihazlardan işletim sistemi IOS olan cihazların cihazlarını göster.,SELECT cihaz WHERE isletim_sistemi EQL IOS
+Adı David olan öğrencilerin şehirlerini bul.,SELECT sehir WHERE ad EQL David
+Tüm telefonların numaralarını listele.,SELECT numara
+Boğa sayısı 5 olan çiftliklerin koyun sayılarını bul.,SELECT koyun_sayisi WHERE boga_sayisi EQL 5
+Adı Michael Phelps olan tüm yüzücülerin adlarını getir.,SELECT ad WHERE ad EQL Michael Phelps
+Adı A Giyim olan mağazaların numaralarını listele.,SELECT numara WHERE ad EQL A Giyim
+Tüm sürücülerin adlarını görüntüle.,SELECT ad
+Tüm sürücülerin tiplerini görüntüle.,SELECT tip
+Toplam çalışan sayısını göster.,SELECT count(numara)
+Tüm projelerin numaralarını getir.,SELECT numara
+Sanatçısı Muzeyyen Senar olan şarkıların ülkelerini bul.,SELECT ulke WHERE sanatci EQL Muzeyyen Senar
+Soyadı Taylor olan tüm personellerin adlarını getir.,SELECT ad WHERE soyad EQL Taylor
+Numarası 1 olan mimarların numaralarını listele.,SELECT numara WHERE numara EQL 1
+Pilotlardan yaşı 34 olan pilotların yaşlarını göster.,SELECT yas WHERE yas EQL 34
+Tüm köprülerin numaralarını getir.,SELECT numara
+Uçuşların varış tarihlerini göster.,SELECT varis_tarihi
+Stoklar tablosundan numarası 1 olan stokların miktarlarını getir.,SELECT miktar WHERE numara EQL 1
+Adı Joseph olan tüm personellerin soyadlarını getir.,SELECT soyad WHERE ad EQL Joseph
+Uçuşlardan kalkış tarihi 19/05/2022 13:00 olan uçuşların kalkış tarihlerini göster.,SELECT kalkis_tarihi WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Numarası 1 olan oyunların kategorilerini getir.,SELECT kategori WHERE numara EQL 1
+Ürünler tablosunda kodu 5090 olan ürünlerin numaralarını getir.,SELECT numara WHERE kod EQL 5090
+Adı James olan yazarların adlarını bul.,SELECT ad WHERE ad EQL James
+Yarışlar tablosundan tarihi 01/04/2005 olan yarışların numaralarını getir.,SELECT numara WHERE tarih EQL 01/04/2005
+Tüm şarkıların adlarını getir.,SELECT ad
+Çalışanlar tablosunda soyadı Garcia olan çalışanların adlarını getir.,SELECT ad WHERE soyad EQL Garcia
+Çiftliklerden keçi sayısı 2 olan çiftliklerin koyun sayılarını getir.,SELECT koyun_sayisi WHERE keci_sayisi EQL 2
+Doğum tarihi 01/04/1990 olan insanların numaralarını listele.,SELECT numara WHERE dogum_tarihi EQL 01/04/1990
+Numarası 1 olan uçuşların başlangıçlarını listele.,SELECT baslangic WHERE numara EQL 1
+Başlangıcı Istanbul olan uçuşların varışlarını getir.,SELECT varis WHERE baslangic EQL Istanbul
+Veritabanındaki insanlardan en büyük kiloyu yazdır.,SELECT max(kilo)
+Arabalar tablosundan ülkesi Almanya olan arabaların numaralarını getir.,SELECT numara WHERE ulke EQL Almanya
+Uçuşlardan kalkış tarihi 19/05/2022 13:00 olan uçuşların mesafelerini getir.,SELECT mesafe WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Veritabanındaki tüm çiftliklerin inek sayılarını yazdır.,SELECT inek_sayisi
+En büyük müşteri numarasını listele.,SELECT max(numara)
+Yazarı Dan Brown olan tüm kitapların başlıklarını getir.,SELECT baslik WHERE yazar EQL Dan Brown
+Adı Michael olan insanların adlarını bul.,SELECT ad WHERE ad EQL Michael
+Yarışlar tablosunda numarası 1 olan yarışların turlarını getir.,SELECT tur WHERE numara EQL 1
+Numarası 1 olan stadyumların kapasitelerini listele.,SELECT kapasite WHERE numara EQL 1
+Adı Istanbul Sokaklari olan şarkıların adlarını bul.,SELECT ad WHERE ad EQL Istanbul Sokaklari
+Numarası 1 olan tüm uçuşların varışlarını getir.,SELECT varis WHERE numara EQL 1
+Soyadı Taylor olan personellerin numaralarını listele.,SELECT numara WHERE soyad EQL Taylor
+Telefonlardan modeli iPhone olan telefonların ekran modlarını getir.,SELECT ekran_modu WHERE model EQL iPhone
+Tüm projelerin başlangıç tarihlerini getir.,SELECT baslangic_tarihi
+Şarkılar tablosundan adı Istanbul Sokaklari olan şarkıların adlarını getir.,SELECT ad WHERE ad EQL Istanbul Sokaklari
+Veritabanındaki tüm dergilerin numaralarını yazdır.,SELECT numara
+Dili Turkce olan şarkıların adlarını listele.,SELECT ad WHERE dil EQL Turkce
+Toplam uçağı 660 olan havalimanlarının adlarını bul.,SELECT ad WHERE toplam_ucak EQL 660
+Toplamda kaç dergi olduğunu göster.,SELECT count(numara)
+Veritabanındaki cinsiyeti Male olan mimarların uyruklarını yazdır.,SELECT uyruk WHERE cinsiyet EQL Male
+Bütün öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet
+Yöneticilerin yaşlarını göster.,SELECT yas
+Kulüpler tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Kurucusu Union Pacific Corporation olan demiryollarının konumlarını bul.,SELECT konum WHERE kurucu EQL Union Pacific Corporation
+En büyük dergi numarasını getir.,SELECT max(numara)
+Veritabanındaki keçi sayısı 2 olan çiftliklerin numaralarını yazdır.,SELECT numara WHERE keci_sayisi EQL 2
+Veritabanındaki tüm yarışların numaralarını yazdır.,SELECT numara
+Cinsiyeti Male olan pilotların cinsiyetlerini listele.,SELECT cinsiyet WHERE cinsiyet EQL Male
+Veritabanındaki ürünlerden en büyük fiyadı yazdır.,SELECT max(fiyat)
+Yarışlar tablosundan turu 4 olan yarışların yıllarını getir.,SELECT yil WHERE tur EQL 4
+Uçuşlardan mesafesi 350 olan uçuşların numaralarını göster.,SELECT numara WHERE mesafe EQL 350
+Yöneticilerden numarası 1 olan yöneticilerin düzeylerini getir.,SELECT duzey WHERE numara EQL 1
+Randevu tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Uçuşlar tablosunda varışı Ankara olan uçuşların başlangıçlarını getir.,SELECT baslangic WHERE varis EQL Ankara
+Veritabanındaki kurucusu Union Pacific Corporation olan demiryollarının numaralarını yazdır.,SELECT numara WHERE kurucu EQL Union Pacific Corporation
+Trenler tablosunda adı Andaman Exp olan trenlerin adlarını getir.,SELECT ad WHERE ad EQL Andaman Exp
+Tüm projelerin adlarını görüntüle.,SELECT ad
+Yarışlardan tarihi 01/04/2005 olan yarışların yıllarını getir.,SELECT yil WHERE tarih EQL 01/04/2005
+Numarası 1 olan tüm pilotların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Tüm şarkıların adlarını görüntüle.,SELECT ad
+Domuz sayısı 2 olan tüm çiftliklerin numaralarını getir.,SELECT numara WHERE domuz_sayisi EQL 2
+Veritabanındaki başlığı Artificial Intelligence olan yayınların yayıncılarını yazdır.,SELECT yayinci WHERE baslik EQL Artificial Intelligence
+Soyadı Garcia olan çalışanların soyadlarını listele.,SELECT soyad WHERE soyad EQL Garcia
+Türü Slow olan şarkıların numaralarını listele.,SELECT numara WHERE tur EQL Slow
+Adı Lisa olan hemşirelerin adlarını listele.,SELECT ad WHERE ad EQL Lisa
+Uluslararası yolcusu 35858 olan havalimanlarının uluslararası yolcularını getir.,SELECT uluslararasi_yolcu WHERE uluslararasi_yolcu EQL 35858
+Tüm yöneticilerin sadece ülkelerini göster.,SELECT ulke
+Ülkesi Türkiye olan tüm şarkıların sanatçılarını getir.,SELECT sanatci WHERE ulke EQL Türkiye
+Tüm sanatçıların numaralarını görüntüle.,SELECT numara
+Şarkılardan ülkesi Türkiye olan şarkıların çıkış tarihlerini göster.,SELECT cikis_tarihi WHERE ulke EQL Türkiye
+Modeli Mercedes olan arabaların modellerini getir.,SELECT model WHERE model EQL Mercedes
+Adı David olan tüm öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet WHERE ad EQL David
+Yöneticilerden yaşı 30 olan yöneticilerin düzeylerini göster.,SELECT duzey WHERE yas EQL 30
+Oyunculardan uyruğu Alman olan oyuncuların uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Alman
+Uyruğu Ingiliz olan sürücülerin adlarını listele.,SELECT ad WHERE uyruk EQL Ingiliz
+Veritabanındaki yılı 2021 olan yayınların numaralarını yazdır.,SELECT numara WHERE yil EQL 2021
+Restoranlardan derecesi 2/5 olan restoranların tiplerini göster.,SELECT tip WHERE derece EQL 2/5
+Öğrenciler tablosundan adı David olan öğrencilerin şehirlerini getir.,SELECT sehir WHERE ad EQL David
+Kitaplar tablosunda numarası 1 olan kitapların başlıklarını getir.,SELECT baslik WHERE numara EQL 1
+Cihazlar tablosundan numarası 1 olan cihazların cihazlarını getir.,SELECT cihaz WHERE numara EQL 1
+Çiftlikler tablosunda koyun sayısı 5 olan çiftliklerin boğa sayılarını getir.,SELECT boga_sayisi WHERE koyun_sayisi EQL 5
+Sürücüler tablosundan adı Thomas olan sürücülerin numaralarını getir.,SELECT numara WHERE ad EQL Thomas
+Tüm yöneticilerin sadece numaralarını göster.,SELECT numara
+Sanatçılardan ülkesi Fransa olan sanatçıların ülkelerini getir.,SELECT ulke WHERE ulke EQL Fransa
+Veritabanındaki cihazı Apple olan cihazların işletim sistemlerini yazdır.,SELECT isletim_sistemi WHERE cihaz EQL Apple
+En büyük çiftlik inek sayısını listele.,SELECT max(inek_sayisi)
+Hastalar tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Tüm kitapların numaralarını görüntüle.,SELECT numara
+Veritabanındaki tüm yöneticilerin ülkelerini yazdır.,SELECT ulke
+Veritabanındaki numarası 1 olan projelerin başlangıç tarihlerini yazdır.,SELECT baslangic_tarihi WHERE numara EQL 1
+Veritabanındaki tüm şarkıların sanatçılarını yazdır.,SELECT sanatci
+Tüm yayınların yıllarını görüntüle.,SELECT yil
+Adı John olan mimarların cinsiyetlerini bul.,SELECT cinsiyet WHERE ad EQL John
+Veritabanındaki alıntısı 29 olan yayınların yayıncılarını yazdır.,SELECT yayinci WHERE alinti EQL 29
+Konumu Omaha - Nebraska - ABD olan tüm demiryollarının numaralarını getir.,SELECT numara WHERE konum EQL Omaha - Nebraska - ABD
+En büyük yarış numarasını getir.,SELECT max(numara)
+Cihazı Apple olan tüm cihazların versiyonlarını getir.,SELECT versiyon WHERE cihaz EQL Apple
+Çiftlikler tablosundan inek sayısı 10 olan çiftliklerin numaralarını getir.,SELECT numara WHERE inek_sayisi EQL 10
+Uçaklardan açıklaması Airbus A340-600 olan uçakların hızlarını göster.,SELECT hiz WHERE aciklama EQL Airbus A340-600
+Uçuşlar tablosunda mesafesi 350 olan uçuşların mesafelerini getir.,SELECT mesafe WHERE mesafe EQL 350
+Öğretmenlerden şehiri Londra olan öğretmenlerin adlarını göster.,SELECT ad WHERE sehir EQL Londra
+Veritabanındaki konumu Beykoz/Istanbul olan köprülerin uzunluklarını yazdır.,SELECT uzunluk WHERE konum EQL Beykoz/Istanbul
+Veritabanındaki numarası 20202020 olan sürücülerin adlarını yazdır.,SELECT ad WHERE kod EQL 20202020
+Başlığı Da Vinci Sifresi olan kitapların başlıklarını listele.,SELECT baslik WHERE baslik EQL Da Vinci Sifresi
+Veritabanındaki numarası 1 olan hemşirelerin numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Şarkılar tablosundan adı Istanbul Sokaklari olan şarkıların dillerini getir.,SELECT dil WHERE ad EQL Istanbul Sokaklari
+Adı Andaman Exp olan trenlerin kalkışlarını getir.,SELECT kalkis WHERE ad EQL Andaman Exp
+Toplam müşteri sayısını getir.,SELECT count(numara)
+En büyük müze numarasını göster.,SELECT max(numara)
+Sanatçısı Muzeyyen Senar olan şarkıların sanatçılarını bul.,SELECT sanatci WHERE sanatci EQL Muzeyyen Senar
+Kitaplar tablosunda kategorisi Roman olan kitapların numaralarını getir.,SELECT numara WHERE kategori EQL Roman
+Öğretmenlerden numarası 1 olan öğretmenlerin adlarını göster.,SELECT ad WHERE numara EQL 1
+Uçuşlardan varış tarihi 19/05/2022 14:00 olan uçuşların varışlarını göster.,SELECT varis WHERE varis_tarihi EQL 19/05/2022 14:00
+Başlığı Artificial Intelligence olan tüm yayınların başlıklarını getir.,SELECT baslik WHERE baslik EQL Artificial Intelligence
+Yarışlardan turu 4 olan yarışların adlarını getir.,SELECT ad WHERE tur EQL 4
+Veritabanındaki numarası 1 olan hastaların telefonlarını yazdır.,SELECT telefon WHERE numara EQL 1
+Kodu 204060 olan müşterilerin numaralarını getir.,SELECT numara WHERE kod EQL 204060
+Yılı 2021 olan yayınların yıllarını getir.,SELECT yil WHERE yil EQL 2021
+Numarası 1 olan müzelerin adlarını listele.,SELECT ad WHERE numara EQL 1
+Stadyumlar tablosunda adı Camp Nou olan stadyumların numaralarını getir.,SELECT numara WHERE ad EQL Camp Nou
+Adı Istanbul Sokaklari olan şarkıların numaralarını listele.,SELECT numara WHERE ad EQL Istanbul Sokaklari
+Adı Robert olan pilotların yaşlarını getir.,SELECT yas WHERE ad EQL Robert
+Veritabanındaki tipi B olan sürücülerin tiplerini yazdır.,SELECT tip WHERE tip EQL B
+Keçi sayısı 2 olan çiftliklerin numaralarını bul.,SELECT numara WHERE keci_sayisi EQL 2
+Yarışlardan adı Formula A olan yarışların turlarını getir.,SELECT tur WHERE ad EQL Formula A
+Hemşireler tablosunda pozisyonu Clinical Nurse olan hemşirelerin kayıtlarını getir.,SELECT kayit WHERE pozisyon EQL Clinical Nurse
+En büyük yayın numarasını getir.,SELECT max(numara)
+Veritabanındaki türü Slow olan şarkıların adlarını yazdır.,SELECT ad WHERE tur EQL Slow
+Trenlerden numarası 1 olan trenlerin kalkışlarını getir.,SELECT kalkis WHERE numara EQL 1
+Çiftliklerden inek sayısı 10 olan çiftliklerin domuz sayılarını göster.,SELECT domuz_sayisi WHERE inek_sayisi EQL 10
+Çiftlikler tablosunda koyun sayısı 5 olan çiftliklerin at sayılarını getir.,SELECT at_sayisi WHERE koyun_sayisi EQL 5
+Kalkışı Chennai olan trenlerin numaralarını bul.,SELECT numara WHERE kalkis EQL Chennai
+Bütün pilotların adlarını göster.,SELECT ad
+Cinsiyeti Erkek olan öğrencilerin soyadlarını getir.,SELECT soyad WHERE cinsiyet EQL Erkek
+Yüzücüler tablosundan numarası 1 olan yüzücülerin uyruklarını getir.,SELECT uyruk WHERE numara EQL 1
+Sürücüler tablosundan numarası 20202020 olan sürücülerin uyruklarını getir.,SELECT uyruk WHERE kod EQL 20202020
+Yöneticiler tablosundaki en büyük yaşı göster.,SELECT max(yas)
+Insanlar tablosunda doğum tarihi 01/04/1990 olan insanların numaralarını getir.,SELECT numara WHERE dogum_tarihi EQL 01/04/1990
+Telefonların numaralarını getir.,SELECT numara
+Şarkılardan adı Istanbul Sokaklari olan şarkıların çıkış tarihlerini göster.,SELECT cikis_tarihi WHERE ad EQL Istanbul Sokaklari
+Koyun sayısı 5 olan çiftliklerin at sayılarını getir.,SELECT at_sayisi WHERE koyun_sayisi EQL 5
+Toplam araba sayısını getir.,SELECT count(numara)
+Öğrenciler tablosundaki en büyük yaşı listele.,SELECT max(yas)
+Açılış yılı 2020 olan mağazaların konumlarını getir.,SELECT konum WHERE acilis_yili EQL 2020
+Bütün uçakların açıklamalarını getir.,SELECT aciklama
+Pilotlar tablosundan adı Robert olan pilotların yaşlarını getir.,SELECT yas WHERE ad EQL Robert
+Veritabanındaki başlığı Artificial Intelligence olan yayınların yıllarını yazdır.,SELECT yil WHERE baslik EQL Artificial Intelligence
+Veritabanındaki adı Anthony olan yöneticilerin yaşlarını yazdır.,SELECT yas WHERE ad EQL Anthony
+Yayın tablosu içerisinde bulunan yayıncıları ekrana getir.,SELECT yayinci
+Toplam şehir sayısını getir.,SELECT count(numara)
+Tüm yüzücülerin adlarını listele.,SELECT ad
+Veritabanındaki numarası 1 olan yüzücülerin adlarını yazdır.,SELECT ad WHERE numara EQL 1
+Şehiri New York olan tüm öğrencilerin soyadlarını getir.,SELECT soyad WHERE sehir EQL New York
+Öğrencilerden şehiri New York olan öğrencilerin yaşlarını göster.,SELECT yas WHERE sehir EQL New York
+Yöneticiler tablosunda ülkesi America olan yöneticilerin adlarını getir.,SELECT ad WHERE ulke EQL America
+Yaşı 16 olan öğrencilerin cinsiyetlerini listele.,SELECT cinsiyet WHERE yas EQL 16
+Veritabanındaki numarası 1 olan müşterilerin kodlarını yazdır.,SELECT kod WHERE numara EQL 1
+Açıklaması Airbus A340-600 olan uçakların hızlarını bul.,SELECT hiz WHERE aciklama EQL Airbus A340-600
+Uçaklardan en büyük toplam yolcuyu getir.,SELECT max(toplam_yolcu)
+Varışı Ankara olan uçuşların numaralarını listele.,SELECT numara WHERE varis EQL Ankara
+Telefonlar tablosundan numarası 1 olan telefonların ekran modlarını getir.,SELECT ekran_modu WHERE numara EQL 1
+Konferanslar tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Soyadı Smith olan öğrencilerin soyadlarını bul.,SELECT soyad WHERE soyad EQL Smith
+Veritabanındaki tüm hemşirelerin kayıtlarını yazdır.,SELECT kayit
+Sürücülerden numarası 1 olan sürücülerin uyruklarını getir.,SELECT uyruk WHERE numara EQL 1
+Veritabanındaki numarası 20202020 olan sürücülerin uyruklarını yazdır.,SELECT uyruk WHERE kod EQL 20202020
+Veritabanındaki şehiri Londra olan öğretmenlerin adlarını yazdır.,SELECT ad WHERE sehir EQL Londra
+Tarihi 01/04/2005 olan yarışların numaralarını bul.,SELECT numara WHERE tarih EQL 01/04/2005
+Müzelerden personel sayısı 12 olan müzelerin personel sayılarını getir.,SELECT personel_sayisi WHERE personel_sayisi EQL 12
+Bütün arabaların ülkelerini getir.,SELECT ulke
+Uluslararası yolcusu 35858 olan havalimanlarının numaralarını getir.,SELECT numara WHERE uluslararasi_yolcu EQL 35858
+Numarası 1 olan şarkıların adlarını bul.,SELECT ad WHERE numara EQL 1
+Fiyatı 120 olan tüm ürünlerin kodlarını getir.,SELECT kod WHERE fiyat EQL 120
+Çiftlikler tablosundan keçi sayısı 2 olan çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE keci_sayisi EQL 2
+Yazarı Dan Brown olan kitapların başlıklarını bul.,SELECT baslik WHERE yazar EQL Dan Brown
+Şehiri Barcelona olan tüm stadyumların adlarını getir.,SELECT ad WHERE sehir EQL Barcelona
+Tipi B olan sürücülerin soyadlarını listele.,SELECT soyad WHERE tip EQL B
+Mimar tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+En büyük yayın alıntısını göster.,SELECT max(alinti)
+Çiftlikler tablosunda inek sayısı 10 olan çiftliklerin numaralarını getir.,SELECT numara WHERE inek_sayisi EQL 10
+Veritabanındaki numarası 1 olan telefonların modellerini yazdır.,SELECT model WHERE numara EQL 1
+Veritabanındaki tüm personellerin numaralarını yazdır.,SELECT numara
+Oyuncular tablosundan adı Matthew Carter olan oyuncuların uyruklarını getir.,SELECT uyruk WHERE ad EQL Matthew Carter
+Şarkılar tablosunda numarası 1 olan şarkıların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Müşterilerden numarası 1 olan müşterilerin telefonlarını getir.,SELECT telefon WHERE numara EQL 1
+Şehirlerin numaralarını göster.,SELECT numara
+Personellerin numaralarını getir.,SELECT numara
+Ülkesi Türkiye olan tüm şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE ulke EQL Türkiye
+Personellerden numarası 1 olan personellerin e-postalarını göster.,SELECT eposta WHERE numara EQL 1
+Oyunculardan en büyük numarayı getir.,SELECT max(numara)
+Restoranlardan adı Burger King olan restoranların derecelerini getir.,SELECT derece WHERE ad EQL Burger King
+Sürücülerden numarası 1 olan sürücülerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Iç yolcusu 63648 olan havalimanlarının uluslararası yolcularını listele.,SELECT uluslararasi_yolcu WHERE ic_yolcu EQL 63648
+Tüm çalışanların soyadlarını listele.,SELECT soyad
+Dersler tablosunda numarası 1 olan derslerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Numarası 1 olan filmlerin başlıklarını getir.,SELECT baslik WHERE numara EQL 1
+Cihazların işletim sistemlerini göster.,SELECT isletim_sistemi
+Adı James olan yazarların adlarını getir.,SELECT ad WHERE ad EQL James
+Numarası 1 olan konferansların adlarını listele.,SELECT ad WHERE numara EQL 1
+Adı Anthony olan yöneticilerin yaşlarını listele.,SELECT yas WHERE ad EQL Anthony
+Öğretmenlerden adı Richard olan öğretmenlerin yaşlarını göster.,SELECT yas WHERE ad EQL Richard
+Tüm yayınların numaralarını getir.,SELECT numara
+Filmler tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Müzelerden personel sayısı 12 olan müzelerin açılış yıllarını göster.,SELECT acilis_yili WHERE personel_sayisi EQL 12
+Çalışanlardan adı William olan çalışanların cinsiyetlerini getir.,SELECT cinsiyet WHERE ad EQL William
+Öğretmenler tablosundan adı Richard olan öğretmenlerin adlarını getir.,SELECT ad WHERE ad EQL Richard
+Demiryollarından numarası 1 olan demiryollarının demiryollarını getir.,SELECT demiryolu WHERE numara EQL 1
+Dersler tablosundaki en büyük krediyi listele.,SELECT max(kredi)
+Demiryolu Union Pacific Railroad olan demiryollarının kurucularını getir.,SELECT kurucu WHERE demiryolu EQL Union Pacific Railroad
+Boyu 1.80 olan insanların kilolarını listele.,SELECT kilo WHERE boy EQL 1.80
+Çalışanlardan numarası 1 olan çalışanların maaşlarını göster.,SELECT maas WHERE numara EQL 1
+Numarası 1 olan köprülerin uzunluklarını getir.,SELECT uzunluk WHERE numara EQL 1
+Uyruğu Amerika olan yüzücülerin adlarını bul.,SELECT ad WHERE uyruk EQL Amerika
+Veritabanındaki numarası 1 olan personellerin e-postalarını yazdır.,SELECT eposta WHERE numara EQL 1
+Veritabanındaki numarası 1 olan cihazların işletim sistemlerini yazdır.,SELECT isletim_sistemi WHERE numara EQL 1
+Toplam uçak sayısı nedir?,SELECT count(numara)
+Havalimanlarının adlarını getir.,SELECT ad
+Çıkış tarihi 1900 olan şarkıların dillerini listele.,SELECT dil WHERE cikis_tarihi EQL 1900
+Veritabanındaki numarası 1 olan stokların miktarlarını yazdır.,SELECT miktar WHERE numara EQL 1
+Numarası 1 olan telefonların çip modellerini bul.,SELECT cip_modeli WHERE numara EQL 1
+Havalimanlarından uluslarası yolcusu 35858 olan havalimanlarının adlarını getir.,SELECT ad WHERE uluslararasi_yolcu EQL 35858
+Numarası 1 olan yarışların yıllarını listele.,SELECT yil WHERE numara EQL 1
+Sürücülerden uyruğu Ingiliz olan sürücülerin tiplerini getir.,SELECT tip WHERE uyruk EQL Ingiliz
+Boğa sayısı 5 olan çiftliklerin numaralarını listele.,SELECT numara WHERE boga_sayisi EQL 5
+Veritabanındaki numarası 1 olan personellerin soyadlarını yazdır.,SELECT soyad WHERE numara EQL 1
+Bütün yüzücülerin numaralarını getir.,SELECT numara
+Uçuşlardan varış tarihi 19/05/2022 14:00 olan uçuşların mesafelerini getir.,SELECT mesafe WHERE varis_tarihi EQL 19/05/2022 14:00
+Adı Camp Nou olan tüm stadyumların kapasitelerini getir.,SELECT kapasite WHERE ad EQL Camp Nou
+Veritabanındaki numarası 1 olan çalışanların numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Veritabanındaki numarası 1 olan sürücülerin soyadlarını yazdır.,SELECT soyad WHERE numara EQL 1
+Telefonlar tablosunda numarası 1 olan telefonların ülkelerini getir.,SELECT ulke WHERE numara EQL 1
+Adı Istanbul Sabiha Gokcen Havalimani olan havalimanlarının toplam uçaklarını bul.,SELECT toplam_ucak WHERE ad EQL Istanbul Sabiha Gokcen Havalimani
+Demiryollarının kurucularını getir.,SELECT kurucu
+Ülkesi Almanya olan arabaların yıllarını getir.,SELECT yil WHERE ulke EQL Almanya
+Soyadı Lee olan tüm sürücülerin adlarını getir.,SELECT ad WHERE soyad EQL Lee
+Tüm yöneticilerin sadece düzeylerini göster.,SELECT duzey
+Kalkış tarihi 19/05/2022 13:00 olan uçuşların kalkış tarihlerini listele.,SELECT kalkis_tarihi WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Demiryollarının numaralarını göster.,SELECT numara
+Numarası 1 olan telefonların ekran modlarını getir.,SELECT ekran_modu WHERE numara EQL 1
+Veritabanındaki çiftliklerden en büyük inek sayısını yazdır.,SELECT max(inek_sayisi)
+Personeller tablosunda en büyük numara kaçtır?,SELECT max(numara)
+Veritabanındaki numarası 1 olan mağazaların açılış yıllarını yazdır.,SELECT acilis_yili WHERE numara EQL 1
+Öğrenciler tablosundan yaşı 16 olan öğrencilerin soyadlarını getir.,SELECT soyad WHERE yas EQL 16
+Domuz sayısı 2 olan tüm çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE domuz_sayisi EQL 2
+Hızı 905 olan uçakların açıklamalarını bul.,SELECT aciklama WHERE hiz EQL 905
+Veritabanındaki adı Thomas olan sürücülerin uyruklarını yazdır.,SELECT uyruk WHERE ad EQL Thomas
+Hastalar tablosunda numarası 1 olan hastaların telefonlarını getir.,SELECT telefon WHERE numara EQL 1
+Şarkılar tablosunda sanatçısı Muzeyyen Senar olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE sanatci EQL Muzeyyen Senar
+Veritabanındaki varış tarihi 19/05/2022 14:00 olan uçuşların varış tarihlerini yazdır.,SELECT varis_tarihi WHERE varis_tarihi EQL 19/05/2022 14:00
+Şehiri Istanbul olan müşterilerin kodlarını listele.,SELECT kod WHERE sehir EQL Istanbul
+Şehirler tablosunda en büyük nüfus kaçtır?,SELECT max(nufus)
+Mimarlardan adı John olan mimarların adlarını getir.,SELECT ad WHERE ad EQL John
+Yayınların numaralarını getir.,SELECT numara
+Demiryollarından kurucusu Union Pacific Corporation olan demiryollarının numaralarını getir.,SELECT numara WHERE kurucu EQL Union Pacific Corporation
+Personeller tablosundan e-postası jtaylor@gmail.com olan personellerin cinsiyetlerini getir.,SELECT cinsiyet WHERE eposta EQL jtaylor@gmail.com
+Tüm kitapların başlıklarını görüntüle.,SELECT baslik
+Köprüler içerisinde en yüksek uzunluk kaçtır?,SELECT max(uzunluk)
+Adı Gallery of Earth olan müzelerin açılış yıllarını listele.,SELECT acilis_yili WHERE ad EQL Gallery of Earth
+Tüm telefonların modellerini listele.,SELECT model
+Soyadı Smith olan tüm öğrencilerin adlarını getir.,SELECT ad WHERE soyad EQL Smith
+Adı Joseph olan personellerin cinsiyetlerini getir.,SELECT cinsiyet WHERE ad EQL Joseph
+Sürücüler tablosundan numarası 1 olan sürücülerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Bütün yöneticilerin adlarını göster.,SELECT ad
+Tüm çiftliklerin numaralarını listele.,SELECT numara
+Adı Michael Phelps olan yüzücülerin adlarını bul.,SELECT ad WHERE ad EQL Michael Phelps
+Yılı 2005 olan tüm yarışların adlarını getir.,SELECT ad WHERE yil EQL 2005
+E-postası jtaylor@gmail.com olan personellerin numaralarını listele.,SELECT numara WHERE eposta EQL jtaylor@gmail.com
+Tüm havalimanlarının toplam uçaklarını listele.,SELECT toplam_ucak
+Kapasitesi 99354 olan stadyumların numaralarını bul.,SELECT numara WHERE kapasite EQL 99354
+Müşteriler içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Personel sayısı 12 olan müzelerin adlarını bul.,SELECT ad WHERE personel_sayisi EQL 12
+Yarışlar tablosundan tarihi 01/04/2005 olan yarışların turlarını getir.,SELECT tur WHERE tarih EQL 01/04/2005
+Derecesi 2/5 olan restoranların numaralarını listele.,SELECT numara WHERE derece EQL 2/5
+Tüm müzeleri say.,SELECT count(numara)
+Veritabanındaki yaşı 36 olan öğretmenlerin adlarını yazdır.,SELECT ad WHERE yas EQL 36
+Arabaların ülkelerini getir.,SELECT ulke
+Sürücüler tablosunda numarası 20202020 olan sürücülerin tiplerini getir.,SELECT tip WHERE kod EQL 20202020
+Veritabanındaki tüm uçuşların varış tarihlerini yazdır.,SELECT varis_tarihi
+Uçaklardan açıklaması Airbus A340-600 olan uçakların açıklamalarını getir.,SELECT aciklama WHERE aciklama EQL Airbus A340-600
+Çiftlikler tablosunda koyun sayısı 5 olan çiftliklerin numaralarını getir.,SELECT numara WHERE koyun_sayisi EQL 5
+Personellerden adı Joseph olan personellerin cinsiyetlerini getir.,SELECT cinsiyet WHERE ad EQL Joseph
+Telefonlardan numarası 1 olan telefonların ülkelerini getir.,SELECT ulke WHERE numara EQL 1
+Yarışlar tablosunda yılı 2005 olan yarışların turlarını getir.,SELECT tur WHERE yil EQL 2005
+Havalimanları tablosunda uluslararası yolcusu 35858 olan havalimanlarının toplam uçaklarını getir.,SELECT toplam_ucak WHERE uluslararasi_yolcu EQL 35858
+Demiryollarından konumu Omaha - Nebraska - ABD olan demiryollarının demiryollarını getir.,SELECT demiryolu WHERE konum EQL Omaha - Nebraska - ABD
+Tüm öğrencilerin sadece yaşlarını göster.,SELECT yas
+Dili Turkce olan tüm şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE dil EQL Turkce
+Düzeyi 5 olan yöneticilerin düzeylerini bul.,SELECT duzey WHERE duzey EQL 5
+Bütün demiryollarının kurucularını göster.,SELECT kurucu
+Düzeyi 5 olan yöneticilerin numaralarını listele.,SELECT numara WHERE duzey EQL 5
+Insanlar tablosunda numarası 1 olan insanların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Projelerden adı Project Z olan projelerin başlangıç tarihlerini göster.,SELECT baslangic_tarihi WHERE ad EQL Project Z
+Tüm yayınları say.,SELECT count(numara)
+Numarası 1 olan müşterilerin e-postalarını getir.,SELECT eposta WHERE numara EQL 1
+Mağazalar tablosunda açılış yılı 2020 olan mağazaların adlarını getir.,SELECT ad WHERE acilis_yili EQL 2020
+Kitaplardan numarası 1 olan kitapların yazarlarını göster.,SELECT yazar WHERE numara EQL 1
+Veritabanındaki düzeyi 5 olan yöneticilerin düzeylerini yazdır.,SELECT duzey WHERE duzey EQL 5
+Numarası 1 olan tüm trenlerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Çiftliklerden keçi sayısı 2 olan çiftliklerin domuz sayılarını göster.,SELECT domuz_sayisi WHERE keci_sayisi EQL 2
+Tüm insanların kilolarını listele.,SELECT kilo
+Boğa sayısı 5 olan çiftliklerin inek sayılarını getir.,SELECT inek_sayisi WHERE boga_sayisi EQL 5
+Çiftliklerden keçi sayısı 2 olan çiftliklerin boğa sayılarını getir.,SELECT boga_sayisi WHERE keci_sayisi EQL 2
+Numarası 1 olan yarışların yıllarını bul.,SELECT yil WHERE numara EQL 1
+Numarası 1 olan tüm hemşirelerin kayıtlarını getir.,SELECT kayit WHERE numara EQL 1
+Sürücüler tablosunda adı Thomas olan sürücülerin soyadlarını getir.,SELECT soyad WHERE ad EQL Thomas
+Hemşireler tablosundan kayıdı 01/05/2015 olan hemşirelerin pozisyonlarını getir.,SELECT pozisyon WHERE kayit EQL 01/05/2015
+Trenler tablosunda kalkışı Chennai olan trenlerin adlarını getir.,SELECT ad WHERE kalkis EQL Chennai
+Konferans tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Veritabanındaki çalışanlardan en büyük maaşı yazdır.,SELECT max(maas)
+Çalışanlar tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Cinsiyeti Erkek olan sanatçıların cinsiyetlerini getir.,SELECT cinsiyet WHERE cinsiyet EQL Erkek
+En büyük ürün numarasını getir.,SELECT max(numara)
+Yayınlar tablosunda yılı 2021 olan yayınların numaralarını getir.,SELECT numara WHERE yil EQL 2021
+Tüm havalimanlarının adlarını getir.,SELECT ad
+Bütün trenlerin varışlarını göster.,SELECT varis
+Sanatçısı Muzeyyen Senar olan şarkıların çıkış tarihlerini listele.,SELECT cikis_tarihi WHERE sanatci EQL Muzeyyen Senar
+Veritabanındaki beygir gücü 163 olan arabaların modellerini yazdır.,SELECT model WHERE beygir_gucu EQL 163
+Alanı 5343 olan şehirlerin adlarını listele.,SELECT ad WHERE alan EQL 5343
+Cihazlardan cihazı Apple olan cihazların işletim sistemlerini göster.,SELECT isletim_sistemi WHERE cihaz EQL Apple
+Sinemalar tablosunda numarası 1 olan sinemaların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Uyruğu Ingiliz olan mimarların uyruklarını listele.,SELECT uyruk WHERE uyruk EQL Ingiliz
+Sinemalar tablosunda en büyük kapasite kaçtır?,SELECT max(kapasite)
+Başlığı Da Vinci Sifresi olan kitapların yazarlarını bul.,SELECT yazar WHERE baslik EQL Da Vinci Sifresi
+Toplam yüzücü sayısı nedir?,SELECT count(numara)
+Şehirlerin numaralarını getir.,SELECT numara
+Veritabanındaki adı Fatih Sultan Mehmet Koprusu olan köprülerin numaralarını yazdır.,SELECT numara WHERE ad EQL Fatih Sultan Mehmet Koprusu
+Adı Lisa olan tüm hemşirelerin pozisyonlarını getir.,SELECT pozisyon WHERE ad EQL Lisa
+Uçaklardan toplam yolcusu 475 olan uçakların hızlarını getir.,SELECT hiz WHERE toplam_yolcu EQL 475
+Inek sayısı 10 olan tüm çiftliklerin boğa sayılarını getir.,SELECT boga_sayisi WHERE inek_sayisi EQL 10
+Sürücülerden soyadı Lee olan sürücülerin soyadlarını getir.,SELECT soyad WHERE soyad EQL Lee
+Konferans tablosu içerisinde bulunan adları ekrana getir.,SELECT ad
+Toplam müze sayısı nedir?,SELECT count(numara)
+Veritabanındaki cihazlardan en büyük numarayı yazdır.,SELECT max(numara)
+Sanatçısı Muzeyyen Senar olan şarkıların numaralarını bul.,SELECT numara WHERE sanatci EQL Muzeyyen Senar
+Sigortası MAPFRE olan hastaların numaralarını bul.,SELECT numara WHERE sigorta EQL MAPFRE
+Adı Andaman Exp olan trenlerin numaralarını bul.,SELECT numara WHERE ad EQL Andaman Exp
+Yaşı 34 olan pilotların yaşlarını listele.,SELECT yas WHERE yas EQL 34
+Cinsiyeti Male olan pilotların yaşlarını bul.,SELECT yas WHERE cinsiyet EQL Male
+Veritabanındaki adı Thomas olan sürücülerin tiplerini yazdır.,SELECT tip WHERE ad EQL Thomas
+Çalışanlar tablosundan adı William olan çalışanların numaralarını getir.,SELECT numara WHERE ad EQL William
+Numarası 1 olan mimarların cinsiyetlerini listele.,SELECT cinsiyet WHERE numara EQL 1
+Adı Istanbul Sokaklari olan şarkıların sanatçılarını getir.,SELECT sanatci WHERE ad EQL Istanbul Sokaklari
+Köprü tablosu içerisinde bulunan uzunlukları ekrana getir.,SELECT uzunluk
+Dili Turkce olan şarkıların ülkelerini listele.,SELECT ulke WHERE dil EQL Turkce
+Veritabanındaki uzunluğu 1510 olan köprülerin numaralarını yazdır.,SELECT numara WHERE uzunluk EQL 1510
+Numarası 1 olan tüm stadyumların kapasitelerini getir.,SELECT kapasite WHERE numara EQL 1
+Tüm öğretmenlerin adlarını listele.,SELECT ad
+Adı AI Conference olan konferansların numaralarını getir.,SELECT numara WHERE ad EQL AI Conference
+Mağazaların açılış yıllarını getir.,SELECT acilis_yili
+Türü Slow olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE tur EQL Slow
+Uçuşlar tablosunda varış tarihi 19/05/2022 14:00 olan uçuşların varışlarını getir.,SELECT varis WHERE varis_tarihi EQL 19/05/2022 14:00
+Stadyumlardan şehiri Barcelona olan stadyumların şehirlerini getir.,SELECT sehir WHERE sehir EQL Barcelona
+Tüm trenlerin numaralarını getir.,SELECT numara
+Tüm uçakların hızlarını getir.,SELECT hiz
+Yöneticiler tablosunda yaşı 30 olan yöneticilerin düzeylerini getir.,SELECT duzey WHERE yas EQL 30
+Oyuncuların numaralarını göster.,SELECT numara
+Ekran modu Big olan telefonların ekran modlarını listele.,SELECT ekran_modu WHERE ekran_modu EQL Big
+Konumu Omaha - Nebraska - ABD olan demiryollarının kurucularını listele.,SELECT kurucu WHERE konum EQL Omaha - Nebraska - ABD
+Çiftliklerden inek sayısı 10 olan çiftliklerin numaralarını getir.,SELECT numara WHERE inek_sayisi EQL 10
+Çıkış tarihi 1900 olan tüm şarkıların sanatçılarını getir.,SELECT sanatci WHERE cikis_tarihi EQL 1900
+Yöneticilerden yaşı 30 olan yöneticilerin yaşlarını göster.,SELECT yas WHERE yas EQL 30
+Veritabanındaki adı Fatih Sultan Mehmet Koprusu olan köprülerin uzunluklarını yazdır.,SELECT uzunluk WHERE ad EQL Fatih Sultan Mehmet Koprusu
+Stoklar tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Kaç köprü var?,SELECT count(numara)
+Numarası 1 olan tüm restoranların tiplerini getir.,SELECT tip WHERE numara EQL 1
+Çip modeli A15 olan telefonların çip modellerini listele.,SELECT cip_modeli WHERE cip_modeli EQL A15
+Numarası 1 olan departmanların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Veritabanındaki yılı 2021 olan yayınların alıntılarını yazdır.,SELECT alinti WHERE yil EQL 2021
+Adı Formula A olan tüm yarışların tarihlerini getir.,SELECT tarih WHERE ad EQL Formula A
+Demiryollarından numarası 1 olan demiryollarının numaralarını göster.,SELECT numara WHERE numara EQL 1
+Yöneticiler tablosundan ülkesi America olan yöneticilerin yaşlarını getir.,SELECT yas WHERE ulke EQL America
+Cihazı Apple olan tüm cihazların işletim sistemlerini getir.,SELECT isletim_sistemi WHERE cihaz EQL Apple
+Uçuşlardan varışı Ankara olan uçuşların kalkış tarihlerini göster.,SELECT kalkis_tarihi WHERE varis EQL Ankara
+Soyadı Smith olan öğrencilerin numaralarını bul.,SELECT numara WHERE soyad EQL Smith
+Demiryolları tablosunda numarası 1 olan demiryollarının demiryollarını getir.,SELECT demiryolu WHERE numara EQL 1
+Tüm cihazların numaralarını listele.,SELECT numara
+Sanatçılardan numarası 1 olan sanatçıların adlarını getir.,SELECT ad WHERE numara EQL 1
+Oyun tablosu içinde kaç tane oyun kaydı olduğunu ekrana getir.,SELECT count(numara)
+En büyük çalışan maaşını göster.,SELECT max(maas)
+En büyük yönetici numarasını listele.,SELECT max(numara)
+Oyun tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Numarası 1 olan trenlerin numaralarını bul.,SELECT numara WHERE numara EQL 1
+Telefonlar tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Tüm oyuncuların adlarını listele.,SELECT ad
+Numarası 1 olan trenlerin varışlarını bul.,SELECT varis WHERE numara EQL 1
+Şarkılardan adı Istanbul Sokaklari olan şarkıların sanatçılarını göster.,SELECT sanatci WHERE ad EQL Istanbul Sokaklari
+Adı Pazarlama olan tüm departmanların numaralarını getir.,SELECT numara WHERE ad EQL Pazarlama
+Düzeyi 5 olan yöneticilerin yaşlarını getir.,SELECT yas WHERE duzey EQL 5
+Adı MATH101 olan tüm derslerin adlarını getir.,SELECT ad WHERE ad EQL MATH101
+En büyük çalışan numarasını göster.,SELECT max(numara)
+Tüm ürünlerin sadece fiyatlarını göster.,SELECT fiyat
+Yöneticilerden yaşı 30 olan yöneticilerin ülkelerini getir.,SELECT ulke WHERE yas EQL 30
+Konumu Omaha - Nebraska - ABD olan demiryollarının demiryollarını getir.,SELECT demiryolu WHERE konum EQL Omaha - Nebraska - ABD
+Tüm demiryollarının demiryollarını görüntüle.,SELECT demiryolu
+Veritabanındaki sanatçısı Muzeyyen Senar olan şarkıların numaralarını yazdır.,SELECT numara WHERE sanatci EQL Muzeyyen Senar
+Stok tablosu içinde kaç tane stok kaydı olduğunu ekrana getir.,SELECT count(numara)
+At sayısı 2 olan çiftliklerin numaralarını getir.,SELECT numara WHERE at_sayisi EQL 2
+Havalimanlarından uluslarası yolcusu 35858 olan havalimanlarının uluslararası yolcularını getir.,SELECT uluslararasi_yolcu WHERE uluslararasi_yolcu EQL 35858
+Mimar tablosu içerisinde bulunan cinsiyetleri ekrana getir.,SELECT cinsiyet
+Adı Istanbul Sokaklari olan şarkıların sanatçılarını bul.,SELECT sanatci WHERE ad EQL Istanbul Sokaklari
+Hızı 905 olan uçakların numaralarını listele.,SELECT numara WHERE hiz EQL 905
+Numarası 1 olan tüm şarkıların ülkelerini getir.,SELECT ulke WHERE numara EQL 1
+Öğrencilerden numarası 1 olan öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet WHERE numara EQL 1
+Açılış yılı 1957 olan stadyumların adlarını getir.,SELECT ad WHERE acilis_yili EQL 1957
+Yarışlardan yılı 2005 olan yarışların numaralarını getir.,SELECT numara WHERE yil EQL 2005
+Yöneticiler tablosundan düzeyi 5 olan yöneticilerin düzeylerini getir.,SELECT duzey WHERE duzey EQL 5
+Nüfusu 15000000 olan şehirlerin alanlarını getir.,SELECT alan WHERE nufus EQL 15000000
+Numarası 20202020 olan sürücülerin soyadlarını getir.,SELECT soyad WHERE kod EQL 20202020
+Numarası 1 olan yarışların numaralarını bul.,SELECT numara WHERE numara EQL 1
+Veritabanındaki numarası 1 olan dergilerin numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Kitaplardan kategorisi Roman olan kitapların başlıklarını göster.,SELECT baslik WHERE kategori EQL Roman
+Tipi B olan sürücülerin uyruklarını bul.,SELECT uyruk WHERE tip EQL B
+Toplam dergi sayısını getir.,SELECT count(numara)
+Numarası 1 olan personellerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Koyun sayısı 5 olan çiftliklerin numaralarını getir.,SELECT numara WHERE koyun_sayisi EQL 5
+Müşteriler tablosundan e-postası ****@gmail.com olan müşterilerin e-postalarını getir.,SELECT eposta WHERE eposta EQL ****@gmail.com
+En büyük yüzücü numarasını getir.,SELECT max(numara)
+Yarış tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Toplam konferans sayısını göster.,SELECT count(numara)
+Telefonlardan numarası 1 olan telefonların ülkelerini göster.,SELECT ulke WHERE numara EQL 1
+Bütün çiftliklerin boğa sayılarını göster.,SELECT boga_sayisi
+Pozisyonu Clinical Nurse olan hemşirelerin numaralarını getir.,SELECT numara WHERE pozisyon EQL Clinical Nurse
+Uçuşlardan numarası TK1919 olan uçuşların mesafelerini getir.,SELECT mesafe WHERE kod EQL TK1919
+Öğrenciler tablosundan yaşı 16 olan öğrencilerin adlarını getir.,SELECT ad WHERE yas EQL 16
+Numarası 1 olan personellerin cinsiyetlerini bul.,SELECT cinsiyet WHERE numara EQL 1
+Müşterilerden kodu 204060 olan müşterilerin e-postalarını göster.,SELECT eposta WHERE kod EQL 204060
+Personeller tablosunda adı Joseph olan personellerin numaralarını getir.,SELECT numara WHERE ad EQL Joseph
+Çiftliklerden boğa sayısı 5 olan çiftliklerin boğa sayılarını göster.,SELECT boga_sayisi WHERE boga_sayisi EQL 5
+Mimarlar tablosundan uyruğu Ingiliz olan mimarların uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Ingiliz
+Sürücülerden tipi B olan sürücülerin adlarını getir.,SELECT ad WHERE tip EQL B
+Veritabanındaki tipi B olan sürücülerin numaralarını yazdır.,SELECT numara WHERE tip EQL B
+Varışı 23:39 olan trenlerin varışlarını getir.,SELECT varis WHERE varis EQL 23:39
+Mimarlar tablosundan numarası 1 olan mimarların adlarını getir.,SELECT ad WHERE numara EQL 1
+Telefonlardan ülkesi Amerika olan telefonların ekran modlarını getir.,SELECT ekran_modu WHERE ulke EQL Amerika
+Koyun sayısı 5 olan çiftliklerin boğa sayılarını getir.,SELECT boga_sayisi WHERE koyun_sayisi EQL 5
+Şarkılardan dili Turkce olan şarkıların sanatçılarını getir.,SELECT sanatci WHERE dil EQL Turkce
+Arabalar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Veritabanındaki konferansların sayısını yazdır.,SELECT count(numara)
+Insanlardan adı Michael olan insanların boylarını göster.,SELECT boy WHERE ad EQL Michael
+Demiryolları tablosunda numarası 1 olan demiryollarının kurucularını getir.,SELECT kurucu WHERE numara EQL 1
+Alanı 5343 olan şehirlerin alanlarını listele.,SELECT alan WHERE alan EQL 5343
+Tüm sanatçıların numaralarını getir.,SELECT numara
+Düzeyi 5 olan yöneticilerin ülkelerini getir.,SELECT ulke WHERE duzey EQL 5
+Telefonu 1 352-295-8921 olan hastaların sigortalarını bul.,SELECT sigorta WHERE telefon EQL 1 352-295-8921
+Adı Lisa olan hemşirelerin numaralarını listele.,SELECT numara WHERE ad EQL Lisa
+Sinemalar tablosundan yeri Izmir olan sinemaların yerlerini getir.,SELECT yer WHERE yer EQL Izmir
+Toplam departman sayısını bastır.,SELECT count(numara)
+Öğrencilerden şehiri New York olan öğrencilerin numaralarını getir.,SELECT numara WHERE sehir EQL New York
+Konferanslar tablosundan adı AI Conference olan konferansların numaralarını getir.,SELECT numara WHERE ad EQL AI Conference
+Adı John olan mimarların adlarını bul.,SELECT ad WHERE ad EQL John
+Pilotlar tablosunda adı Robert olan pilotların cinsiyetlerini getir.,SELECT cinsiyet WHERE ad EQL Robert
+Bütün trenlerin numaralarını göster.,SELECT numara
+Stadyumların adlarını göster.,SELECT ad
+Veritabanındaki soyadı Taylor olan personellerin numaralarını yazdır.,SELECT numara WHERE soyad EQL Taylor
+Bütün sinemaların adlarını göster.,SELECT ad
+Oyunculardan adı Matthew Carter olan oyuncuların numaralarını getir.,SELECT numara WHERE ad EQL Matthew Carter
+Adı Project Z olan projelerin başlangıç tarihlerini bul.,SELECT baslangic_tarihi WHERE ad EQL Project Z
+Kulüpler tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Inek sayısı 10 olan tüm çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE inek_sayisi EQL 10
+Restoranlar tablosundan numarası 1 olan restoranların tiplerini getir.,SELECT tip WHERE numara EQL 1
+Hemşireler tablosundan adı Lisa olan hemşirelerin numaralarını getir.,SELECT numara WHERE ad EQL Lisa
+Veritabanındaki dili Turkce olan şarkıların ülkelerini yazdır.,SELECT ulke WHERE dil EQL Turkce
+Kodu 204060 olan müşterilerin kodlarını listele.,SELECT kod WHERE kod EQL 204060
+Veritabanındaki adı Burger King olan restoranların adlarını yazdır.,SELECT ad WHERE ad EQL Burger King
+Mimarlar tablosunda cinsiyeti Male olan mimarların numaralarını getir.,SELECT numara WHERE cinsiyet EQL Male
+Açılış yılı 1957 olan stadyumların kapasitelerini bul.,SELECT kapasite WHERE acilis_yili EQL 1957
+Toplam öğrenci sayısını bastır.,SELECT count(numara)
+Veritabanındaki tüm mağazaların adlarını yazdır.,SELECT ad
+Numarası 1 olan müşterilerin telefonlarını getir.,SELECT telefon WHERE numara EQL 1
+Modeli iPhone olan telefonların ülkelerini listele.,SELECT ulke WHERE model EQL iPhone
+Havalimanlarından toplam uçağı 660 olan havalimanlarının numaralarını göster.,SELECT numara WHERE toplam_ucak EQL 660
+Şarkılardan dili Turkce olan şarkıların türlerini getir.,SELECT tur WHERE dil EQL Turkce
+Sanatçılardan numarası 1 olan sanatçıların cinsiyetlerini göster.,SELECT cinsiyet WHERE numara EQL 1
+Veritabanındaki tüm mimarların numaralarını yazdır.,SELECT numara
+Trenlerin varışlarını göster.,SELECT varis
+Tüm insanların sadece numaralarını göster.,SELECT numara
+Tüm müzelerin açılış yıllarını görüntüle.,SELECT acilis_yili
+Hemşirelerden adı Lisa olan hemşirelerin numaralarını getir.,SELECT numara WHERE ad EQL Lisa
+Işletim sistemi IOS olan cihazların versiyonlarını getir.,SELECT versiyon WHERE isletim_sistemi EQL IOS
+Tüm stokların numaralarını görüntüle.,SELECT numara
+Veritabanındaki tüm telefonların modellerini yazdır.,SELECT model
+Tüm filmlerin numaralarını listele.,SELECT numara
+Adı Burger King olan tüm restoranların adlarını getir.,SELECT ad WHERE ad EQL Burger King
+Veritabanındaki numarası 1 olan uçakların numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Koyun sayısı 5 olan çiftliklerin koyun sayılarını listele.,SELECT koyun_sayisi WHERE koyun_sayisi EQL 5
+Alıntısı 29 olan yayınların yayıncılarını getir.,SELECT yayinci WHERE alinti EQL 29
+Adı MATH101 olan derslerin adlarını listele.,SELECT ad WHERE ad EQL MATH101
+Sanatçısı Muzeyyen Senar olan tüm şarkıların sanatçılarını getir.,SELECT sanatci WHERE sanatci EQL Muzeyyen Senar
+Stokların numaralarını göster.,SELECT numara
+Trenler tablosunda varışı 23:39 olan trenlerin varışlarını getir.,SELECT varis WHERE varis EQL 23:39
+Adı Burger King olan restoranların derecelerini listele.,SELECT derece WHERE ad EQL Burger King
+Bütün kulüplerin adlarını getir.,SELECT ad
+En büyük oyun numarasını listele.,SELECT max(numara)
+Pilotlar tablosunda cinsiyeti Male olan pilotların numaralarını getir.,SELECT numara WHERE cinsiyet EQL Male
+Şarkılardan türü Slow olan şarkıların türlerini göster.,SELECT tur WHERE tur EQL Slow
+Cinsiyeti Male olan personellerin soyadlarını bul.,SELECT soyad WHERE cinsiyet EQL Male
+Koyun sayısı 5 olan tüm çiftliklerin keçi sayılarını getir.,SELECT keci_sayisi WHERE koyun_sayisi EQL 5
+Alanı 5343 olan şehirlerin adlarını getir.,SELECT ad WHERE alan EQL 5343
+Adı Anthony olan yöneticilerin yaşlarını getir.,SELECT yas WHERE ad EQL Anthony
+Köprülerden numarası 1 olan köprülerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Sanatçılar tablosundan numarası 1 olan sanatçıların ülkelerini getir.,SELECT ulke WHERE numara EQL 1
+Veritabanındaki şehiri Istanbul olan müşterilerin numaralarını yazdır.,SELECT numara WHERE sehir EQL Istanbul
+Tipi B olan sürücülerin adlarını listele.,SELECT ad WHERE tip EQL B
+Uçuşlar tablosundan varışı Ankara olan uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE varis EQL Ankara
+Veritabanındaki tüm derslerin kredilerini yazdır.,SELECT kredi
+Tüm çiftliklerin koyun sayılarını görüntüle.,SELECT koyun_sayisi
+Numarası 1 olan sinemaların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Veritabanındaki yılı 2005 olan yarışların adlarını yazdır.,SELECT ad WHERE yil EQL 2005
+Veritabanındaki tüm müzelerin açılış yıllarını yazdır.,SELECT acilis_yili
+Müzeler tablosundan adı Gallery of Earth olan müzelerin personel sayılarını getir.,SELECT personel_sayisi WHERE ad EQL Gallery of Earth
+Numarası 1 olan uçakların hızlarını listele.,SELECT hiz WHERE numara EQL 1
+Bütün insanların adlarını göster.,SELECT ad
+Bütün öğretmenlerin yaşlarını göster.,SELECT yas
+Veritabanındaki cinsiyeti Erkek olan öğrencilerin şehirlerini yazdır.,SELECT sehir WHERE cinsiyet EQL Erkek
+Kalkış tarihi 19/05/2022 13:00 olan uçuşların varışlarını getir.,SELECT varis WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Toplam telefon sayısını bastır.,SELECT count(numara)
+Uçuşlar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Tüm dergilerin numaralarını getir.,SELECT numara
+Numarası 1 olan departmanların adlarını bul.,SELECT ad WHERE numara EQL 1
+Hastalardan sigortası MAPFRE olan hastaların sigortalarını göster.,SELECT sigorta WHERE sigorta EQL MAPFRE
+Şarkılardan numarası 1 olan şarkıların dillerini göster.,SELECT dil WHERE numara EQL 1
+Sanatçılar tablosundan cinsiyeti Erkek olan sanatçıların ülkelerini getir.,SELECT ulke WHERE cinsiyet EQL Erkek
+Veritabanındaki sanatçısı Muzeyyen Senar olan şarkıların dillerini yazdır.,SELECT dil WHERE sanatci EQL Muzeyyen Senar
+Işletim sistemi IOS olan cihazların işletim sistemlerini bul.,SELECT isletim_sistemi WHERE isletim_sistemi EQL IOS
+Veritabanındaki kalkış tarihi 19/05/2022 13:00 olan uçuşların varışlarını yazdır.,SELECT varis WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Tüm hastaların sigortalarını görüntüle.,SELECT sigorta
+Şarkılardan numarası 1 olan şarkıların dillerini getir.,SELECT dil WHERE numara EQL 1
+Numarası 1 olan mimarların adlarını bul.,SELECT ad WHERE numara EQL 1
+Çiftlikler tablosunda domuz sayısı 2 olan çiftliklerin at sayılarını getir.,SELECT at_sayisi WHERE domuz_sayisi EQL 2
+Konumu Omaha - Nebraska - ABD olan tüm demiryollarının demiryollarını getir.,SELECT demiryolu WHERE konum EQL Omaha - Nebraska - ABD
+Veritabanındaki hızı 905 olan uçakların toplam yolcularını yazdır.,SELECT toplam_yolcu WHERE hiz EQL 905
+Uzunluğu 1510 olan tüm köprülerin numaralarını getir.,SELECT numara WHERE uzunluk EQL 1510
+Veritabanındaki tarihi 01/04/2005 olan yarışların numaralarını yazdır.,SELECT numara WHERE tarih EQL 01/04/2005
+Koyun sayısı 5 olan çiftliklerin koyun sayılarını getir.,SELECT koyun_sayisi WHERE koyun_sayisi EQL 5
+Adı Andaman Exp olan trenlerin adlarını getir.,SELECT ad WHERE ad EQL Andaman Exp
+Kilosu 82 olan insanların doğum tarihlerini bul.,SELECT dogum_tarihi WHERE kilo EQL 82
+Iç yolcusu 63648 olan tüm havalimanlarının toplam uçaklarını getir.,SELECT toplam_ucak WHERE ic_yolcu EQL 63648
+Şehiri Barcelona olan stadyumların adlarını bul.,SELECT ad WHERE sehir EQL Barcelona
+Öğrencilerden soyadı Smith olan öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet WHERE soyad EQL Smith
+Bütün trenlerin kalkışlarını getir.,SELECT kalkis
+Toplam sinema sayısını getir.,SELECT count(numara)
+Bütün cihazların işletim sistemlerini getir.,SELECT isletim_sistemi
+Turu 4 olan yarışların adlarını getir.,SELECT ad WHERE tur EQL 4
+Tüm derslerin kredilerini görüntüle.,SELECT kredi
+Veritabanındaki maaşı 80000 olan çalışanların adlarını yazdır.,SELECT ad WHERE maas EQL 80000
+Bütün oyuncuların numaralarını getir.,SELECT numara
+Veritabanındaki yaşı 36 olan öğretmenlerin şehirlerini yazdır.,SELECT sehir WHERE yas EQL 36
+Randevular tablosundan numarası 1 olan randevuların tarihlerini getir.,SELECT tarih WHERE numara EQL 1
+Derslerin adlarını göster.,SELECT ad
+Şehiri New York olan öğrencilerin şehirlerini listele.,SELECT sehir WHERE sehir EQL New York
+Veritabanındaki modeli iPhone olan telefonların ülkelerini yazdır.,SELECT ulke WHERE model EQL iPhone
+Tüm müşterilerin şehirlerini getir.,SELECT sehir
+Tüm mimarların uyruklarını listele.,SELECT uyruk
+E-postası jtaylor@gmail.com olan personellerin e-postalarını getir.,SELECT eposta WHERE eposta EQL jtaylor@gmail.com
+Bütün çiftliklerin koyun sayılarını getir.,SELECT koyun_sayisi
+Uyruğu Ingiliz olan mimarların cinsiyetlerini listele.,SELECT cinsiyet WHERE uyruk EQL Ingiliz
+Çiftliklerden boğa sayısı 5 olan çiftliklerin numaralarını göster.,SELECT numara WHERE boga_sayisi EQL 5
+Veritabanındaki şehirlerin sayısını yazdır.,SELECT count(numara)
+Yayınlar tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Demiryolları tablosu içerisinde bulunan konumları ekrana getir.,SELECT konum
+Arabaların modellerini göster.,SELECT model
+En büyük öğrenci yaşını göster.,SELECT max(yas)
+Adı Thomas olan sürücülerin uyruklarını bul.,SELECT uyruk WHERE ad EQL Thomas
+Bütün kulüplerin numaralarını getir.,SELECT numara
+Numarası TK1919 olan tüm uçuşların başlangıçlarını getir.,SELECT baslangic WHERE kod EQL TK1919
+Müzelerin personel sayılarını getir.,SELECT personel_sayisi
+Kitaplar tablosundan kategorisi Roman olan kitapların kategorilerini getir.,SELECT kategori WHERE kategori EQL Roman
+Yöneticiler tablosunda adı Anthony olan yöneticilerin numaralarını getir.,SELECT numara WHERE ad EQL Anthony
+Açıklaması Airbus A340-600 olan uçakların açıklamalarını listele.,SELECT aciklama WHERE aciklama EQL Airbus A340-600
+Veritabanındaki işletim sistemi IOS olan cihazların numaralarını yazdır.,SELECT numara WHERE isletim_sistemi EQL IOS
+Numarası 1 olan kulüplerin numaralarını bul.,SELECT numara WHERE numara EQL 1
+Çiftlikler tablosundan at sayısı 2 olan çiftliklerin inek sayılarını getir.,SELECT inek_sayisi WHERE at_sayisi EQL 2
+Numarası 1 olan tüm filmlerin yönetmenlerini getir.,SELECT yonetmen WHERE numara EQL 1
+Sinemalar tablosunda kapasitesi 140 olan sinemaların kapasitelerini getir.,SELECT kapasite WHERE kapasite EQL 140
+Varış tarihi 19/05/2022 14:00 olan tüm uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE varis_tarihi EQL 19/05/2022 14:00
+Yazarlar tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Yarışlardan adı Formula A olan yarışların numaralarını göster.,SELECT numara WHERE ad EQL Formula A
+Açılış yılı 1957 olan stadyumların açılış yıllarını listele.,SELECT acilis_yili WHERE acilis_yili EQL 1957
+Sürücü tablosu içerisinde bulunan numaraları ekrana getir.,SELECT numara
+Tüm randevuların numaralarını getir.,SELECT numara
+Türü Slow olan şarkıların türlerini listele.,SELECT tur WHERE tur EQL Slow
+Trenlerden kalkışı Chennai olan trenlerin numaralarını getir.,SELECT numara WHERE kalkis EQL Chennai
+Insanlar tablosundan kilosu 82 olan insanların boylarını getir.,SELECT boy WHERE kilo EQL 82
+Tüm arabaların sadece modellerini göster.,SELECT model
+Uçuşlardan varış tarihi 19/05/2022 14:00 olan uçuşların kalkış tarihlerini göster.,SELECT kalkis_tarihi WHERE varis_tarihi EQL 19/05/2022 14:00
+Yöneticilerden yaşı 30 olan yöneticilerin yaşlarını getir.,SELECT yas WHERE yas EQL 30
+Bütün demiryollarının konumlarını göster.,SELECT konum
+Türü Slow olan şarkıların türlerini bul.,SELECT tur WHERE tur EQL Slow
+Numarası 1 olan tüm sürücülerin tiplerini getir.,SELECT tip WHERE numara EQL 1
+Kapasitesi 140 olan sinemaların yerlerini listele.,SELECT yer WHERE kapasite EQL 140
+En büyük yazar numarasını getir.,SELECT max(numara)
+Sanatçısı Muzeyyen Senar olan şarkıların türlerini getir.,SELECT tur WHERE sanatci EQL Muzeyyen Senar
+Veritabanındaki soyadı Lee olan sürücülerin adlarını yazdır.,SELECT ad WHERE soyad EQL Lee
+Modeli iPhone olan telefonların ülkelerini getir.,SELECT ulke WHERE model EQL iPhone
+Restoranlardan en büyük numarayı getir.,SELECT max(numara)
+Yöneticiler tablosunda düzeyi 5 olan yöneticilerin yaşlarını getir.,SELECT yas WHERE duzey EQL 5
+Veritabanındaki adı Istanbul Sokaklari olan şarkıların adlarını yazdır.,SELECT ad WHERE ad EQL Istanbul Sokaklari
+En büyük sürücü numarasını göster.,SELECT max(numara)
+Şarkılar tablosundan dili Turkce olan şarkıların türlerini getir.,SELECT tur WHERE dil EQL Turkce
+Yöneticiler tablosundan adı Anthony olan yöneticilerin ülkelerini getir.,SELECT ulke WHERE ad EQL Anthony
+Yöneticiler içerisinde en yüksek yaş kaçtır?,SELECT max(yas)
+Tüm havalimanların sadece uluslarası yolcularını göster.,SELECT uluslararasi_yolcu
+Mimarlar tablosundan numarası 1 olan mimarların uyruklarını getir.,SELECT uyruk WHERE numara EQL 1
+Adı David olan öğrencilerin numaralarını listele.,SELECT numara WHERE ad EQL David
+Tüm filmlerin sadece numaralarını göster.,SELECT numara
+Projelerden numarası 1 olan projelerin başlangıç tarihlerini getir.,SELECT baslangic_tarihi WHERE numara EQL 1
+En büyük uçak numarasını getir.,SELECT max(numara)
+Personellerden cinsiyeti Male olan personellerin cinsiyetlerini getir.,SELECT cinsiyet WHERE cinsiyet EQL Male
+Veritabanındaki başlığı Da Vinci Sifresi olan kitapların yazarlarını yazdır.,SELECT yazar WHERE baslik EQL Da Vinci Sifresi
+Soyadı Taylor olan personellerin soyadlarını getir.,SELECT soyad WHERE soyad EQL Taylor
+Şarkılardan çıkış tarihi 1900 olan şarkıların ülkelerini getir.,SELECT ulke WHERE cikis_tarihi EQL 1900
+Stadyumlar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Müzeler tablosundan numarası 1 olan müzelerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Adı Thomas olan sürücülerin numaralarını getir.,SELECT numara WHERE ad EQL Thomas
+Çiftlikler tablosundaki en büyük keçi sayısını göster.,SELECT max(keci_sayisi)
+Telefonlar tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Tüm yöneticilerin numaralarını listele.,SELECT numara
+Yayıncısı Elsevier olan yayınların başlıklarını listele.,SELECT baslik WHERE yayinci EQL Elsevier
+Telefonlar tablosundan numarası 1 olan telefonların modellerini getir.,SELECT model WHERE numara EQL 1
+Sanatçılar tablosundan ülkesi Fransa olan sanatçıların ülkelerini getir.,SELECT ulke WHERE ulke EQL Fransa
+Yayınlar tablosunda yılı 2021 olan yayınların alıntılarını getir.,SELECT alinti WHERE yil EQL 2021
+Numarası 1 olan mimarların uyruklarını getir.,SELECT uyruk WHERE numara EQL 1
+Şarkılar tablosunda çıkış tarihi 1900 olan şarkıların sanatçılarını getir.,SELECT sanatci WHERE cikis_tarihi EQL 1900
+Bütün şehirlerin adlarını göster.,SELECT ad
+Çiftliklerden at sayısı 2 olan çiftliklerin boğa sayılarını göster.,SELECT boga_sayisi WHERE at_sayisi EQL 2
+Adı Istanbul Sokaklari olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE ad EQL Istanbul Sokaklari
+Veritabanındaki tüm öğrencilerin soyadlarını yazdır.,SELECT soyad
+Şarkılardan çıkış tarihi 1900 olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE cikis_tarihi EQL 1900
+Veritabanındaki tüm uçuşların numaralarını yazdır.,SELECT numara
+Numarası 1 olan mimarların adlarını getir.,SELECT ad WHERE numara EQL 1
+Numarası 1 olan hemşirelerin pozisyonlarını getir.,SELECT pozisyon WHERE numara EQL 1
+Ürünler tablosunda kodu 5090 olan ürünlerin kodlarını getir.,SELECT kod WHERE kod EQL 5090
+Veritabanındaki numarası 1 olan müzelerin personel sayılarını yazdır.,SELECT personel_sayisi WHERE numara EQL 1
+Sinemalar tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Başlangıç tarihi 05/06/2018 olan projelerin numaralarını getir.,SELECT numara WHERE baslangic_tarihi EQL 05/06/2018
+Tüm restoranların adlarını listele.,SELECT ad
+Hemşirelerden pozisyonu Clinical Nurse olan hemşirelerin kayıtlarını göster.,SELECT kayit WHERE pozisyon EQL Clinical Nurse
+Toplam cihaz sayısını bastır.,SELECT count(numara)
+Şarkılardan dili Turkce olan şarkıların numaralarını getir.,SELECT numara WHERE dil EQL Turkce
+Demiryolu Union Pacific Railroad olan demiryollarının numaralarını listele.,SELECT numara WHERE demiryolu EQL Union Pacific Railroad
+Telefonlar tablosundan çip modeli A15 olan telefonların numaralarını getir.,SELECT numara WHERE cip_modeli EQL A15
+Kalkış tarihi 19/05/2022 13:00 olan tüm uçuşların mesafelerini getir.,SELECT mesafe WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Toplam departman sayısını getir.,SELECT count(numara)
+Demiryolu Union Pacific Railroad olan tüm demiryollarının demiryollarını getir.,SELECT demiryolu WHERE demiryolu EQL Union Pacific Railroad
+Yarışların yıllarını getir.,SELECT yil
+Bütün yayınların yıllarını getir.,SELECT yil
+Versiyonu 15 olan cihazların cihazlarını bul.,SELECT cihaz WHERE versiyon EQL 15
+Yaşı 30 olan yöneticilerin adlarını listele.,SELECT ad WHERE yas EQL 30
+Veritabanındaki tüm çiftliklerin at sayılarını yazdır.,SELECT at_sayisi
+Tüm yarışların numaralarını görüntüle.,SELECT numara
+Sürücüler tablosundan numarası 20202020 olan sürücülerin soyadlarını getir.,SELECT soyad WHERE kod EQL 20202020
+Numarası 1 olan mimarların adlarını listele.,SELECT ad WHERE numara EQL 1
+Yayınlar tablosundan yayıncısı Elsevier olan yayınların numaralarını getir.,SELECT numara WHERE yayinci EQL Elsevier
+Demiryolu Union Pacific Railroad olan demiryollarının numaralarını getir.,SELECT numara WHERE demiryolu EQL Union Pacific Railroad
+Yayınlardan başlığı Artificial Intelligence olan yayınların yıllarını göster.,SELECT yil WHERE baslik EQL Artificial Intelligence
+Veritabanındaki kategorisi Roman olan kitapların numaralarını yazdır.,SELECT numara WHERE kategori EQL Roman
+Yeri Izmir olan sinemaların adlarını getir.,SELECT ad WHERE yer EQL Izmir
+Adı Istanbul Sabiha Gokcen Havalimani olan tüm havalimanlarının adlarını getir.,SELECT ad WHERE ad EQL Istanbul Sabiha Gokcen Havalimani
+Veritabanındaki öğrencilerden en büyük numarayı yazdır.,SELECT max(numara)
+Numarası 1 olan köprülerin adlarını bul.,SELECT ad WHERE numara EQL 1
+Numarası 1 olan köprülerin konumlarını getir.,SELECT konum WHERE numara EQL 1
+Cihazı Apple olan cihazların versiyonlarını listele.,SELECT versiyon WHERE cihaz EQL Apple
+Trenler tablosunda varışı 23:39 olan trenlerin adlarını getir.,SELECT ad WHERE varis EQL 23:39
+Adı Minecraft olan tüm oyunların adlarını getir.,SELECT ad WHERE ad EQL Minecraft
+Türü Slow olan tüm şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE tur EQL Slow
+Kitaplar tablosunda yazarı Dan Brown olan kitapların numaralarını getir.,SELECT numara WHERE yazar EQL Dan Brown
+Veritabanındaki tüm demiryollarının konumlarını yazdır.,SELECT konum
+Çalışanlar tablosundan numarası 1 olan çalışanların adlarını getir.,SELECT ad WHERE numara EQL 1
+Personellerden telefonu 1 505-644-9320 olan personellerin e-postalarını göster.,SELECT eposta WHERE telefon EQL 1 505-644-9320
+Numarası 1 olan mağazaların numaralarını listele.,SELECT numara WHERE numara EQL 1
+Adı AI Conference olan tüm konferansların numaralarını getir.,SELECT numara WHERE ad EQL AI Conference
+Oyuncular tablosundan uyruğu Alman olan oyuncuların uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Alman
+Demiryollarından kurucusu Union Pacific Corporation olan demiryollarının demiryollarını göster.,SELECT demiryolu WHERE kurucu EQL Union Pacific Corporation
+Oyuncular tablosundan uyruğu Alman olan oyuncuların numaralarını getir.,SELECT numara WHERE uyruk EQL Alman
+Adı Istanbul Sokaklari olan tüm şarkıların ülkelerini getir.,SELECT ulke WHERE ad EQL Istanbul Sokaklari
+Pozisyonu Clinical Nurse olan hemşirelerin pozisyonlarını getir.,SELECT pozisyon WHERE pozisyon EQL Clinical Nurse
+Bütün mimarların uyruklarını göster.,SELECT uyruk
+Hastalar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Mağazalar tablosunda açılış yılı 2020 olan mağazaların numaralarını getir.,SELECT numara WHERE acilis_yili EQL 2020
+Veritabanındaki tüm uçuşların başlangıçlarını yazdır.,SELECT baslangic
+Projeler tablosundan numarası 1 olan projelerin başlangıç tarihlerini getir.,SELECT baslangic_tarihi WHERE numara EQL 1
+Uçuşlar tablosunda başlangıcı Istanbul olan uçuşların varış tarihlerini getir.,SELECT varis_tarihi WHERE baslangic EQL Istanbul
+Personel tablosu içerisinde bulunan adları ekrana getir.,SELECT ad
+Sinemalar içerisinde en yüksek kapasite kaçtır?,SELECT max(kapasite)
+Mesafesi 350 olan uçuşların numaralarını bul.,SELECT numara WHERE mesafe EQL 350
+Yarışlar tablosunda yılı 2005 olan yarışların tarihlerini getir.,SELECT tarih WHERE yil EQL 2005
+Tüm personellerin cinsiyetlerini görüntüle.,SELECT cinsiyet
+Uçuşlardan numarası TK1919 olan uçuşların kalkış tarihlerini göster.,SELECT kalkis_tarihi WHERE kod EQL TK1919
+Numarası 1 olan stadyumların açılış yıllarını bul.,SELECT acilis_yili WHERE numara EQL 1
+Adı Leonardo da Vinci olan sanatçıların adlarını bul.,SELECT ad WHERE ad EQL Leonardo da Vinci
+Cinsiyeti Erkek olan tüm çalışanların maaşlarını getir.,SELECT maas WHERE cinsiyet EQL Erkek
+Bütün sürücülerin adlarını getir.,SELECT ad
+Cihazlardan işletim sistemi IOS olan cihazların cihazlarını getir.,SELECT cihaz WHERE isletim_sistemi EQL IOS
+Adı Joseph olan personellerin numaralarını listele.,SELECT numara WHERE ad EQL Joseph
+Hemşirelerden numarası 1 olan hemşirelerin pozisyonlarını göster.,SELECT pozisyon WHERE numara EQL 1
+Adı David olan tüm öğrencilerin soyadlarını getir.,SELECT soyad WHERE ad EQL David
+Uyruğu Ingiliz olan mimarların adlarını getir.,SELECT ad WHERE uyruk EQL Ingiliz
+Kulüpler içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Kalkışı Chennai olan tüm trenlerin kalkışlarını getir.,SELECT kalkis WHERE kalkis EQL Chennai
+Adı James olan yazarların numaralarını bul.,SELECT numara WHERE ad EQL James
+Veritabanındaki tipi Fast Food olan restoranların numaralarını yazdır.,SELECT numara WHERE tip EQL Fast Food
+Projeler tablosunda adı Project Z olan projelerin adlarını getir.,SELECT ad WHERE ad EQL Project Z
+Hemşirelerin pozisyonlarını getir.,SELECT pozisyon
+Uçuşlar tablosunda başlangıcı Istanbul olan uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE baslangic EQL Istanbul
+Numarası 1 olan oyunların kategorilerini bul.,SELECT kategori WHERE numara EQL 1
+Stoklar tablosundaki en büyük miktarı göster.,SELECT max(miktar)
+Veritabanındaki at sayısı 2 olan çiftliklerin numaralarını yazdır.,SELECT numara WHERE at_sayisi EQL 2
+Veritabanındaki tüm şarkıların adlarını yazdır.,SELECT ad
+Sürücüler tablosunda numarası 20202020 olan sürücülerin adlarını getir.,SELECT ad WHERE kod EQL 20202020
+Mağazalar tablosundan konumu Kadikoy olan mağazaların adlarını getir.,SELECT ad WHERE konum EQL Kadikoy
+Öğrencilerden şehiri New York olan öğrencilerin yaşlarını getir.,SELECT yas WHERE sehir EQL New York
+Müzeler tablosundan personel sayısı 12 olan müzelerin numaralarını getir.,SELECT numara WHERE personel_sayisi EQL 12
+Oyunlardan kategorisi Survival olan oyunların kategorilerini göster.,SELECT kategori WHERE kategori EQL Survival
+Bütün çalışanların cinsiyetlerini göster.,SELECT cinsiyet
+Tipi Fast Food olan restoranların numaralarını getir.,SELECT numara WHERE tip EQL Fast Food
+Stoklardan miktarı 100 olan stokların miktarlarını göster.,SELECT miktar WHERE miktar EQL 100
+En büyük stok numarasını getir.,SELECT max(numara)
+Veritabanındaki cinsiyeti Erkek olan sanatçıların numaralarını yazdır.,SELECT numara WHERE cinsiyet EQL Erkek
+Numarası 1 olan şarkıların numaralarını bul.,SELECT numara WHERE numara EQL 1
+Tüm stadyumların adlarını görüntüle.,SELECT ad
+Kategorisi Roman olan kitapların numaralarını listele.,SELECT numara WHERE kategori EQL Roman
+Adı David olan tüm öğrencilerin numaralarını getir.,SELECT numara WHERE ad EQL David
+Numarası 1 olan stokların numaralarını bul.,SELECT numara WHERE numara EQL 1
+Veritabanındaki cinsiyeti Male olan mimarların numaralarını yazdır.,SELECT numara WHERE cinsiyet EQL Male
+Kategorisi Survival olan oyunların numaralarını getir.,SELECT numara WHERE kategori EQL Survival
+Telefonu 1 505-644-9320 olan personellerin e-postalarını bul.,SELECT eposta WHERE telefon EQL 1 505-644-9320
+Adı Michael olan tüm insanların numaralarını getir.,SELECT numara WHERE ad EQL Michael
+Yöneticilerden ülkesi America olan yöneticilerin yaşlarını göster.,SELECT yas WHERE ulke EQL America
+Cinsiyeti Erkek olan sanatçıların ülkelerini bul.,SELECT ulke WHERE cinsiyet EQL Erkek
+Havalimanları tablosundan numarası 1 olan havalimanlarının adlarını getir.,SELECT ad WHERE numara EQL 1
+Sürücülerden soyadı Lee olan sürücülerin soyadlarını göster.,SELECT soyad WHERE soyad EQL Lee
+Derslerin numaralarını göster.,SELECT numara
+Ülkesi Amerika olan tüm telefonların çip modellerini getir.,SELECT cip_modeli WHERE ulke EQL Amerika
+Varışı Ankara olan uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE varis EQL Ankara
+Şehiri New York olan tüm öğrencilerin şehirlerini getir.,SELECT sehir WHERE sehir EQL New York
+Yılı 1926 olan arabaların modellerini listele.,SELECT model WHERE yil EQL 1926
+Numarası 1 olan sanatçıların ülkelerini bul.,SELECT ulke WHERE numara EQL 1
+Numarası 1 olan tüm havalimanlarının adlarını getir.,SELECT ad WHERE numara EQL 1
+Tüm ürünleri say.,SELECT count(numara)
+Koyun sayısı 5 olan çiftliklerin numaralarını listele.,SELECT numara WHERE koyun_sayisi EQL 5
+Yöneticilerden ülkesi America olan yöneticilerin düzeylerini getir.,SELECT duzey WHERE ulke EQL America
+Veritabanındaki yılı 1926 olan arabaların yıllarını yazdır.,SELECT yil WHERE yil EQL 1926
+Kilosu 82 olan insanların boylarını bul.,SELECT boy WHERE kilo EQL 82
+Veritabanındaki uçaklardan en büyük numarayı yazdır.,SELECT max(numara)
+Personeller tablosunda e-postası jtaylor@gmail.com olan personellerin numaralarını getir.,SELECT numara WHERE eposta EQL jtaylor@gmail.com
+Yöneticilerden yaşı 30 olan yöneticilerin ülkelerini göster.,SELECT ulke WHERE yas EQL 30
+Şarkılar tablosunda türü Slow olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE tur EQL Slow
+Tüm öğretmenlerin şehirlerini listele.,SELECT sehir
+Yarışlar tablosunda numarası 1 olan yarışların yıllarını getir.,SELECT yil WHERE numara EQL 1
+Veritabanındaki numarası 1 olan randevuların numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Iç yolcusu 63648 olan tüm havalimanlarının iç yolcularını getir.,SELECT ic_yolcu WHERE ic_yolcu EQL 63648
+Tüm havalimanlarının numaralarını listele.,SELECT numara
+Çiftliklerden at sayısı 2 olan çiftliklerin at sayılarını göster.,SELECT at_sayisi WHERE at_sayisi EQL 2
+Öğretmenler tablosunda şehiri Londra olan öğretmenlerin yaşlarını getir.,SELECT yas WHERE sehir EQL Londra
+Yöneticiler tablosundaki en büyük yaşı listele.,SELECT max(yas)
+Veritabanındaki başlangıcı Istanbul olan uçuşların başlangıçlarını yazdır.,SELECT baslangic WHERE baslangic EQL Istanbul
+Telefonlar tablosunda çip modeli A15 olan telefonların modellerini getir.,SELECT model WHERE cip_modeli EQL A15
+Mimarların adlarını göster.,SELECT ad
+Adı Charles olan tüm hastaların adlarını getir.,SELECT ad WHERE ad EQL Charles
+Numarası 1 olan uçakların açıklamalarını listele.,SELECT aciklama WHERE numara EQL 1
+Çalışanlardan numarası 1 olan çalışanların maaşlarını getir.,SELECT maas WHERE numara EQL 1
+Veritabanındaki miktarı 100 olan stokların miktarlarını yazdır.,SELECT miktar WHERE miktar EQL 100
+Numarası TK1919 olan tüm uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE kod EQL TK1919
+Tüm uçuşların varış tarihlerini görüntüle.,SELECT varis_tarihi
+Veritabanındaki başlığı Esaretin Bedeli olan filmlerin yönetmenlerini yazdır.,SELECT yonetmen WHERE baslik EQL Esaretin Bedeli
+En büyük köprü uzunluğunu getir.,SELECT max(uzunluk)
+Yarışlar tablosunda adı Formula A olan yarışların yıllarını getir.,SELECT yil WHERE ad EQL Formula A
+Müzelerden personel sayısı 12 olan müzelerin numaralarını göster.,SELECT numara WHERE personel_sayisi EQL 12
+Sinema tablosu içerisinde bulunan yerleri ekrana getir.,SELECT yer
+Şehiri Istanbul olan tüm müşterilerin e-postalarını getir.,SELECT eposta WHERE sehir EQL Istanbul
+Bütün kitapların yazarlarını getir.,SELECT yazar
+Tüm insanların doğum tarihlerini görüntüle.,SELECT dogum_tarihi
+Iç yolcusu 63648 olan havalimanlarının iç yolcularını getir.,SELECT ic_yolcu WHERE ic_yolcu EQL 63648
+Boyu 1.80 olan insanların doğum tarihlerini bul.,SELECT dogum_tarihi WHERE boy EQL 1.80
+Çiftliklerden numarası 1 olan çiftliklerin koyun sayılarını göster.,SELECT koyun_sayisi WHERE numara EQL 1
+Ülkesi Amerika olan telefonların çip modellerini bul.,SELECT cip_modeli WHERE ulke EQL Amerika
+Şarkı tablosu içerisinde bulunan çıkış tarihlerini ekrana getir.,SELECT cikis_tarihi
+Öğrenciler tablosunda yaşı 16 olan öğrencilerin soyadlarını getir.,SELECT soyad WHERE yas EQL 16
+Numarası 1 olan pilotların numaralarını listele.,SELECT numara WHERE numara EQL 1
+Yarışlar tablosundan tarihi 01/04/2005 olan yarışların adlarını getir.,SELECT ad WHERE tarih EQL 01/04/2005
+Kitaplardan başlığı Da Vinci Sifresi olan kitapların numaralarını getir.,SELECT numara WHERE baslik EQL Da Vinci Sifresi
+Şarkılar tablosunda türü Slow olan şarkıların dillerini getir.,SELECT dil WHERE tur EQL Slow
+Toplam yolcusu 475 olan uçakların toplam yolcularını getir.,SELECT toplam_yolcu WHERE toplam_yolcu EQL 475
+Yöneticilerden adı Anthony olan yöneticilerin düzeylerini göster.,SELECT duzey WHERE ad EQL Anthony
+Adı Burger King olan restoranların adlarını getir.,SELECT ad WHERE ad EQL Burger King
+Uçaklardan açıklaması Airbus A340-600 olan uçakların numaralarını getir.,SELECT numara WHERE aciklama EQL Airbus A340-600
+Tüm yarışların tarihlerini görüntüle.,SELECT tarih
+Telefonu 1 352-295-8921 olan hastaların numaralarını listele.,SELECT numara WHERE telefon EQL 1 352-295-8921
+Köprüler tablosundan numarası 1 olan köprülerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Hasta sayısını getir.,SELECT count(numara)
+Mesafesi 350 olan uçuşların başlangıçlarını getir.,SELECT baslangic WHERE mesafe EQL 350
+Adı Cinemaximum olan sinemaların numaralarını bul.,SELECT numara WHERE ad EQL Cinemaximum
+Veritabanındaki varışı 23:39 olan trenlerin varışlarını yazdır.,SELECT varis WHERE varis EQL 23:39
+Tüm departmanların adlarını listele.,SELECT ad
+Çip modeli A15 olan tüm telefonların ekran modlarını getir.,SELECT ekran_modu WHERE cip_modeli EQL A15
+Personeller tablosunda cinsiyeti Male olan personellerin soyadlarını getir.,SELECT soyad WHERE cinsiyet EQL Male
+Öğrenciler tablosunda soyadı Smith olan öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet WHERE soyad EQL Smith
+Yaşı 30 olan yöneticilerin numaralarını bul.,SELECT numara WHERE yas EQL 30
+Kapasitesi 140 olan tüm sinemaların yerlerini getir.,SELECT yer WHERE kapasite EQL 140
+Cihazlardan numarası 1 olan cihazların cihazlarını göster.,SELECT cihaz WHERE numara EQL 1
+Insanlar tablosundan doğum tarihi 01/04/1990 olan insanların kilolarını getir.,SELECT kilo WHERE dogum_tarihi EQL 01/04/1990
+Veritabanındaki çıkış tarihi 1900 olan şarkıların dillerini yazdır.,SELECT dil WHERE cikis_tarihi EQL 1900
+Trenlerden numarası 1 olan trenlerin adlarını göster.,SELECT ad WHERE numara EQL 1
+Projelerden adı Project Z olan projelerin adlarını getir.,SELECT ad WHERE ad EQL Project Z
+Yöneticilerden düzeyi 5 olan yöneticilerin ülkelerini göster.,SELECT ulke WHERE duzey EQL 5
+Köprülerin numaralarını getir.,SELECT numara
+Adı A Giyim olan mağazaların numaralarını getir.,SELECT numara WHERE ad EQL A Giyim
+Telefonlar tablosundan modeli iPhone olan telefonların numaralarını getir.,SELECT numara WHERE model EQL iPhone
+Öğrenciler tablosunda numarası 1 olan öğrencilerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Derecesi 2/5 olan restoranların adlarını bul.,SELECT ad WHERE derece EQL 2/5
+Cinsiyeti Erkek olan çalışanların soyadlarını bul.,SELECT soyad WHERE cinsiyet EQL Erkek
+Öğrenciler tablosundan soyadı Smith olan öğrencilerin soyadlarını getir.,SELECT soyad WHERE soyad EQL Smith
+En büyük konferans numarasını listele.,SELECT max(numara)
+Tüm yarışların sadece turlarını göster.,SELECT tur
+Tüm müzelerin açılış yıllarını listele.,SELECT acilis_yili
+Tüm restoranların adlarını getir.,SELECT ad
+Veritabanındaki numarası 1 olan trenlerin varışlarını yazdır.,SELECT varis WHERE numara EQL 1
+Pilotların cinsiyetlerini getir.,SELECT cinsiyet
+Bütün konferansların adlarını göster.,SELECT ad
+Boyu 1.80 olan insanların numaralarını bul.,SELECT numara WHERE boy EQL 1.80
+Tüm restoranların derecelerini görüntüle.,SELECT derece
+Uçaklardan numarası 1 olan uçakların toplam yolcularını göster.,SELECT toplam_yolcu WHERE numara EQL 1
+At sayısı 2 olan çiftliklerin domuz sayılarını bul.,SELECT domuz_sayisi WHERE at_sayisi EQL 2
+Oyunlar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Numarası 1 olan derslerin kredilerini getir.,SELECT kredi WHERE numara EQL 1
+Sinema tablosu içerisinde bulunan adları ekrana getir.,SELECT ad
+Tüm çiftliklerin koyun sayılarını listele.,SELECT koyun_sayisi
+Mağazalardan numarası 1 olan mağazaların numaralarını göster.,SELECT numara WHERE numara EQL 1
+Mağazaların açılış yıllarını göster.,SELECT acilis_yili
+Cinsiyeti Male olan mimarların numaralarını getir.,SELECT numara WHERE cinsiyet EQL Male
+Şarkılar tablosundan ülkesi Türkiye olan şarkıların ülkelerini getir.,SELECT ulke WHERE ulke EQL Türkiye
+Bütün ürünlerin fiyatlarını getir.,SELECT fiyat
+Sürücüler tablosundan uyruğu Ingiliz olan sürücülerin adlarını getir.,SELECT ad WHERE uyruk EQL Ingiliz
+Veritabanındaki numarası 1 olan departmanların adlarını yazdır.,SELECT ad WHERE numara EQL 1
+Köprülerden uzunluğu 1510 olan köprülerin numaralarını göster.,SELECT numara WHERE uzunluk EQL 1510
+Tüm stadyumların numaralarını listele.,SELECT numara
+At sayısı 2 olan çiftliklerin inek sayılarını getir.,SELECT inek_sayisi WHERE at_sayisi EQL 2
+Adı Camp Nou olan stadyumların adlarını getir.,SELECT ad WHERE ad EQL Camp Nou
+Şehiri New York olan öğrencilerin numaralarını listele.,SELECT numara WHERE sehir EQL New York
+Sanatçılar tablosunda adı Leonardo da Vinci olan sanatçıların cinsiyetlerini getir.,SELECT cinsiyet WHERE ad EQL Leonardo da Vinci
+Bütün şarkıların türlerini göster.,SELECT tur
+Çalışanlar tablosundan maaşı 80000 olan çalışanların adlarını getir.,SELECT ad WHERE maas EQL 80000
+Telefonlardan ülkesi Amerika olan telefonların modellerini getir.,SELECT model WHERE ulke EQL Amerika
+Yayınlardan alıntısı 29 olan yayınların alıntılarını göster.,SELECT alinti WHERE alinti EQL 29
+Insanlar tablosundan adı Michael olan insanların boylarını getir.,SELECT boy WHERE ad EQL Michael
+Adı Minecraft olan oyunların numaralarını listele.,SELECT numara WHERE ad EQL Minecraft
+Ürünler tablosundan fiyatı 120 olan ürünlerin numaralarını getir.,SELECT numara WHERE fiyat EQL 120
+Numarası 1 olan personellerin e-postalarını bul.,SELECT eposta WHERE numara EQL 1
+Mağazaların numaralarını getir.,SELECT numara
+Işletim sistemi IOS olan tüm cihazların işletim sistemlerini getir.,SELECT isletim_sistemi WHERE isletim_sistemi EQL IOS
+Derecesi 2/5 olan tüm restoranların adlarını getir.,SELECT ad WHERE derece EQL 2/5
+Sürücülerden numarası 1 olan sürücülerin soyadlarını getir.,SELECT soyad WHERE numara EQL 1
+Adı Istanbul Sabiha Gokcen Havalimani olan havalimanlarının iç yolcularını bul.,SELECT ic_yolcu WHERE ad EQL Istanbul Sabiha Gokcen Havalimani
+Numarası 1 olan hemşirelerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Adı Thomas olan sürücülerin adlarını bul.,SELECT ad WHERE ad EQL Thomas
+Toplam uçağı 660 olan havalimanlarının uluslararası yolcularını listele.,SELECT uluslararasi_yolcu WHERE toplam_ucak EQL 660
+Bütün hemşirelerin adlarını göster.,SELECT ad
+Adı James olan yazarların numaralarını getir.,SELECT numara WHERE ad EQL James
+Stoklar tablosunda miktarı 100 olan stokların miktarlarını getir.,SELECT miktar WHERE miktar EQL 100
+Adı Thomas olan sürücülerin numaralarını listele.,SELECT numara WHERE ad EQL Thomas
+Bütün stadyumların adlarını getir.,SELECT ad
+Şarkılardan numarası 1 olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE numara EQL 1
+Kaç kulüp var?,SELECT count(numara)
+Numarası 1 olan çiftliklerin keçi sayılarını listele.,SELECT keci_sayisi WHERE numara EQL 1
+Müzeler tablosundaki en büyük numarayı getir.,SELECT max(numara)
+Yönetici tablosu içerisinde bulunan adları ekrana getir.,SELECT ad
+Şarkı tablosu içerisinde bulunan sanatçıları ekrana getir.,SELECT sanatci
+Şehiri Barcelona olan stadyumların şehirlerini listele.,SELECT sehir WHERE sehir EQL Barcelona
+Numarası 1 olan çiftliklerin inek sayılarını bul.,SELECT inek_sayisi WHERE numara EQL 1
+Numarası 1 olan restoranların tiplerini bul.,SELECT tip WHERE numara EQL 1
+Tüm hastaların adlarını getir.,SELECT ad
+Numarası 1 olan tüm şarkıların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Telefonlar tablosundan ülkesi Amerika olan telefonların modellerini getir.,SELECT model WHERE ulke EQL Amerika
+Çalışanlar tablosundaki en büyük maaşı göster.,SELECT max(maas)
+Çiftlikler tablosunda en büyük boğa sayısı kaçtır?,SELECT max(boga_sayisi)
+Toplam mimar sayısı nedir?,SELECT count(numara)
+Ülkesi Amerika olan telefonların ekran modlarını listele.,SELECT ekran_modu WHERE ulke EQL Amerika
+Versiyonu 15 olan tüm cihazların işletim sistemlerini getir.,SELECT isletim_sistemi WHERE versiyon EQL 15
+Şehiri Londra olan öğretmenlerin şehirlerini getir.,SELECT sehir WHERE sehir EQL Londra
+Yayınlardan başlığı Artificial Intelligence olan yayınların alıntılarını göster.,SELECT alinti WHERE baslik EQL Artificial Intelligence
+Çalışanlardan maaşı 80000 olan çalışanların numaralarını getir.,SELECT numara WHERE maas EQL 80000
+Yarışlardan adı Formula A olan yarışların tarihlerini getir.,SELECT tarih WHERE ad EQL Formula A
+Numarası 1 olan tüm müzelerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Şehirlerden adı Istanbul olan şehirlerin alanlarını göster.,SELECT alan WHERE ad EQL Istanbul
+Bütün demiryollarının konumlarını getir.,SELECT konum
+Veritabanındaki havalimanlarından en büyük numarayı yazdır.,SELECT max(numara)
+Cinsiyeti Male olan mimarların numaralarını listele.,SELECT numara WHERE cinsiyet EQL Male
+Havalimanları tablosundan uluslararası yolcusu 35858 olan havalimanlarının uluslararası yolcularını getir.,SELECT uluslararasi_yolcu WHERE uluslararasi_yolcu EQL 35858
+Yazarlar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Havalimanları tablosundaki en büyük toplam uçağı göster.,SELECT max(toplam_ucak)
+Şehiri Londra olan öğretmenlerin yaşlarını getir.,SELECT yas WHERE sehir EQL Londra
+Kitaplardan kategorisi Roman olan kitapların yazarlarını göster.,SELECT yazar WHERE kategori EQL Roman
+Toplamda kaç stadyum olduğunu göster.,SELECT count(numara)
+Yayıncısı Elsevier olan yayınların alıntılarını getir.,SELECT alinti WHERE yayinci EQL Elsevier
+Numarası 1 olan sürücülerin soyadlarını getir.,SELECT soyad WHERE numara EQL 1
+Stoklardan en büyük numarayı getir.,SELECT max(numara)
+Numarası 1 olan kitapların kategorilerini getir.,SELECT kategori WHERE numara EQL 1
+Tüm yüzücülerin sadece numaralarını göster.,SELECT numara
+Ülkesi Fransa olan sanatçıların adlarını getir.,SELECT ad WHERE ulke EQL Fransa
+Tüm çiftliklerin sadece keçi sayılarını göster.,SELECT keci_sayisi
+Adı Istanbul olan şehirlerin alanlarını listele.,SELECT alan WHERE ad EQL Istanbul
+Numarası 1 olan havalimanlarının uluslararası yolcularını getir.,SELECT uluslararasi_yolcu WHERE numara EQL 1
+Numarası 1 olan personellerin telefonlarını bul.,SELECT telefon WHERE numara EQL 1
+Cihazlar tablosundan versiyonu 15 olan cihazların versiyonlarını getir.,SELECT versiyon WHERE versiyon EQL 15
+Toplam randevu sayısı nedir?,SELECT count(numara)
+Veritabanındaki dergilerden en büyük numarayı yazdır.,SELECT max(numara)
+Veritabanındaki kilosu 82 olan insanların boylarını yazdır.,SELECT boy WHERE kilo EQL 82
+Kulüp tablosu içerisinde bulunan adları ekrana getir.,SELECT ad
+Numarası 1 olan köprülerin numaralarını bul.,SELECT numara WHERE numara EQL 1
+Soyadı Garcia olan tüm çalışanların maaşlarını getir.,SELECT maas WHERE soyad EQL Garcia
+Inek sayısı 10 olan çiftliklerin inek sayılarını bul.,SELECT inek_sayisi WHERE inek_sayisi EQL 10
+Veritabanındaki dili Turkce olan şarkıların adlarını yazdır.,SELECT ad WHERE dil EQL Turkce
+Adı Robert olan pilotların numaralarını bul.,SELECT numara WHERE ad EQL Robert
+Ülkesi Türkiye olan tüm şarkıların ülkelerini getir.,SELECT ulke WHERE ulke EQL Türkiye
+Çiftlikler tablosunda at sayısı 2 olan çiftliklerin inek sayılarını getir.,SELECT inek_sayisi WHERE at_sayisi EQL 2
+Başlangıcı Istanbul olan uçuşların numaralarını bul.,SELECT numara WHERE baslangic EQL Istanbul
+Sürücülerden uyruğu Ingiliz olan sürücülerin uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Ingiliz
+Sürücülerin tiplerini getir.,SELECT tip
+Öğrencilerden cinsiyeti Erkek olan öğrencilerin cinsiyetlerini getir.,SELECT cinsiyet WHERE cinsiyet EQL Erkek
+Şehiri New York olan öğrencilerin cinsiyetlerini listele.,SELECT cinsiyet WHERE sehir EQL New York
+Şehirlerden adı Istanbul olan şehirlerin adlarını göster.,SELECT ad WHERE ad EQL Istanbul
+Telefonların ekran modlarını getir.,SELECT ekran_modu
+Restoranlar tablosundan tipi Fast Food olan restoranların numaralarını getir.,SELECT numara WHERE tip EQL Fast Food
+Personellerden telefonu 1 505-644-9320 olan personellerin soyadlarını getir.,SELECT soyad WHERE telefon EQL 1 505-644-9320
+Toplam çiftlik sayısını bastır.,SELECT count(numara)
+Sürücüler tablosunda tibi B olan sürücülerin soyadlarını getir.,SELECT soyad WHERE tip EQL B
+Veritabanındaki adı Richard olan öğretmenlerin numaralarını yazdır.,SELECT numara WHERE ad EQL Richard
+Ülkesi Amerika olan telefonların numaralarını getir.,SELECT numara WHERE ulke EQL Amerika
+Veritabanındaki numarası 1 olan restoranların derecelerini yazdır.,SELECT derece WHERE numara EQL 1
+En büyük mağaza numarasını listele.,SELECT max(numara)
+Numarası 1 olan telefonların ülkelerini getir.,SELECT ulke WHERE numara EQL 1
+Veritabanındaki tüm müşterilerin telefonlarını yazdır.,SELECT telefon
+Tüm çiftliklerin domuz sayılarını görüntüle.,SELECT domuz_sayisi
+Tüm randevuların tarihlerini görüntüle.,SELECT tarih
+Başlangıcı Istanbul olan uçuşların varışlarını bul.,SELECT varis WHERE baslangic EQL Istanbul
+Numarası 1 olan yöneticilerin yaşlarını listele.,SELECT yas WHERE numara EQL 1
+Müzelerden açılış yılı 2010 olan müzelerin numaralarını göster.,SELECT numara WHERE acilis_yili EQL 2010
+Veritabanındaki uyruğu Ingiliz olan sürücülerin uyruklarını yazdır.,SELECT uyruk WHERE uyruk EQL Ingiliz
+Kategorisi Roman olan tüm kitapların kategorilerini getir.,SELECT kategori WHERE kategori EQL Roman
+Numarası 1 olan tüm kulüplerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Müzelerden adı Gallery of Earth olan müzelerin numaralarını getir.,SELECT numara WHERE ad EQL Gallery of Earth
+Mağazaların adlarını göster.,SELECT ad
+Veritabanındaki oyuncuların sayısını yazdır.,SELECT count(numara)
+Personellerden numarası 1 olan personellerin adlarını göster.,SELECT ad WHERE numara EQL 1
+Tüm pilotların yaşlarını görüntüle.,SELECT yas
+Sinemalardan en büyük numarayı getir.,SELECT max(numara)
+Veritabanındaki numarası 1 olan kitapların numaralarını yazdır.,SELECT numara WHERE numara EQL 1
+Veritabanındaki şehirlerden en büyük numarayı yazdır.,SELECT max(numara)
+Adı Burger King olan restoranların adlarını bul.,SELECT ad WHERE ad EQL Burger King
+Şarkıların numaralarını göster.,SELECT numara
+Sinemalar tablosundan kapasitesi 140 olan sinemaların adlarını getir.,SELECT ad WHERE kapasite EQL 140
+Kodu 204060 olan müşterilerin kodlarını bul.,SELECT kod WHERE kod EQL 204060
+Veritabanındaki e-postası jtaylor@gmail.com olan personellerin cinsiyetlerini yazdır.,SELECT cinsiyet WHERE eposta EQL jtaylor@gmail.com
+Kilosu 82 olan insanların doğum tarihlerini getir.,SELECT dogum_tarihi WHERE kilo EQL 82
+Veritabanındaki açıklaması Airbus A340-600 olan uçakların numaralarını yazdır.,SELECT numara WHERE aciklama EQL Airbus A340-600
+Yaşı 16 olan tüm öğrencilerin şehirlerini getir.,SELECT sehir WHERE yas EQL 16
+Domuz sayısı 2 olan çiftliklerin domuz sayılarını bul.,SELECT domuz_sayisi WHERE domuz_sayisi EQL 2
+Oyunlardan numarası 1 olan oyunların adlarını getir.,SELECT ad WHERE numara EQL 1
+Numarası 1 olan şehirlerin adlarını bul.,SELECT ad WHERE numara EQL 1
+Kitaplar tablosunda kategorisi Roman olan kitapların başlıklarını getir.,SELECT baslik WHERE kategori EQL Roman
+Yeri Izmir olan sinemaların yerlerini getir.,SELECT yer WHERE yer EQL Izmir
+Kitapların numaralarını getir.,SELECT numara
+Veritabanındaki adı IEEE Access olan dergilerin adlarını yazdır.,SELECT ad WHERE ad EQL IEEE Access
+Insanlar tablosunda doğum tarihi 01/04/1990 olan insanların kilolarını getir.,SELECT kilo WHERE dogum_tarihi EQL 01/04/1990
+Kayıdı 01/05/2015 olan hemşirelerin adlarını listele.,SELECT ad WHERE kayit EQL 01/05/2015
+Veritabanındaki cinsiyeti Erkek olan sanatçıların cinsiyetlerini yazdır.,SELECT cinsiyet WHERE cinsiyet EQL Erkek
+Veritabanındaki cihazı Apple olan cihazların versiyonlarını yazdır.,SELECT versiyon WHERE cihaz EQL Apple
+Uçuşların başlangıçlarını getir.,SELECT baslangic
+Müşteriler tablosundan telefonu 2122121212 olan müşterilerin kodlarını getir.,SELECT kod WHERE telefon EQL 2122121212
+Veritabanındaki stoklardan en büyük numarayı yazdır.,SELECT max(numara)
+Çiftlikler tablosundaki en büyük at sayısını göster.,SELECT max(at_sayisi)
+Veritabanındaki yazarı Dan Brown olan kitapların numaralarını yazdır.,SELECT numara WHERE yazar EQL Dan Brown
+Veritabanındaki uzunluğu 1510 olan köprülerin konumlarını yazdır.,SELECT konum WHERE uzunluk EQL 1510
+Kitaplar tablosundan numarası 1 olan kitapların kategorilerini getir.,SELECT kategori WHERE numara EQL 1
+Adı Joseph olan personellerin e-postalarını listele.,SELECT eposta WHERE ad EQL Joseph
+Hastalar tablosundan adı Charles olan hastaların telefonlarını getir.,SELECT telefon WHERE ad EQL Charles
+Tüm çiftliklerin sadece boğa sayılarını göster.,SELECT boga_sayisi
+Tüm dergilerin numaralarını görüntüle.,SELECT numara
+Telefonlardan çip modeli A15 olan telefonların çip modellerini göster.,SELECT cip_modeli WHERE cip_modeli EQL A15
+Toplam tren sayısı nedir?,SELECT count(numara)
+Beygir gücü 163 olan arabaların yıllarını getir.,SELECT yil WHERE beygir_gucu EQL 163
+Adı A Giyim olan tüm mağazaların numaralarını getir.,SELECT numara WHERE ad EQL A Giyim
+Sanatçılardan numarası 1 olan sanatçıların numaralarını göster.,SELECT numara WHERE numara EQL 1
+Kodu 204060 olan tüm müşterilerin numaralarını getir.,SELECT numara WHERE kod EQL 204060
+Yöneticiler tablosunda numarası 1 olan yöneticilerin ülkelerini getir.,SELECT ulke WHERE numara EQL 1
+Yaşı 30 olan yöneticilerin düzeylerini getir.,SELECT duzey WHERE yas EQL 30
+Numarası 1 olan tüm çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE numara EQL 1
+Çiftliklerden at sayısı 2 olan çiftliklerin koyun sayılarını getir.,SELECT koyun_sayisi WHERE at_sayisi EQL 2
+Ülkesi Türkiye olan şarkıların türlerini listele.,SELECT tur WHERE ulke EQL Türkiye
+Çiftlikler tablosunda at sayısı 2 olan çiftliklerin at sayılarını getir.,SELECT at_sayisi WHERE at_sayisi EQL 2
+Öğrenciler tablosunda şehiri New York olan öğrencilerin soyadlarını getir.,SELECT soyad WHERE sehir EQL New York
+Numarası 1 olan tüm yayınların başlıklarını getir.,SELECT baslik WHERE numara EQL 1
+Tüm personelleri say.,SELECT count(numara)
+Tüm personellerin sadece soyadlarını göster.,SELECT soyad
+Müşterilerden şehiri Istanbul olan müşterilerin numaralarını göster.,SELECT numara WHERE sehir EQL Istanbul
+Ülkesi Türkiye olan tüm şarkıların dillerini getir.,SELECT dil WHERE ulke EQL Türkiye
+Numarası 1 olan demiryollarının demiryollarını listele.,SELECT demiryolu WHERE numara EQL 1
+Film sayısını getir.,SELECT count(numara)
+Tüm trenleri say.,SELECT count(numara)
+Hemşireler tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Uçuşlar tablosunda numarası 1 olan uçuşların varış tarihlerini getir.,SELECT varis_tarihi WHERE numara EQL 1
+Numarası 1 olan uçuşların varışlarını bul.,SELECT varis WHERE numara EQL 1
+En büyük öğrenci numarasını getir.,SELECT max(numara)
+Veritabanındaki müzelerin sayısını yazdır.,SELECT count(numara)
+Numarası 1 olan demiryollarının demiryollarını bul.,SELECT demiryolu WHERE numara EQL 1
+Çiftlikler tablosunda en büyük at sayısı kaçtır?,SELECT max(at_sayisi)
+Köprüler içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Numarası 1 olan tüm stadyumların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Uçaklardan toplam yolcusu 475 olan uçakların toplam yolcularını getir.,SELECT toplam_yolcu WHERE toplam_yolcu EQL 475
+Öğrencilerden yaşı 16 olan öğrencilerin adlarını getir.,SELECT ad WHERE yas EQL 16
+Veritabanındaki numarası 1 olan hemşirelerin pozisyonlarını yazdır.,SELECT pozisyon WHERE numara EQL 1
+Numarası 1 olan sürücülerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Çıkış tarihi 1900 olan tüm şarkıların dillerini getir.,SELECT dil WHERE cikis_tarihi EQL 1900
+Demiryollarından konumu Omaha - Nebraska - ABD olan demiryollarının konumlarını göster.,SELECT konum WHERE konum EQL Omaha - Nebraska - ABD
+En büyük öğrenci numarasını listele.,SELECT max(numara)
+Şarkılardan dili Turkce olan şarkıların ülkelerini getir.,SELECT ulke WHERE dil EQL Turkce
+Uçuşlardan başlangıcı Istanbul olan uçuşların başlangıçlarını göster.,SELECT baslangic WHERE baslangic EQL Istanbul
+En büyük müşteri numarasını getir.,SELECT max(numara)
+Oyunlar tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Veritabanındaki fiyatı 120 olan ürünlerin fiyatlarını yazdır.,SELECT fiyat WHERE fiyat EQL 120
+Adı Andaman Exp olan trenlerin varışlarını listele.,SELECT varis WHERE ad EQL Andaman Exp
+Uyruğu Amerika olan tüm yüzücülerin uyruklarını getir.,SELECT uyruk WHERE uyruk EQL Amerika
+Insanların boylarını göster.,SELECT boy
+Cinsiyeti Erkek olan öğrencilerin soyadlarını bul.,SELECT soyad WHERE cinsiyet EQL Erkek
+Departmanlar içerisinde en yüksek numara kaçtır?,SELECT max(numara)
+Şehiri Barcelona olan stadyumların numaralarını listele.,SELECT numara WHERE sehir EQL Barcelona
+Açıklaması Airbus A340-600 olan tüm uçakların numaralarını getir.,SELECT numara WHERE aciklama EQL Airbus A340-600
+Uluslararası yolcusu 35858 olan havalimanlarının toplam uçaklarını bul.,SELECT toplam_ucak WHERE uluslararasi_yolcu EQL 35858
+Çalışanlar tablosundan soyadı Garcia olan çalışanların soyadlarını getir.,SELECT soyad WHERE soyad EQL Garcia
+Adı William olan çalışanların cinsiyetlerini listele.,SELECT cinsiyet WHERE ad EQL William
+Yaşı 34 olan pilotların cinsiyetlerini getir.,SELECT cinsiyet WHERE yas EQL 34
+En büyük uçuş numarasını getir.,SELECT max(numara)
+Tüm departmanları say.,SELECT count(numara)
+Telefonlar tablosunda ülkesi Amerika olan telefonların numaralarını getir.,SELECT numara WHERE ulke EQL Amerika
+Uçaklardan numarası 1 olan uçakların hızlarını getir.,SELECT hiz WHERE numara EQL 1
+Şarkılardan adı Istanbul Sokaklari olan şarkıların ülkelerini göster.,SELECT ulke WHERE ad EQL Istanbul Sokaklari
+Mağazalardan adı A Giyim olan mağazaların adlarını getir.,SELECT ad WHERE ad EQL A Giyim
+Yaşı 36 olan öğretmenlerin adlarını listele.,SELECT ad WHERE yas EQL 36
+Cihazlardan versiyonu 15 olan cihazların cihazlarını göster.,SELECT cihaz WHERE versiyon EQL 15
+Numarası 1 olan havalimanlarının iç yolcularını listele.,SELECT ic_yolcu WHERE numara EQL 1
+Ekran modu Big olan telefonların modellerini getir.,SELECT model WHERE ekran_modu EQL Big
+Veritabanındaki tüm köprülerin numaralarını yazdır.,SELECT numara
+Çalışanlardan adı William olan çalışanların numaralarını göster.,SELECT numara WHERE ad EQL William
+Cihazlardan işletim sistemi IOS olan cihazların numaralarını getir.,SELECT numara WHERE isletim_sistemi EQL IOS
+Tüm kitapların numaralarını getir.,SELECT numara
+Kaç tren var?,SELECT count(numara)
+Filmlerin numaralarını getir.,SELECT numara
+Veritabanındaki numarası 1 olan filmlerin başlıklarını yazdır.,SELECT baslik WHERE numara EQL 1
+Tüm çiftliklerin keçi sayılarını listele.,SELECT keci_sayisi
+Çalışanlardan adı William olan çalışanların soyadlarını getir.,SELECT soyad WHERE ad EQL William
+Soyadı Lee olan sürücülerin adlarını listele.,SELECT ad WHERE soyad EQL Lee
+Çalışanlardan adı William olan çalışanların adlarını getir.,SELECT ad WHERE ad EQL William
+Yayınlar tablosunda numarası 1 olan yayınların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Arabaların modellerini getir.,SELECT model
+Stadyumlardan numarası 1 olan stadyumların numaralarını göster.,SELECT numara WHERE numara EQL 1
+Alanı 5343 olan tüm şehirlerin adlarını getir.,SELECT ad WHERE alan EQL 5343
+Filmlerden numarası 1 olan filmlerin numaralarını göster.,SELECT numara WHERE numara EQL 1
+Mimar tablosu içinde kaç tane mimar kaydı olduğunu ekrana getir.,SELECT count(numara)
+Derslerden numarası 1 olan derslerin kredilerini getir.,SELECT kredi WHERE numara EQL 1
+Çiftliklerden boğa sayısı 5 olan çiftliklerin at sayılarını getir.,SELECT at_sayisi WHERE boga_sayisi EQL 5
+E-postası jtaylor@gmail.com olan personellerin telefonlarını getir.,SELECT telefon WHERE eposta EQL jtaylor@gmail.com
+Adı Thomas olan sürücülerin tiplerini bul.,SELECT tip WHERE ad EQL Thomas
+Ülkesi America olan yöneticilerin adlarını bul.,SELECT ad WHERE ulke EQL America
+Uçuşların varışlarını getir.,SELECT varis
+Personellerden e-postası jtaylor@gmail.com olan personellerin adlarını göster.,SELECT ad WHERE eposta EQL jtaylor@gmail.com
+Toplamda kaç insan olduğunu göster.,SELECT count(numara)
+Veritabanındaki yaşı 16 olan öğrencilerin soyadlarını yazdır.,SELECT soyad WHERE yas EQL 16
+Köprülerden uzunluğu 1510 olan köprülerin adlarını göster.,SELECT ad WHERE uzunluk EQL 1510
+Numarası 1 olan müzelerin numaralarını bul.,SELECT numara WHERE numara EQL 1
+Bütün müzelerin numaralarını getir.,SELECT numara
+Kitaplardan numarası 1 olan kitapların kategorilerini getir.,SELECT kategori WHERE numara EQL 1
+Stadyumlardan kapasitesi 99354 olan stadyumların adlarını getir.,SELECT ad WHERE kapasite EQL 99354
+Tüm sinemaların numaralarını listele.,SELECT numara
+Konferanslardan adı AI Conference olan konferansların numaralarını getir.,SELECT numara WHERE ad EQL AI Conference
+Çalışanların numaralarını göster.,SELECT numara
+Veritabanındaki dili Turkce olan şarkıların çıkış tarihlerini yazdır.,SELECT cikis_tarihi WHERE dil EQL Turkce
+Bütün restoranların tiplerini getir.,SELECT tip
+Çiftlikler tablosunda keçi sayısı 2 olan çiftliklerin numaralarını getir.,SELECT numara WHERE keci_sayisi EQL 2
+Insanlar tablosundan boyu 1.80 olan insanların adlarını getir.,SELECT ad WHERE boy EQL 1.80
+Numarası 1 olan arabaların yıllarını bul.,SELECT yil WHERE numara EQL 1
+Kapasitesi 99354 olan stadyumların numaralarını listele.,SELECT numara WHERE kapasite EQL 99354
+Koyun sayısı 5 olan çiftliklerin numaralarını bul.,SELECT numara WHERE koyun_sayisi EQL 5
+Toplam kitap sayısını bastır.,SELECT count(numara)
+En büyük yayın numarasını listele.,SELECT max(numara)
+Domuz sayısı 2 olan çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE domuz_sayisi EQL 2
+Toplam yönetici sayısını göster.,SELECT count(numara)
+Veritabanındaki adı David olan öğrencilerin yaşlarını yazdır.,SELECT yas WHERE ad EQL David
+Çip modeli A15 olan tüm telefonların ülkelerini getir.,SELECT ulke WHERE cip_modeli EQL A15
+Başlığı Artificial Intelligence olan yayınların numaralarını listele.,SELECT numara WHERE baslik EQL Artificial Intelligence
+Pilotlardan adı Robert olan pilotların adlarını getir.,SELECT ad WHERE ad EQL Robert
+Veritabanındaki adı Andaman Exp olan trenlerin varışlarını yazdır.,SELECT varis WHERE ad EQL Andaman Exp
+Yarışlardan numarası 1 olan yarışların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Tüm derslerin sadece kredilerini göster.,SELECT kredi
+Ülkesi Türkiye olan şarkıların sanatçılarını getir.,SELECT sanatci WHERE ulke EQL Türkiye
+Şarkılar tablosundan numarası 1 olan şarkıların ülkelerini getir.,SELECT ulke WHERE numara EQL 1
+Dersler tablosunda adı MATH101 olan derslerin adlarını getir.,SELECT ad WHERE ad EQL MATH101
+Tüm arabaların sadece yıllarını göster.,SELECT yil
+Kitap tablosu içerisinde bulunan kategorileri ekrana getir.,SELECT kategori
+Şehirlerin nüfuslarını getir.,SELECT nufus
+Restoranlardan tipi Fast Food olan restoranların adlarını göster.,SELECT ad WHERE tip EQL Fast Food
+Çalışanların soyadlarını getir.,SELECT soyad
+Adı Joseph olan tüm personellerin adlarını getir.,SELECT ad WHERE ad EQL Joseph
+Pilotlardan cinsiyeti Male olan pilotların yaşlarını göster.,SELECT yas WHERE cinsiyet EQL Male
+Veritabanındaki soyadı Taylor olan personellerin telefonlarını yazdır.,SELECT telefon WHERE soyad EQL Taylor
+Mağazalardan numarası 1 olan mağazaların konumlarını getir.,SELECT konum WHERE numara EQL 1
+Veritabanındaki numarası 1 olan oyuncuların uyruklarını yazdır.,SELECT uyruk WHERE numara EQL 1
+Öğretmenlerden numarası 1 olan öğretmenlerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Havalimanlarının uluslararası yolcularını getir.,SELECT uluslararasi_yolcu
+Boyu 1.80 olan insanların kilolarını bul.,SELECT kilo WHERE boy EQL 1.80
+Yöneticiler tablosunda yaşı 30 olan yöneticilerin ülkelerini getir.,SELECT ulke WHERE yas EQL 30
+Oyunlar tablosundan numarası 1 olan oyunların adlarını getir.,SELECT ad WHERE numara EQL 1
+En büyük cihaz numarasını getir.,SELECT max(numara)
+Tüm köprülerin numaralarını görüntüle.,SELECT numara
+Veritabanındaki işletim sistemi IOS olan cihazların işletim sistemlerini yazdır.,SELECT isletim_sistemi WHERE isletim_sistemi EQL IOS
+Müze tablosu içinde kaç tane müze kaydı olduğunu ekrana getir.,SELECT count(numara)
+Numarası 1 olan mağazaların açılış yıllarını bul.,SELECT acilis_yili WHERE numara EQL 1
+Modeli iPhone olan tüm telefonların modellerini getir.,SELECT model WHERE model EQL iPhone
+Hastalar tablosundan numarası 1 olan hastaların telefonlarını getir.,SELECT telefon WHERE numara EQL 1
+E-postası jtaylor@gmail.com olan personellerin adlarını bul.,SELECT ad WHERE eposta EQL jtaylor@gmail.com
+Soyadı Garcia olan tüm çalışanların cinsiyetlerini getir.,SELECT cinsiyet WHERE soyad EQL Garcia
+Bütün çalışanların soyadlarını göster.,SELECT soyad
+Veritabanındaki telefonu 2122121212 olan müşterilerin şehirlerini yazdır.,SELECT sehir WHERE telefon EQL 2122121212
+Türü Slow olan şarkıların dillerini getir.,SELECT dil WHERE tur EQL Slow
+Modeli Mercedes olan arabaların beygir güçlerini listele.,SELECT beygir_gucu WHERE model EQL Mercedes
+Stadyumlardan adı Camp Nou olan stadyumların kapasitelerini getir.,SELECT kapasite WHERE ad EQL Camp Nou
+Koyun sayısı 5 olan çiftliklerin inek sayılarını getir.,SELECT inek_sayisi WHERE koyun_sayisi EQL 5
+Tüm personellerin adlarını görüntüle.,SELECT ad
+Filmler tablosunda yönetmeni Frank Darabont olan filmlerin başlıklarını getir.,SELECT baslik WHERE yonetmen EQL Frank Darabont
+Hastalar tablosunda en büyük numara kaçtır?,SELECT max(numara)
+Tüm kitapların sadece yazarlarını göster.,SELECT yazar
+Personeller tablosundan cinsiyeti Male olan personellerin adlarını getir.,SELECT ad WHERE cinsiyet EQL Male
+E-postası ****@gmail.com olan müşterilerin e-postalarını bul.,SELECT eposta WHERE eposta EQL ****@gmail.com
+Tüm yüzücülerin sadece adlarını göster.,SELECT ad
+Pilotlar tablosundan yaşı 34 olan pilotların cinsiyetlerini getir.,SELECT cinsiyet WHERE yas EQL 34
+Müzeler tablosundan açılış yılı 2010 olan müzelerin açılış yıllarını getir.,SELECT acilis_yili WHERE acilis_yili EQL 2010
+Bütün filmlerin numaralarını getir.,SELECT numara
+Adı Lisa olan hemşirelerin pozisyonlarını bul.,SELECT pozisyon WHERE ad EQL Lisa
+Tüm müzelerin numaralarını listele.,SELECT numara
+Dersler tablosundan kredisi 4 olan derslerin kredilerini getir.,SELECT kredi WHERE kredi EQL 4
+Bütün köprülerin numaralarını göster.,SELECT numara
+Alıntısı 29 olan tüm yayınların numaralarını getir.,SELECT numara WHERE alinti EQL 29
+Kalkışı Chennai olan trenlerin varışlarını getir.,SELECT varis WHERE kalkis EQL Chennai
+Varış tarihi 19/05/2022 14:00 olan uçuşların başlangıçlarını listele.,SELECT baslangic WHERE varis_tarihi EQL 19/05/2022 14:00
+Turu 4 olan yarışların tarihlerini bul.,SELECT tarih WHERE tur EQL 4
+Yılı 1926 olan arabaların numaralarını listele.,SELECT numara WHERE yil EQL 1926
+Veritabanındaki keçi sayısı 2 olan çiftliklerin at sayılarını yazdır.,SELECT at_sayisi WHERE keci_sayisi EQL 2
+Yayınlar tablosundan başlığı Artificial Intelligence olan yayınların numaralarını getir.,SELECT numara WHERE baslik EQL Artificial Intelligence
+Yarışlar tablosundaki en büyük numarayı listele.,SELECT max(numara)
+Dergilerin numaralarını göster.,SELECT numara
+Departmanların adlarını getir.,SELECT ad
+Dersler tablosundan numarası 1 olan derslerin numaralarını getir.,SELECT numara WHERE numara EQL 1
+Tarihi 01/04/2005 olan tüm yarışların adlarını getir.,SELECT ad WHERE tarih EQL 01/04/2005
+Veritabanındaki numarası 1 olan stadyumların şehirlerini yazdır.,SELECT sehir WHERE numara EQL 1
+Mimarlardan cinsiyeti Male olan mimarların uyruklarını getir.,SELECT uyruk WHERE cinsiyet EQL Male
+Varış tarihi 19/05/2022 14:00 olan uçuşların mesafelerini listele.,SELECT mesafe WHERE varis_tarihi EQL 19/05/2022 14:00
+Soyadı Garcia olan çalışanların adlarını listele.,SELECT ad WHERE soyad EQL Garcia
+Yöneticiler tablosunda numarası 1 olan yöneticilerin yaşlarını getir.,SELECT yas WHERE numara EQL 1
+Yarışlar tablosundan yılı 2005 olan yarışların numaralarını getir.,SELECT numara WHERE yil EQL 2005
+Uçaklardan toplam yolcusu 475 olan uçakların açıklamalarını getir.,SELECT aciklama WHERE toplam_yolcu EQL 475
+Müzelerden adı Gallery of Earth olan müzelerin açılış yıllarını göster.,SELECT acilis_yili WHERE ad EQL Gallery of Earth
+Telefonlardan ülkesi Amerika olan telefonların ekran modlarını göster.,SELECT ekran_modu WHERE ulke EQL Amerika
+Bütün havalimanlarının toplam uçaklarını göster.,SELECT toplam_ucak
+Yılı 2005 olan yarışların tarihlerini getir.,SELECT tarih WHERE yil EQL 2005
+En büyük havalimanı iç yolcusunu getir.,SELECT max(ic_yolcu)
+Veritabanındaki stadyumlardan en büyük numarayı yazdır.,SELECT max(numara)
+Demiryolları tablosundan demiryolu Union Pacific Railroad olan demiryollarının konumlarını getir.,SELECT konum WHERE demiryolu EQL Union Pacific Railroad
+Veritabanındaki ekran modu Big olan telefonların çip modellerini yazdır.,SELECT cip_modeli WHERE ekran_modu EQL Big
+Tüm müşterilerin sadece telefonlarını göster.,SELECT telefon
+Numarası 1 olan köprülerin uzunluklarını bul.,SELECT uzunluk WHERE numara EQL 1
+Veritabanındaki açıklaması Airbus A340-600 olan uçakların toplam yolcularını yazdır.,SELECT toplam_yolcu WHERE aciklama EQL Airbus A340-600
+Bütün demiryollarının demiryollarını getir.,SELECT demiryolu
+Müşteriler tablosunda şehiri Istanbul olan müşterilerin numaralarını getir.,SELECT numara WHERE sehir EQL Istanbul
+Modeli iPhone olan tüm telefonların çip modellerini getir.,SELECT cip_modeli WHERE model EQL iPhone
+Stadyumların numaralarını getir.,SELECT numara
+Personeller tablosunda adı Joseph olan personellerin adlarını getir.,SELECT ad WHERE ad EQL Joseph
+Mimarlardan uyruğu Ingiliz olan mimarların numaralarını göster.,SELECT numara WHERE uyruk EQL Ingiliz
+Numarası 1 olan tüm öğrencilerin şehirlerini getir.,SELECT sehir WHERE numara EQL 1
+Veritabanındaki ülkesi Amerika olan telefonların ülkelerini yazdır.,SELECT ulke WHERE ulke EQL Amerika
+Çiftlikler tablosundan inek sayısı 10 olan çiftliklerin inek sayılarını getir.,SELECT inek_sayisi WHERE inek_sayisi EQL 10
+Tüm hastaların numaralarını getir.,SELECT numara
+Öğrenciler tablosunda şehiri New York olan öğrencilerin yaşlarını getir.,SELECT yas WHERE sehir EQL New York
+Adı Minecraft olan oyunların numaralarını bul.,SELECT numara WHERE ad EQL Minecraft
+Telefonu 2122121212 olan tüm müşterilerin numaralarını getir.,SELECT numara WHERE telefon EQL 2122121212
+Tüm sanatçıların adlarını listele.,SELECT ad
+Köprü tablosu içinde kaç tane köprü kaydı olduğunu ekrana getir.,SELECT count(numara)
+Hastalardan en büyük numarayı getir.,SELECT max(numara)
+Cihazlardan işletim sistemi IOS olan cihazların versiyonlarını göster.,SELECT versiyon WHERE isletim_sistemi EQL IOS
+Düzeyi 5 olan yöneticilerin yaşlarını listele.,SELECT yas WHERE duzey EQL 5
+Yayıncısı Elsevier olan yayınların yıllarını bul.,SELECT yil WHERE yayinci EQL Elsevier
+Şehirlerden adı Istanbul olan şehirlerin numaralarını göster.,SELECT numara WHERE ad EQL Istanbul
+Uçuşlar tablosundan mesafesi 350 olan uçuşların mesafelerini getir.,SELECT mesafe WHERE mesafe EQL 350
+Sinemalar tablosundaki en büyük kapasiteyi listele.,SELECT max(kapasite)
+Toplam şehir sayısını bastır.,SELECT count(numara)
+Veritabanındaki e-postası jtaylor@gmail.com olan personellerin soyadlarını yazdır.,SELECT soyad WHERE eposta EQL jtaylor@gmail.com
+Dili Turkce olan şarkıların çıkış tarihlerini getir.,SELECT cikis_tarihi WHERE dil EQL Turkce
+Numarası 1 olan tüm personellerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Tüm havalimanlarının sadece iç yolcularını göster.,SELECT ic_yolcu
+Cinsiyeti Erkek olan çalışanların maaşlarını bul.,SELECT maas WHERE cinsiyet EQL Erkek
+Sürücülerden uyruğu Ingiliz olan sürücülerin soyadlarını göster.,SELECT soyad WHERE uyruk EQL Ingiliz
+Sinemalar tablosunda adı Cinemaximum olan sinemaların adlarını getir.,SELECT ad WHERE ad EQL Cinemaximum
+Şarkılar tablosunda sanatçısı Muzeyyen Senar olan şarkıların adlarını getir.,SELECT ad WHERE sanatci EQL Muzeyyen Senar
+Veritabanındaki soyadı Smith olan öğrencilerin soyadlarını yazdır.,SELECT soyad WHERE soyad EQL Smith
+Veritabanındaki soyadı Taylor olan personellerin e-postalarını yazdır.,SELECT eposta WHERE soyad EQL Taylor
+Şarkılardan sanatçısı Muzeyyen Senar olan şarkıların adlarını göster.,SELECT ad WHERE sanatci EQL Muzeyyen Senar
+Tüm projelerin numaralarını görüntüle.,SELECT numara
+Randevular tablosundaki en büyük numarayı göster.,SELECT max(numara)
+Cinsiyeti Male olan personellerin cinsiyetlerini bul.,SELECT cinsiyet WHERE cinsiyet EQL Male
+Insanlardan numarası 1 olan insanların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Tüm demiryollarının demiryollarını getir.,SELECT demiryolu
+Numarası 1 olan müşterilerin e-postalarını listele.,SELECT eposta WHERE numara EQL 1
+Adı Richard olan öğretmenlerin adlarını getir.,SELECT ad WHERE ad EQL Richard
+Veritabanındaki tüm çalışanların numaralarını yazdır.,SELECT numara
+Sinemalar tablosunda numarası 1 olan sinemaların adlarını getir.,SELECT ad WHERE numara EQL 1
+Havalimanları tablosunda toplam uçağı 660 olan havalimanlarının iç yolcularını getir.,SELECT ic_yolcu WHERE toplam_ucak EQL 660
+Keçi sayısı 2 olan çiftliklerin numaralarını getir.,SELECT numara WHERE keci_sayisi EQL 2
+Insanlar tablosundan doğum tarihi 01/04/1990 olan insanların boylarını getir.,SELECT boy WHERE dogum_tarihi EQL 01/04/1990
+Boyu 1.80 olan insanların adlarını getir.,SELECT ad WHERE boy EQL 1.80
+Arabalardan beygir gücü 163 olan arabaların numaralarını getir.,SELECT numara WHERE beygir_gucu EQL 163
+Uçuşlar tablosunda kalkış tarihi 19/05/2022 13:00 olan uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE kalkis_tarihi EQL 19/05/2022 13:00
+Veritabanındaki toplam uçağı 660 olan havalimanlarının adlarını yazdır.,SELECT ad WHERE toplam_ucak EQL 660
+Şarkıların adlarını göster.,SELECT ad
+Telefonu 1 505-644-9320 olan personellerin soyadlarını bul.,SELECT soyad WHERE telefon EQL 1 505-644-9320
+Veritabanındaki tüm filmlerin başlıklarını yazdır.,SELECT baslik
+Çip modeli A15 olan telefonların çip modellerini getir.,SELECT cip_modeli WHERE cip_modeli EQL A15
+Veritabanındaki soyadı Taylor olan personellerin soyadlarını yazdır.,SELECT soyad WHERE soyad EQL Taylor
+Numarası 1 olan hastaların numaralarını getir.,SELECT numara WHERE numara EQL 1
+Numarası 1 olan departmanların adlarını listele.,SELECT ad WHERE numara EQL 1
+Uçuşlar tablosundan varışı Ankara olan uçuşların numaralarını getir.,SELECT numara WHERE varis EQL Ankara
+Toplam pilot sayısı nedir?,SELECT count(numara)
+Tüm trenlerin varışlarını listele.,SELECT varis
+Arabalardan beygir gücü 163 olan arabaların numaralarını göster.,SELECT numara WHERE beygir_gucu EQL 163
+Stok sayısını getir.,SELECT count(numara)
+Adı John olan tüm mimarların cinsiyetlerini getir.,SELECT cinsiyet WHERE ad EQL John
+Telefonlar tablosunda ekran modu Big olan telefonların ülkelerini getir.,SELECT ulke WHERE ekran_modu EQL Big
+Şehirlerden numarası 1 olan şehirlerin adlarını getir.,SELECT ad WHERE numara EQL 1
+Bütün restoranların numaralarını getir.,SELECT numara
+Bütün sürücülerin tiplerini getir.,SELECT tip
+Çiftliklerden numarası 1 olan çiftliklerin boğa sayılarını göster.,SELECT boga_sayisi WHERE numara EQL 1
+Çıkış tarihi 1900 olan şarkıların çıkış tarihlerini listele.,SELECT cikis_tarihi WHERE cikis_tarihi EQL 1900
+Numarası 1 olan insanların adlarını bul.,SELECT ad WHERE numara EQL 1
+Toplam oyun sayısını göster.,SELECT count(numara)
+Şarkılardan numarası 1 olan şarkıların numaralarını göster.,SELECT numara WHERE numara EQL 1
+Toplam havalimanı sayısını göster.,SELECT count(numara)
+Sanatçısı Muzeyyen Senar olan şarkıların adlarını listele.,SELECT ad WHERE sanatci EQL Muzeyyen Senar
+Veritabanındaki adı Joseph olan personellerin numaralarını yazdır.,SELECT numara WHERE ad EQL Joseph
+Yüzücülerin numaralarını getir.,SELECT numara
+Çalışanlar tablosundan numarası 1 olan çalışanların maaşlarını getir.,SELECT maas WHERE numara EQL 1
+Insanların boylarını getir.,SELECT boy
+Mesafesi 350 olan uçuşların mesafelerini bul.,SELECT mesafe WHERE mesafe EQL 350
+Çalışanlardan maaşı 80000 olan çalışanların numaralarını göster.,SELECT numara WHERE maas EQL 80000
+Oyunlar tablosundan adı Minecraft olan oyunların numaralarını getir.,SELECT numara WHERE ad EQL Minecraft
+Numarası 1 olan mağazaların numaralarını bul.,SELECT numara WHERE numara EQL 1
+Konferans sayısını getir.,SELECT count(numara)
+Veritabanındaki adı John olan mimarların adlarını yazdır.,SELECT ad WHERE ad EQL John
+Veritabanındaki maaşı 80000 olan çalışanların cinsiyetlerini yazdır.,SELECT cinsiyet WHERE maas EQL 80000
+Numarası 1 olan hemşirelerin kayıtlarını bul.,SELECT kayit WHERE numara EQL 1
+Numarası 1 olan yazarların adlarını getir.,SELECT ad WHERE numara EQL 1
+Uluslararası yolcusu 35858 olan havalimanlarının adlarını getir.,SELECT ad WHERE uluslararasi_yolcu EQL 35858
+Çiftliklerden at sayısı 2 olan çiftliklerin boğa sayılarını getir.,SELECT boga_sayisi WHERE at_sayisi EQL 2
+Numarası 1 olan mağazaların adlarını getir.,SELECT ad WHERE numara EQL 1
+Cinsiyeti Male olan tüm pilotların yaşlarını getir.,SELECT yas WHERE cinsiyet EQL Male
+Yarışlardan numarası 1 olan yarışların adlarını getir.,SELECT ad WHERE numara EQL 1
+Tüm arabaların numaralarını listele.,SELECT numara
+Trenler tablosundan kalkışı Chennai olan trenlerin kalkışlarını getir.,SELECT kalkis WHERE kalkis EQL Chennai
+Tüm hemşirelerin kayıtlarını listele.,SELECT kayit
+Başlangıcı Istanbul olan uçuşların kalkış tarihlerini getir.,SELECT kalkis_tarihi WHERE baslangic EQL Istanbul
+Veritabanındaki şehiri Londra olan öğretmenlerin yaşlarını yazdır.,SELECT yas WHERE sehir EQL Londra
+Bütün şehirlerin alanlarını getir.,SELECT alan
+Şarkılardan çıkış tarihi 1900 olan şarkıların numaralarını göster.,SELECT numara WHERE cikis_tarihi EQL 1900
+Müşteriler tablosundan kodu 204060 olan müşterilerin e-postalarını getir.,SELECT eposta WHERE kod EQL 204060
+Uçuş tablosu içerisinde bulunan başlangıçları ekrana getir.,SELECT baslangic
+Adı Matthew Carter olan oyuncuların uyruklarını listele.,SELECT uyruk WHERE ad EQL Matthew Carter
+Telefon tablosu içerisinde bulunan ülkeleri ekrana getir.,SELECT ulke
+Tipi B olan sürücülerin numaralarını getir.,SELECT numara WHERE tip EQL B
+Kategorisi Survival olan tüm oyunların kategorilerini getir.,SELECT kategori WHERE kategori EQL Survival
+Çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi
+Veritabanındaki tüm uçuşların varışlarını yazdır.,SELECT varis
+Personeller tablosundan cinsiyeti Male olan personellerin cinsiyetlerini getir.,SELECT cinsiyet WHERE cinsiyet EQL Male
+Veritabanındaki şehiri Istanbul olan müşterilerin e-postalarını yazdır.,SELECT eposta WHERE sehir EQL Istanbul
+Toplamda kaç stok olduğunu göster.,SELECT count(numara)
+Köprülerin adlarını göster.,SELECT ad
+Havalimanları tablosundan uluslararası yolcusu 35858 olan havalimanlarının iç yolcularını getir.,SELECT ic_yolcu WHERE uluslararasi_yolcu EQL 35858
+En büyük öğretmen yaşını göster.,SELECT max(yas)
+Veritabanındaki öğretmenlerin sayısını yazdır.,SELECT count(numara)
+Toplam hemşire sayısını getir.,SELECT count(numara)
+Tüm arabaları say.,SELECT count(numara)
+Veritabanındaki başlığı Da Vinci Sifresi olan kitapların numaralarını yazdır.,SELECT numara WHERE baslik EQL Da Vinci Sifresi
+Şehiri Istanbul olan müşterilerin telefonlarını listele.,SELECT telefon WHERE sehir EQL Istanbul
+Trenler tablosundan varışı 23:39 olan trenlerin numaralarını getir.,SELECT numara WHERE varis EQL 23:39
+Uçuşlar tablosunda numarası 1 olan uçuşların varışlarını getir.,SELECT varis WHERE numara EQL 1
+Mağazalar tablosundan açılış yılı 2020 olan mağazaların konumlarını getir.,SELECT konum WHERE acilis_yili EQL 2020
+Tüm ürünlerin kodlarını getir.,SELECT kod
+Kodu 204060 olan müşterilerin numaralarını bul.,SELECT numara WHERE kod EQL 204060
+Çalışanlardan cinsiyeti Erkek olan çalışanların maaşlarını göster.,SELECT maas WHERE cinsiyet EQL Erkek
+Çalışanlardan cinsiyeti Erkek olan çalışanların cinsiyetlerini getir.,SELECT cinsiyet WHERE cinsiyet EQL Erkek
+Çiftlikler tablosundan koyun sayısı 5 olan çiftliklerin domuz sayılarını getir.,SELECT domuz_sayisi WHERE koyun_sayisi EQL 5
+Çiftliklerden numarası 1 olan çiftliklerin inek sayılarını göster.,SELECT inek_sayisi WHERE numara EQL 1
+Bütün köprülerin adlarını getir.,SELECT ad
+Öğretmenlerden adı Richard olan öğretmenlerin numaralarını getir.,SELECT numara WHERE ad EQL Richard
+Uçuşlardan numarası TK1919 olan uçuşların varış tarihlerini göster.,SELECT varis_tarihi WHERE kod EQL TK1919
+Kapasitesi 140 olan sinemaların adlarını listele.,SELECT ad WHERE kapasite EQL 140
+En büyük çiftlik domuz sayısını listele.,SELECT max(domuz_sayisi)
+Adı Leonardo da Vinci olan sanatçıların cinsiyetlerini getir.,SELECT cinsiyet WHERE ad EQL Leonardo da Vinci
