@@ -1,0 +1,511 @@
+{
+  "description": "Schema for employee database for an international metal facade company.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [],
+    "properties": {
+      "id": {
+        "type": "number",
+        "description": "Unique identifier for each employee."
+      },
+      "name": {
+        "type": "string",
+        "description": "Full name of the employee."
+      },
+      "title": {
+        "type": "string",
+        "description": "Job title of the employee."
+      },
+      "organization": {
+        "type": "string",
+        "description": "Name of the organization the employee belongs to."
+      },
+      "orgHierarchy": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Organizational hierarchy the employee is part of."
+      },
+      "level": {
+        "type": "number",
+        "description": "Employee's level within the organization."
+      },
+      "directorate": {
+        "type": "string",
+        "description": "Directorate the employee is associated with."
+      },
+      "score": {
+        "type": "number",
+        "description": "Overall performance score of the employee."
+      },
+      "mail": {
+        "type": "string",
+        "description": "Email address of the employee."
+      },
+      "phone": {
+        "type": "string",
+        "description": "Phone number of the employee."
+      },
+      "whatsapp": {
+        "type": "string",
+        "description": "WhatsApp contact number of the employee."
+      },
+      "birthday": {
+        "type": "string",
+        "description": "Birthday of the employee in YYYY-MM-DD format."
+      },
+      "age": {
+        "type": "number",
+        "description": "Age of the employee."
+      },
+      "birthPlace": {
+        "type": "string",
+        "description": "Birthplace of the employee."
+      },
+      "maritalStatus": {
+        "type": "string",
+        "description": "Marital status of the employee."
+      },
+      "homeAddress": {
+        "type": "string",
+        "description": "Home address of the employee."
+      },
+      "isAbsent": {
+        "type": "string",
+        "description": "Indicator of whether the employee is currently absent."
+      },
+      "languages": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Name of the language."
+            },
+            "speaking": {
+              "type": "number",
+              "description": "Proficiency in speaking the language (0-10)."
+            },
+            "reading": {
+              "type": "number",
+              "description": "Proficiency in reading the language (0-10)."
+            },
+            "writing": {
+              "type": "number",
+              "description": "Proficiency in writing the language (0-10)."
+            }
+          }
+        },
+        "description": "Languages known by the employee and their proficiency levels."
+      },
+      "softwares": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Name of the software."
+            },
+            "level": {
+              "type": "number",
+              "description": "Proficiency level in using the software (0-10)."
+            },
+            "practice": {
+              "type": "number",
+              "description": "Frequency of using the software (0-10)."
+            },
+            "speed": {
+              "type": "number",
+              "description": "Speed of using the software (0-10)."
+            }
+          }
+        },
+        "description": "Software skills of the employee and their proficiency levels."
+      },
+      "education": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "school": {
+              "type": "string",
+              "description": "Name of the educational institution."
+            },
+            "startDate": {
+              "type": "string",
+              "description": "Start date of education in YYYY-MM-DD format."
+            },
+            "endDate": {
+              "type": "string",
+              "description": "End date of education in YYYY-MM-DD format."
+            },
+            "department": {
+              "type": "string",
+              "description": "Department or field of study."
+            },
+            "degree": {
+              "type": "number",
+              "description": "Degree obtained (e.g., Bachelor's = 1, Master's = 2, etc.)."
+            },
+            "schoolType": {
+              "type": "string",
+              "description": "Type of educational institution (e.g., university, college)."
+            }
+          }
+        },
+        "description": "Educational background of the employee."
+      },
+      "certification": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Name of the certification."
+            },
+            "startDate": {
+              "type": "string",
+              "description": "Start date of the certification in YYYY-MM-DD format."
+            },
+            "endDate": {
+              "type": "string",
+              "description": "End date of the certification in YYYY-MM-DD format."
+            }
+          }
+        },
+        "description": "Certifications obtained by the employee."
+      },
+      "workHistory": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "company": {
+              "type": "string",
+              "description": "Name of the company where the employee previously worked."
+            },
+            "startDate": {
+              "type": "string",
+              "description": "Start date of employment in YYYY-MM-DD format."
+            },
+            "endDate": {
+              "type": "string",
+              "description": "End date of employment in YYYY-MM-DD format."
+            },
+            "department": {
+              "type": "string",
+              "description": "Department where the employee worked."
+            },
+            "title": {
+              "type": "string",
+              "description": "Job title held by the employee."
+            }
+          }
+        },
+        "description": "Work history of the employee."
+      },
+      "preJobDuration": {
+        "type": "string",
+        "description": "Total duration of previous jobs held by the employee."
+      },
+      "preFacadeRelatedJobDuration": {
+        "type": "string",
+        "description": "Total duration of previous jobs related to facades."
+      },
+      "comments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "comment": {
+              "type": "string",
+              "description": "Comment or feedback about the employee."
+            },
+            "score": {
+              "type": "number",
+              "description": "Score associated with the comment (if any)."
+            },
+            "dateTime": {
+              "type": "string",
+              "description": "Date and time when the comment was made in YYYY-MM-DD format."
+            },
+            "evaluator": {
+              "type": "string",
+              "description": "Name of the person who made the comment."
+            }
+          }
+        },
+        "description": "Comments and feedback about the employee."
+      },
+      "scores": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "avgScores": {
+              "type": "number",
+              "description": "Average score of the employee."
+            },
+            "tour": {
+              "type": "string",
+              "description": "Tour or rotation the employee is part of."
+            },
+            "scores": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [],
+                "properties": {
+                  "character": {
+                    "type": "number",
+                    "description": "Score for character traits (0-10)."
+                  },
+                  "compatibility": {
+                    "type": "number",
+                    "description": "Score for compatibility (0-10)."
+                  },
+                  "efficiency": {
+                    "type": "number",
+                    "description": "Score for efficiency (0-10)."
+                  },
+                  "technical": {
+                    "type": "number",
+                    "description": "Score for technical skills (0-10)."
+                  },
+                  "details": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "chr1": {
+                        "type": "number",
+                        "description": "Detail score for character trait 1 (0-10)."
+                      },
+                      "chr2": {
+                        "type": "number",
+                        "description": "Detail score for character trait 2 (0-10)."
+                      },
+                      "chr3": {
+                        "type": "number",
+                        "description": "Detail score for character trait 3 (0-10)."
+                      },
+                      "chr4": {
+                        "type": "number",
+                        "description": "Detail score for character trait 4 (0-10)."
+                      },
+                      "chr5": {
+                        "type": "number",
+                        "description": "Detail score for character trait 5 (0-10)."
+                      },
+                      "cmp1": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 1 (0-10)."
+                      },
+                      "cmp2": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 2 (0-10)."
+                      },
+                      "cmp3": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 3 (0-10)."
+                      },
+                      "cmp4": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 4 (0-10)."
+                      },
+                      "cmp5": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 5 (0-10)."
+                      },
+                      "cmp6": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 6 (0-10)."
+                      },
+                      "cmp7": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 7 (0-10)."
+                      },
+                      "cmp8": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 8 (0-10)."
+                      },
+                      "cmp9": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 9 (0-10)."
+                      },
+                      "cmp10": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 10 (0-10)."
+                      },
+                      "cmp111": {
+                        "type": "number",
+                        "description": "Detail score for compatibility trait 11 (0-10)."
+                      },
+                      "eff1": {
+                        "type": "number",
+                        "description": "Detail score for efficiency trait 1 (0-10)."
+                      },
+                      "eff2": {
+                        "type": "number",
+                        "description": "Detail score for efficiency trait 2 (0-10)."
+                      },
+                      "eff3": {
+                        "type": "number",
+                        "description": "Detail score for efficiency trait 3 (0-10)."
+                      },
+                      "eff4": {
+                        "type": "number",
+                        "description": "Detail score for efficiency trait 4 (0-10)."
+                      },
+                      "eff5": {
+                        "type": "number",
+                        "description": "Detail score for efficiency trait 5 (0-10)."
+                      },
+                      "tec1": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 1 (0-10)."
+                      },
+                      "tec2": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 2 (0-10)."
+                      },
+                      "tec3": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 3 (0-10)."
+                      },
+                      "tec4": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 4 (0-10)."
+                      },
+                      "tec5": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 5 (0-10)."
+                      },
+                      "tec6": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 6 (0-10)."
+                      },
+                      "tec7": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 7 (0-10)."
+                      },
+                      "tec8": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 8 (0-10)."
+                      },
+                      "tec9": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 9 (0-10)."
+                      },
+                      "tec10": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 10 (0-10)."
+                      },
+                      "tec11": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 11 (0-10)."
+                      },
+                      "tec12": {
+                        "type": "number",
+                        "description": "Detail score for technical trait 12 (0-10)."
+                      }
+                    },
+                    "description": "Detailed scores for character, compatibility, efficiency, and technical skills."
+                  },
+                  "evaluator": {
+                    "type": "string",
+                    "description": "Name of the evaluator who provided the scores."
+                  },
+                  "score": {
+                    "type": "number",
+                    "description": "Total score given by the evaluator."
+                  },
+                  "total": {
+                    "type": "number",
+                    "description": "Total cumulative score."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "description": "Scores and evaluations of the employee."
+      },
+      "mysStartDate": {
+        "type": "string",
+        "description": "Start date of the employee at Metal Yapı in YYYY-MM-DD format."
+      },
+      "mysDuration": {
+        "type": "number",
+        "description": "Duration of the employee's tenure at Metal Yapı in years."
+      },
+      "mysFirstJob": {
+        "type": "string",
+        "description": "First job held by the employee at Metal Yapı."
+      },
+      "leaves": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "leaveType": {
+              "type": "string",
+              "description": "Type of leave taken by the employee."
+            },
+            "startDate": {
+              "type": "string",
+              "description": "Start date of the leave in YYYY-MM-DD format."
+            },
+            "endDate": {
+              "type": "string",
+              "description": "End date of the leave in YYYY-MM-DD format."
+            }
+          }
+        },
+        "description": "Leave records of the employee."
+      },
+      "mysProjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [],
+          "properties": {
+            "manager": {
+              "type": "string",
+              "description": "Manager overseeing the project."
+            },
+            "startDate": {
+              "type": "string",
+              "description": "Start date of the project in YYYY-MM-DD format."
+            },
+            "endDate": {
+              "type": "string",
+              "description": "End date of the project in YYYY-MM-DD format."
+            },
+            "projectCode": {
+              "type": "string",
+              "description": "Code of the project."
+            },
+            "projectName": {
+              "type": "string",
+              "description": "Name of the project."
+            }
+          }
+        },
+        "description": "Projects the employee has worked on at Metal Yapı."
+      }
+    }
+  }
+}
